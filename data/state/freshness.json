@@ -1,68 +1,80 @@
 {
-  "generatedAt": "2026-10-20T07:14:30.669Z",
+  "generatedAt": "2026-10-20T07:32:19.950Z",
   "sources": [
     {
       "id": "tnpsc-dashboard-2026",
       "name": "TNPSC exam dashboard 2026",
       "url": "https://tnpsc.gov.in/web/examdashboard/index.aspx?key=ksojs2efre3WFDsw5",
-      "checkedAt": "2026-10-20T07:14:30.669Z",
-      "httpStatus": null,
-      "ok": false,
-      "contentHash": null,
+      "checkedAt": "2026-10-20T07:32:19.950Z",
+      "httpStatus": 200,
+      "ok": true,
+      "contentHash": "1ta40eo1qwl0",
       "changed": false,
-      "error": "fetch failed",
-      "consecutiveFailures": 1
+      "error": null,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "tnpsc-dashboard-2025",
+      "name": "TNPSC exam dashboard 2025",
+      "url": "https://tnpsc.gov.in/web/examdashboard/index.aspx?key=ksojs2efre3WFDsw5",
+      "checkedAt": "2026-10-20T07:32:19.950Z",
+      "httpStatus": 200,
+      "ok": true,
+      "contentHash": "r6363519qljj",
+      "changed": false,
+      "error": null,
+      "consecutiveFailures": 0
     }
   ],
   "exams": [
     {
       "examId": "tnpsc-ctse-diploma-2026",
-      "verifiedAt": null,
+      "verifiedAt": "2026-10-20T07:32:19.950Z",
       "ageHours": 0,
-      "staleness": "stale",
-      "sourceOk": false
+      "staleness": "fresh",
+      "sourceOk": true
     },
     {
       "examId": "tnpsc-ctse-interview-2026",
-      "verifiedAt": null,
+      "verifiedAt": "2026-10-20T07:32:19.950Z",
       "ageHours": 0,
-      "staleness": "stale",
-      "sourceOk": false
+      "staleness": "fresh",
+      "sourceOk": true
     },
     {
       "examId": "tnpsc-ctse-noninterview-2026",
-      "verifiedAt": null,
+      "verifiedAt": "2026-10-20T07:32:19.950Z",
       "ageHours": 0,
-      "staleness": "stale",
-      "sourceOk": false
+      "staleness": "fresh",
+      "sourceOk": true
     },
     {
       "examId": "tnpsc-group-1-2026",
-      "verifiedAt": null,
+      "verifiedAt": "2026-10-20T07:32:19.950Z",
       "ageHours": 0,
-      "staleness": "stale",
-      "sourceOk": false
+      "staleness": "fresh",
+      "sourceOk": true
     },
     {
       "examId": "tnpsc-group-2-2026",
-      "verifiedAt": null,
+      "verifiedAt": "2026-10-20T07:32:19.950Z",
       "ageHours": 0,
-      "staleness": "stale",
-      "sourceOk": false
+      "staleness": "fresh",
+      "sourceOk": true
     },
     {
       "examId": "tnpsc-group-4-2026",
-      "verifiedAt": null,
+      "verifiedAt": "2026-10-20T07:32:19.950Z",
       "ageHours": 0,
-      "staleness": "stale",
-      "sourceOk": false
+      "staleness": "fresh",
+      "sourceOk": true
     },
     {
       "examId": "trb-tet-2026",
-      "verifiedAt": null,
+      "verifiedAt": "2026-10-20T07:32:19.950Z",
       "ageHours": 0,
-      "staleness": "stale",
-      "sourceOk": false
+      "staleness": "fresh",
+      "sourceOk": true
     }
   ]
 }
