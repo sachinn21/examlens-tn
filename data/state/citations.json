@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-20T07:06:57.074Z",
+  "generatedAt": "2026-10-20T07:14:30.669Z",
   "reports": [
     {
       "examId": "tnpsc-ctse-diploma-2026",
-      "checkedAt": "2026-10-20T07:06:57.074Z",
+      "checkedAt": "2026-10-20T07:14:30.669Z",
       "sources": [
         {
           "sourceId": "notification",
@@ -16,7 +16,7 @@
           "pageCount": null,
           "notModified": false,
           "error": "fetch failed",
-          "checkedAt": "2026-10-20T07:06:57.074Z",
+          "checkedAt": "2026-10-20T07:14:30.669Z",
           "citationsChecked": 0,
           "citationsPassed": 0
         }
@@ -27,7 +27,7 @@
     },
     {
       "examId": "tnpsc-ctse-interview-2026",
-      "checkedAt": "2026-10-20T07:06:57.074Z",
+      "checkedAt": "2026-10-20T07:14:30.669Z",
       "sources": [
         {
           "sourceId": "notification",
@@ -40,7 +40,7 @@
           "pageCount": null,
           "notModified": false,
           "error": "fetch failed",
-          "checkedAt": "2026-10-20T07:06:57.074Z",
+          "checkedAt": "2026-10-20T07:14:30.669Z",
           "citationsChecked": 0,
           "citationsPassed": 0
         }
@@ -51,7 +51,7 @@
     },
     {
       "examId": "tnpsc-ctse-noninterview-2026",
-      "checkedAt": "2026-10-20T07:06:57.074Z",
+      "checkedAt": "2026-10-20T07:14:30.669Z",
       "sources": [
         {
           "sourceId": "notification",
@@ -64,7 +64,7 @@
           "pageCount": null,
           "notModified": false,
           "error": "fetch failed",
-          "checkedAt": "2026-10-20T07:06:57.074Z",
+          "checkedAt": "2026-10-20T07:14:30.669Z",
           "citationsChecked": 0,
           "citationsPassed": 0
         },
@@ -79,7 +79,7 @@
           "pageCount": null,
           "notModified": false,
           "error": "fetch failed",
-          "checkedAt": "2026-10-20T07:06:57.074Z",
+          "checkedAt": "2026-10-20T07:14:30.669Z",
           "citationsChecked": 0,
           "citationsPassed": 0
         }
@@ -90,7 +90,7 @@
     },
     {
       "examId": "tnpsc-group-1-2026",
-      "checkedAt": "2026-10-20T07:06:57.074Z",
+      "checkedAt": "2026-10-20T07:14:30.669Z",
       "sources": [
         {
           "sourceId": "notification",
@@ -103,7 +103,7 @@
           "pageCount": null,
           "notModified": false,
           "error": "fetch failed",
-          "checkedAt": "2026-10-20T07:06:57.074Z",
+          "checkedAt": "2026-10-20T07:14:30.669Z",
           "citationsChecked": 0,
           "citationsPassed": 0
         },
@@ -118,7 +118,7 @@
           "pageCount": null,
           "notModified": false,
           "error": "fetch failed",
-          "checkedAt": "2026-10-20T07:06:57.074Z",
+          "checkedAt": "2026-10-20T07:14:30.669Z",
           "citationsChecked": 0,
           "citationsPassed": 0
         },
@@ -133,7 +133,7 @@
           "pageCount": null,
           "notModified": false,
           "error": "fetch failed",
-          "checkedAt": "2026-10-20T07:06:57.074Z",
+          "checkedAt": "2026-10-20T07:14:30.669Z",
           "citationsChecked": 0,
           "citationsPassed": 0
         }
@@ -144,7 +144,7 @@
     },
     {
       "examId": "tnpsc-group-2-2026",
-      "checkedAt": "2026-10-20T07:06:57.074Z",
+      "checkedAt": "2026-10-20T07:14:30.669Z",
       "sources": [
         {
           "sourceId": "notification",
@@ -157,7 +157,7 @@
           "pageCount": null,
           "notModified": false,
           "error": "fetch failed",
-          "checkedAt": "2026-10-20T07:06:57.074Z",
+          "checkedAt": "2026-10-20T07:14:30.669Z",
           "citationsChecked": 0,
           "citationsPassed": 0
         },
@@ -172,7 +172,7 @@
           "pageCount": null,
           "notModified": false,
           "error": "fetch failed",
-          "checkedAt": "2026-10-20T07:06:57.074Z",
+          "checkedAt": "2026-10-20T07:14:30.669Z",
           "citationsChecked": 0,
           "citationsPassed": 0
         }
@@ -183,7 +183,7 @@
     },
     {
       "examId": "tnpsc-group-4-2026",
-      "checkedAt": "2026-10-20T07:06:57.074Z",
+      "checkedAt": "2026-10-20T07:14:30.669Z",
       "sources": [
         {
           "sourceId": "notification",
@@ -196,7 +196,7 @@
           "pageCount": null,
           "notModified": false,
           "error": "fetch failed",
-          "checkedAt": "2026-10-20T07:06:57.074Z",
+          "checkedAt": "2026-10-20T07:14:30.669Z",
           "citationsChecked": 0,
           "citationsPassed": 0
         },
@@ -211,7 +211,7 @@
           "pageCount": null,
           "notModified": false,
           "error": "fetch failed",
-          "checkedAt": "2026-10-20T07:06:57.074Z",
+          "checkedAt": "2026-10-20T07:14:30.669Z",
           "citationsChecked": 0,
           "citationsPassed": 0
         }
@@ -222,7 +222,7 @@
     },
     {
       "examId": "trb-tet-2026",
-      "checkedAt": "2026-10-20T07:06:57.074Z",
+      "checkedAt": "2026-10-20T07:14:30.669Z",
       "sources": [
         {
           "sourceId": "notification",
@@ -235,7 +235,7 @@
           "pageCount": null,
           "notModified": false,
           "error": "fetch failed",
-          "checkedAt": "2026-10-20T07:06:57.074Z",
+          "checkedAt": "2026-10-20T07:14:30.669Z",
           "citationsChecked": 0,
           "citationsPassed": 0
         }
