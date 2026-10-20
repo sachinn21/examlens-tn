@@ -137,7 +137,7 @@ export interface VerifyOptions {
  * unchanged, so a "verified" count is never invented.
  */
 export async function verifyExamSources(exam: Exam, opts: VerifyOptions): Promise<CitationReport> {
-  const { state, now, offline, timeoutMs = 60_000 } = opts;
+  const { state, now, offline, timeoutMs = 30_000 } = opts;
   const sources: SourceCheck[] = [];
   const issues: CitationIssue[] = [];
   const changed: string[] = [];
@@ -197,7 +197,7 @@ export async function verifyExamSources(exam: Exam, opts: VerifyOptions): Promis
       try {
         res = await fetchResource(source.url, {
           timeoutMs,
-          retries: 2,
+          retries: 1,
           etag: cached?.etag ?? null,
           lastModified: cached?.lastModified ?? null,
         });
@@ -211,7 +211,7 @@ export async function verifyExamSources(exam: Exam, opts: VerifyOptions): Promis
           continue;
         }
         // A 304 we cannot replay (new or edited citation) falls through to a full fetch.
-        res = await fetchResource(source.url, { timeoutMs, retries: 2 });
+        res = await fetchResource(source.url, { timeoutMs, retries: 1 });
       }
 
       check.status = res.status;

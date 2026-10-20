@@ -282,10 +282,14 @@ async function main() {
   /* ---------------------------------------------------------------- */
   /* 3. Citation verification for every curated exam                   */
   /* ---------------------------------------------------------------- */
-  const reports = [];
-  for (const exam of curated) {
+  // Verification is network-bound: run exams concurrently so one slow PDF
+  // cannot serialise the whole run.
+  const reports = await mapLimit(curated, 3, async (exam) => {
     const report = await verifyExamSources(exam, { state: verifyState, now: NOW, offline: OFFLINE });
-    reports.push(report);
+    return report;
+  });
+  for (const report of reports) {
+    const exam = curated.find((e) => e.id === report.examId)!;
     const bad = report.issues.length;
     const changedSources = report.changedSources.length;
     log('verify', `${exam.id}: ${report.sources.filter((s) => s.ok).length}/${report.sources.length} sources ok, ${bad} quote issue(s)${changedSources ? `, ${changedSources} changed` : ''}`);
