@@ -1,9 +1,12 @@
 import { describe, expect, it } from 'vitest';
-import { readFileSync } from 'node:fs';
-import { join } from 'node:path';
 import { onRequestGet, onRequestPost, readProfile } from '../functions/api/eligibility';
+import { getDataset } from '../src/lib/server/data';
+import { publicExam } from '../src/lib/server/public';
 
-const dataset = readFileSync(join(__dirname, '..', 'dist', 'api', 'v1', 'exams.json'), 'utf8');
+// Build the fixture in memory: the test must not depend on a prior `astro build`.
+const dataset = JSON.stringify({
+  exams: getDataset().exams.map((e) => publicExam(e, new URL('https://example.org'))),
+});
 
 const env = {
   ASSETS: {
