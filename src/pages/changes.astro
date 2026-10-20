@@ -1,0 +1,188 @@
+---
+import Base from '../layouts/Base.astro';
+import ChangeList from '../components/ChangeList.astro';
+import { getDataset } from '../lib/server/data';
+import { CHANGE_LABEL, changeTone } from '../lib/presentation';
+import { formatDate, formatRelative } from '../lib/core/dates';
+
+const ds = getDataset();
+const changes = ds.changes;
+const byMonth = new Map<string, typeof changes>();
+for (const c of changes) {
+  const key = (c.effectiveAt ?? c.detectedAt).slice(0, 7);
+  if (!byMonth.has(key)) byMonth.set(key, []);
+  byMonth.get(key)!.push(c);
+}
+const kinds = [...new Set(changes.map((c) => c.kind))];
+const exams = [...new Map(changes.map((c) => [c.examId, c.examName])).entries()];
+const dateMoves = changes.filter((c) => c.kind === 'exam_date_changed' || c.kind === 'application_window_changed');
+const slugById = new Map(ds.exams.map((e) => [e.id, e.slug]));
+const hrefFor = (id: string) => (slugById.has(id) ? `/exams/${slugById.get(id)}` : `/changes?exam=${id}`);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Tamil Nadu exam date and rule changes',
+  numberOfItems: changes.length,
+  itemListElement: changes.slice(0, 50).map((c, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: c.summary,
+    url: c.sourceUrl,
+  })),
+};
+---
+<Base
+  title="Tamil Nadu exam change log — every dated date change, with the source | ExamLens"
+  description="A dated, sourced log of every Tamil Nadu recruitment change ExamLens has detected: postponed exams, extended application windows, revised vacancies and new addendums."
+  jsonLd={jsonLd}
+>
+  <div class="wrap" style="padding-block:clamp(1.6rem,4vw,2.6rem)">
+    <p class="section-label">The record</p>
+    <h1>Change log</h1>
+    <p class="lede">
+      Every change we detect is written down with the date it became public and the document it came from.
+      Nothing is edited in place — if a date moves, you can see what it was before.
+    </p>
+
+    <div class="log-stats">
+      <div class="stat"><b>{changes.length}</b><span>changes logged</span></div>
+      <div class="stat"><b>{changes.filter((c) => c.kind === 'exam_date_changed').length}</b><span>exam date moves</span></div>
+      <div class="stat"><b>{changes.filter((c) => c.confidence === 'official').length}</b><span>from an official document</span></div>
+      <div class="stat"><b data-rel={ds.generatedAt ?? undefined}>{ds.generatedAt ? formatRelative(ds.generatedAt) : '—'}</b><span>last refreshed</span></div>
+    </div>
+
+    {dateMoves.length > 0 && (
+      <section class="date-moves" aria-labelledby="date-moves-heading">
+        <h2 class="rule-title" id="date-moves-heading">Examination dates that moved</h2>
+        <ul class="move-list">
+          {dateMoves.map((c) => (
+            <li>
+              <div class="change-when">
+                <time datetime={c.effectiveAt ?? c.detectedAt}>{formatDate((c.effectiveAt ?? c.detectedAt).slice(0, 10))}</time>
+              </div>
+              <div class="change-summary">
+                <a href={hrefFor(c.examId)} style="color:var(--ink);font-weight:600">{c.examName}</a>
+                <span class="muted">: </span>{c.summary}
+              </div>
+              {c.evidence && <blockquote class="evidence">{c.evidence}</blockquote>}
+              <a class="tiny" href={c.sourceUrl} target="_blank" rel="noopener">{c.sourceTitle}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <div class="filter-bar">
+      <label class="visually-hidden" for="log-filter">Filter by exam</label>
+      <select id="log-filter">
+        <option value="">All exams ({changes.length})</option>
+        {exams.map(([id, name]) => <option value={id}>{name} ({changes.filter((c) => c.examId === id).length})</option>)}
+      </select>
+      <label class="visually-hidden" for="kind-filter">Filter by type</label>
+      <select id="kind-filter">
+        <option value="">All change types</option>
+        {kinds.map((k) => <option value={k}>{CHANGE_LABEL[k]} ({changes.filter((c) => c.kind === k).length})</option>)}
+      </select>
+      <a class="btn btn-sm" href="/changes.xml">RSS</a>
+      <a class="btn btn-sm" href="/api/v1/changes.json">JSON</a>
+      <span class="tiny muted" id="log-count" aria-live="polite"></span>
+    </div>
+
+    {changes.length === 0 ? (
+      <div class="callout" style="margin-top:20px">
+        <strong>Nothing logged yet.</strong> The first scheduled refresh will record the current state of every exam as a baseline, then log differences from the next run onward.
+      </div>
+    ) : (
+      <div id="log-body">
+        {[...byMonth.entries()].map(([month, items]) => (
+          <section class="month-block" data-month={month}>
+            <h2 class="month-title">
+              {formatDate(`${month}-01`).replace(/^\d+ /, '')}
+              <span class="muted tiny">{items.length} change{items.length === 1 ? '' : 's'}</span>
+            </h2>
+            <ol class="timeline">
+              {items.map((c) => (
+                <li class={`k-${c.kind}`} data-exam={c.examId} data-kind={c.kind}>
+                  <div class="change-when">
+                    <time datetime={c.effectiveAt ?? c.detectedAt}>{formatDate((c.effectiveAt ?? c.detectedAt).slice(0, 10))}</time>
+                    <span class="muted"> · first logged <span data-rel={c.detectedAt}>{formatRelative(c.detectedAt)}</span></span>
+                  </div>
+                  <div class="change-summary">
+                    <span class={`badge badge-${changeTone(c.kind) === 'neutral' ? 'neutral' : changeTone(c.kind)}`} style="margin-right:6px">{CHANGE_LABEL[c.kind]}</span>
+                    <a href={hrefFor(c.examId)} style="color:var(--ink);text-decoration:none;font-weight:650">{c.examName}</a>
+                    <span class="muted">: </span><span>{c.summary}</span>
+                  </div>
+                  {c.before && c.after && c.field !== 'examDate' && (
+                    <div class="change-diff"><del>{c.before.slice(0, 120)}</del> <span>to</span> <ins>{c.after.slice(0, 120)}</ins></div>
+                  )}
+                  {c.before && c.after && c.field === 'examDate' && (
+                    <div class="change-diff"><del>{c.before}</del> <span>to</span> <ins>{c.after}</ins></div>
+                  )}
+                  {c.evidence && <blockquote class="evidence">{c.evidence}</blockquote>}
+                  <a class="tiny" href={c.sourceUrl} target="_blank" rel="noopener">{c.sourceTitle}</a>
+                </li>
+              ))}
+            </ol>
+          </section>
+        ))}
+        <p class="empty-filter small muted" hidden>No changes match that filter.</p>
+      </div>
+    )}
+
+    <div class="callout callout-ok" style="margin-top:30px">
+      <strong>How a change gets here.</strong> Each run stores the exam’s document list and date lines. A new addendum,
+      a re-worded date line or a withdrawn document is a diff. Where the addendum states it explicitly
+      (“postponed from 06.09.2026 to 27.09.2026”), the sentence itself is stored as evidence.
+      <a href="/method">Method</a>.
+    </div>
+  </div>
+</Base>
+
+<script>
+  const examSel = document.querySelector<HTMLSelectElement>('#log-filter');
+  const kindSel = document.querySelector<HTMLSelectElement>('#kind-filter');
+  const items = () => Array.from(document.querySelectorAll<HTMLElement>('#log-body li[data-exam]'));
+  const count = document.querySelector<HTMLElement>('#log-count');
+  const empty = document.querySelector<HTMLElement>('.empty-filter');
+
+  const apply = () => {
+    const exam = examSel?.value ?? '';
+    const kind = kindSel?.value ?? '';
+    let shown = 0;
+    for (const li of items()) {
+      const ok = (!exam || li.dataset.exam === exam) && (!kind || li.dataset.kind === kind);
+      li.hidden = !ok;
+      if (ok) shown++;
+    }
+    document.querySelectorAll<HTMLElement>('.month-block').forEach((block) => {
+      const visible = block.querySelectorAll<HTMLElement>('li[data-exam]:not([hidden])').length;
+      block.hidden = visible === 0;
+    });
+    if (count) count.textContent = `${shown} shown`;
+    if (empty) empty.hidden = shown !== 0;
+    const url = new URL(location.href);
+    exam ? url.searchParams.set('exam', exam) : url.searchParams.delete('exam');
+    kind ? url.searchParams.set('kind', kind) : url.searchParams.delete('kind');
+    history.replaceState({}, '', url);
+  };
+
+  const params = new URLSearchParams(location.search);
+  if (params.get('exam') && examSel) examSel.value = params.get('exam')!;
+  if (params.get('kind') && kindSel) kindSel.value = params.get('kind')!;
+  examSel?.addEventListener('change', apply);
+  kindSel?.addEventListener('change', apply);
+  if (params.get('exam') || params.get('kind')) apply();
+</script>
+
+<style>
+  .log-stats { display: flex; gap: 26px; flex-wrap: wrap; margin: 22px 0 26px; }
+  .filter-bar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 26px; }
+  .filter-bar select { width: auto; min-width: 180px; max-width: 100%; }
+  .month-block { margin-bottom: 30px; }
+  .month-title { font-size: 1.05rem; display: flex; align-items: baseline; gap: 10px; margin-bottom: 12px; }
+  .month-block[hidden] { display: none; }
+  .date-moves { border: 1px solid var(--ink); padding: 14px 16px; margin-bottom: 26px; }
+  .move-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+  .move-list > li { border-left: 2px solid var(--bad); padding-left: 12px; }
+</style>

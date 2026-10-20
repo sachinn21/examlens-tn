@@ -1,0 +1,303 @@
+{
+  "tnpsc-group-1-2026::notification": {
+    "sha256": "e25987297f351a7ca5601e7a1cb4003a8f1fbd767f3eef1848157c4dbc253736",
+    "etag": "\"ac5de95fe32dd1:0\"",
+    "lastModified": "Tue, 23 Jun 2026 07:39:08 GMT",
+    "checkedAt": "2026-10-20T05:52:34.831Z",
+    "results": {
+      "ageRules.all-posts": {
+        "ok": true,
+        "page": 3,
+        "score": 1,
+        "q": "the candidates should have completed the minimum age of 21 years for all posts. the category wise maximum age limit and age concession details are given below.|[21,34,39,44,49,50,55]|3"
+      },
+      "qualifications.0": {
+        "ok": true,
+        "page": 4,
+        "score": 1,
+        "q": "candidates must possess a degree of any of the universities incorporated by an act of the central or state legislature in india or other educational institution established by an act of parliament or declared to be deemed as a university under section 3 of the university grants commission act, 1956.|[]|4"
+      },
+      "specialRequirements.tamil-eligibility": {
+        "ok": true,
+        "page": 6,
+        "score": 1,
+        "q": "second class language test (full test) in tamil|[]|6"
+      }
+    }
+  },
+  "tnpsc-group-1-2026::addendum-5a": {
+    "sha256": "b12cb7ad61c8b06e7edee3648710fbbbbd6c4bc12bf4e8fed43774b52afea7da",
+    "etag": "\"e2dcbbe31f15dd1:0\"",
+    "lastModified": "Thu, 16 Jul 2026 12:37:39 GMT",
+    "checkedAt": "2026-10-20T05:52:34.831Z",
+    "results": {}
+  },
+  "tnpsc-group-1-2026::addendum-5b": {
+    "sha256": "c35e76d151c6cfa578e95ef63e4e97d00b8482e624946f9ba0e911fff94061cc",
+    "etag": "\"eda0ba311f2bdd1:0\"",
+    "lastModified": "Thu, 13 Aug 2026 12:28:06 GMT",
+    "checkedAt": "2026-10-20T05:52:34.831Z",
+    "results": {}
+  },
+  "tnpsc-group-2-2026::notification": {
+    "sha256": "e9fa93a33f0be9b5c3eba25bdfcb9f7f2389b50ff7ef57fa85c9c71c10b63a44",
+    "etag": "\"dbaeff99d29dd1:0\"",
+    "lastModified": "Tue, 11 Aug 2026 14:30:35 GMT",
+    "checkedAt": "2026-10-20T05:52:34.831Z",
+    "results": {
+      "ageRules.most-posts": {
+        "ok": true,
+        "page": 6,
+        "score": 1,
+        "q": "the category wise maximum age limit and age concession details are given below.|[18,32,42,50]|6"
+      },
+      "ageRules.executive-officer-grade-3": {
+        "ok": true,
+        "page": 8,
+        "score": 1,
+        "q": "for all posts (except executive officer, grade iii)|[25,37,47]|7"
+      },
+      "ageRules.probation-officer": {
+        "ok": true,
+        "page": 6,
+        "score": 1,
+        "q": "age concession|[22,32]|7"
+      },
+      "ageRules.sub-registrar": {
+        "ok": true,
+        "page": 6,
+        "score": 1,
+        "q": "age concession|[20,32]|7"
+      },
+      "qualifications.0": {
+        "ok": true,
+        "page": 9,
+        "score": 1,
+        "q": "a degree from any university recognised by the university grants commission.|[]|9"
+      },
+      "qualifications.1": {
+        "ok": true,
+        "page": 10,
+        "score": 1,
+        "q": "must possess the degree of b.a., b.sc., or b.com.|[]|10"
+      },
+      "specialRequirements.tamil-eligibility": {
+        "ok": true,
+        "page": 15,
+        "score": 1,
+        "q": "second class language test (full test) in tamil|[]|15"
+      }
+    }
+  },
+  "tnpsc-group-2-2026::dashboard": {
+    "sha256": "d24c71c876d070623da9f23931db483358ed163e1350c248d26a89d46ce06c92",
+    "etag": null,
+    "lastModified": null,
+    "checkedAt": "2026-10-20T05:52:34.831Z",
+    "results": {}
+  },
+  "tnpsc-group-4-2026::notification": {
+    "sha256": "2bd45ed8fc27ade1930ce844ecbd7b250957e8889e73b8c4b62261a0bbe1aaa6",
+    "etag": "\"f3d371fa055dd1:0\"",
+    "lastModified": "Tue, 06 Oct 2026 14:36:49 GMT",
+    "checkedAt": "2026-10-20T05:52:34.831Z",
+    "results": {
+      "ageRules.most-posts": {
+        "ok": true,
+        "page": 5,
+        "score": 1,
+        "q": "the category wise maximum age limit and age concession details are given below:|[18,30,40,48,35]|5"
+      },
+      "ageRules.village-administrative-officer": {
+        "ok": true,
+        "page": 5,
+        "score": 1,
+        "q": "the category wise maximum age limit and age concession details are given below:|[21,30,40,48]|5"
+      },
+      "ageRules.executive-officer-grade-4": {
+        "ok": true,
+        "page": 5,
+        "score": 1,
+        "q": "the category wise maximum age limit and age concession details are given below:|[25,35,45,40]|5"
+      },
+      "ageRules.forest-guard-driving-licence": {
+        "ok": true,
+        "page": 6,
+        "score": 1,
+        "q": "for the posts of forest guard with driving licence (post code: 3318) and forest watcher (post code: 3319) a person who has been discharged from any of the defence services namely, the army, the navy, or the air force shall be eligible for appointment, if after deducting the period of his services in such service, he has not completed the age of 35 years.|[3318,3319,35]|7"
+      },
+      "ageRules.forest-watcher": {
+        "ok": true,
+        "page": 2,
+        "score": 1,
+        "q": "forest guard with driving licence|[18,30,40]|6"
+      },
+      "qualifications.0": {
+        "ok": true,
+        "page": 10,
+        "score": 1,
+        "q": "minimum general educational qualification viz., must have passed s.s.l.c public examination.|[]|10"
+      },
+      "qualifications.1": {
+        "ok": true,
+        "page": 9,
+        "score": 1,
+        "q": "must be a graduate|[]|9"
+      },
+      "specialRequirements.tamil-eligibility": {
+        "ok": true,
+        "page": 15,
+        "score": 1,
+        "q": "tamil as one of the languages or|[]|8"
+      }
+    }
+  },
+  "tnpsc-group-4-2026::dashboard": {
+    "sha256": "380a64e14f60bef033c67df295f915a397cea802eff195d32269613b33e6a03d",
+    "etag": null,
+    "lastModified": null,
+    "checkedAt": "2026-10-20T05:52:34.831Z",
+    "results": {}
+  },
+  "trb-tet-2026::notification": {
+    "sha256": "8da415bcb47d602b6ab4a7416618d933489c42b71d4c7f10f077b28913b8f9e5",
+    "etag": "\"348c1-64ab9b8789a9b\"",
+    "lastModified": "Fri, 13 Feb 2026 19:36:24 GMT",
+    "checkedAt": "2026-10-20T05:52:34.831Z",
+    "results": {
+      "qualifications.0": {
+        "ok": true,
+        "page": 8,
+        "score": 1,
+        "q": "diploma in teacher education / diploma in elementary education / diploma in teacher education (special education)|[]|8"
+      },
+      "qualifications.1": {
+        "ok": true,
+        "page": 9,
+        "score": 1,
+        "q": "b.ed., / special b.ed., degree or its equivalent and other qualifications for iedss as mentioned in g.o.(ms). no.144, school education [se3(2)] department, dated:17.06.2025|[\"144\",\"17.06.2025\"]|9"
+      },
+      "specialRequirements.serving-teacher-only": {
+        "ok": true,
+        "page": 1,
+        "score": 1,
+        "q": "applications are invited for tamil nadu teacher eligibility test (tntet), paper - i and paper - ii only from the eligible working teachers who are appointed on or before 01.09.2025 as sgt, bt assistant and other equivalent cadre teachers|[\"01.09.2025\"]|1"
+      }
+    }
+  },
+  "tnpsc-ctse-noninterview-2026::notification": {
+    "sha256": "e4320d6bc8abc664cf368f9b80f9e1bd7046dd71a2f61f35db5ce950556ce2e8",
+    "etag": "\"18aa188c11e8dc1:0\"",
+    "lastModified": "Wed, 20 May 2026 04:31:37 GMT",
+    "checkedAt": "2026-10-20T05:52:34.831Z",
+    "results": {
+      "ageRules.standard-posts": {
+        "ok": true,
+        "page": 5,
+        "score": 1,
+        "q": "the candidates should have completed the age of 21 years for all the posts.|[21,32,42,50]|5"
+      },
+      "ageRules.general-exceptions": {
+        "ok": true,
+        "page": 5,
+        "score": 1,
+        "q": "age concession|[42,52]|6"
+      },
+      "qualifications.0": {
+        "ok": true,
+        "page": 11,
+        "score": 1,
+        "q": "(i) must possess the b.e degree in civil engineering or civil and structural engineering;|[]|12"
+      },
+      "specialRequirements.tamil-eligibility": {
+        "ok": true,
+        "page": 17,
+        "score": 1,
+        "q": "second class language test|[]|17"
+      }
+    }
+  },
+  "tnpsc-ctse-noninterview-2026::dashboard": {
+    "sha256": "b0e1846ddbc7c3000005ecc0b809845c9da4f68d55b58c63516f0cff81014a65",
+    "etag": null,
+    "lastModified": null,
+    "checkedAt": "2026-10-20T05:52:34.831Z",
+    "results": {}
+  },
+  "tnpsc-ctse-diploma-2026::notification": {
+    "sha256": "3829a81f94f46189fc8d17daede2f4eceffeab60908977d601fb0054e3c28016",
+    "etag": "\"d9f59754edd1:0\"",
+    "lastModified": "Tue, 07 Jul 2026 11:33:39 GMT",
+    "checkedAt": "2026-10-20T05:52:34.831Z",
+    "results": {
+      "ageRules.standard-posts": {
+        "ok": true,
+        "page": 7,
+        "score": 1,
+        "q": "the candidates should have completed the age of 18 years for all the posts (except junior training officer posts in employment and training (training wing)) and motor vehicle inspector, grade-ii.|[18]|7"
+      },
+      "ageRules.motor-vehicle-inspector": {
+        "ok": true,
+        "page": 7,
+        "score": 1,
+        "q": "age concession|[21,34]|7"
+      },
+      "ageRules.junior-training-officer": {
+        "ok": true,
+        "page": 7,
+        "score": 1,
+        "q": "the candidates should have completed 21 years of age as on 01.07.2026 for motor vehicle inspector, grade-ii and as on 01.08.2026 for the post of junior training officer (post code: 3617 to 3648 and 3773 to 3783).|[21]|7"
+      },
+      "ageRules.procurement-quality-supervisor": {
+        "ok": true,
+        "page": 11,
+        "score": 1,
+        "q": "no maximum age limit shall mean that the candidates should not have completed 60 years of age|[34,44,37,47,55]|11"
+      },
+      "qualifications.0": {
+        "ok": true,
+        "page": 12,
+        "score": 1,
+        "q": "must possess a diploma in electronics and communication engineering recognized by the department of technical education or its equivalent.|[]|12"
+      },
+      "specialRequirements.driving-licence-mvi": {
+        "ok": true,
+        "page": 12,
+        "score": 1,
+        "q": "must hold a valid driving license authorising to drive motor cycle with gear and light motor vehicle|[]|12"
+      }
+    }
+  },
+  "tnpsc-ctse-interview-2026::notification": {
+    "sha256": "d014bd2b20613c2a3f05acbcdbd83314c73be59582390c8d18912a77cda3e182",
+    "etag": "\"4a6069a63e39dd1:0\"",
+    "lastModified": "Mon, 31 Aug 2026 11:48:33 GMT",
+    "checkedAt": "2026-10-20T05:52:34.831Z",
+    "results": {
+      "ageRules.standard-posts": {
+        "ok": true,
+        "page": 6,
+        "score": 1,
+        "q": "the candidates should have completed the age of 21 years for all the posts. the category wise maximum age limit and age concession details are given below.|[21]|6"
+      },
+      "ageRules.port-officer": {
+        "ok": true,
+        "page": 7,
+        "score": 1,
+        "q": "28. port officer 3799 40 50 45|[40,50,45]|7"
+      },
+      "ageRules.assistant-general-manager-finance": {
+        "ok": true,
+        "page": 6,
+        "score": 1,
+        "q": "age concession|[47]|7"
+      },
+      "qualifications.0": {
+        "ok": true,
+        "page": 10,
+        "score": 1,
+        "q": "6. assistant manager 3616 degree in engineering (mechanical / electrical and electronics / computer science and engineering / information technology / electronics and communication engineering) - (second class or its equivalent)|[]|10"
+      }
+    }
+  }
+}

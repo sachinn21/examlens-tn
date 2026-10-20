@@ -1,0 +1,94 @@
+name: refresh-data
+
+# The freshness guarantee. Runs six times a day, re-reads the boards, re-verifies
+# every citation and commits only when something actually changed.
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Re-read sources and diff
+        run: pnpm refresh
+
+      # Citation failures must still be published: the flag written by the
+      # refresh step is what puts the "source changed" banner in front of users.
+      - name: Validate citations and freshness
+        id: validate
+        continue-on-error: true
+        run: pnpm validate
+
+      - name: Unit tests
+        run: pnpm test
+
+      - name: Build the site (including any flagged records)
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: pnpm build
+
+      - name: Commit changed data
+        if: always()
+        run: |
+          if git diff --quiet -- data/; then
+            echo "No data changes this run."
+            exit 0
+          fi
+          git config user.name "examlens-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/
+          git commit -m "data: refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
+
+      - name: Fail the run after publishing flags
+        if: steps.validate.outcome == 'failure'
+        run: |
+          echo "::error::Validation failed. The flagged dataset was committed and deployed; review the run log."
+          exit 1
+
+      - name: Open an issue when the refresh fails
+        if: failure() || steps.validate.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = 'Data refresh needs review';
+            const body = [
+              `The scheduled refresh at ${new Date().toISOString()} reported a problem.`,
+              '',
+              'Most likely causes: a notification PDF was re-issued (a quoted sentence no longer matches), a board endpoint is down, or the dataset went stale.',
+              '',
+              'The flagged data has still been committed, so affected examinations show a "source changed" warning on the site. See the run log:',
+              `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`,
+            ].join('\n');
+            const open = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo, state: 'open', labels: 'data-refresh',
+            });
+            if (!open.data.length) {
+              await github.rest.issues.create({
+                owner: context.repo.owner, repo: context.repo.repo, title, body, labels: ['data-refresh'],
+              });
+            }

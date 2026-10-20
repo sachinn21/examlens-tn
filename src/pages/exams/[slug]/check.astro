@@ -1,0 +1,71 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Checker from '../../../components/Checker.astro';
+import { getDataset } from '../../../lib/server/data';
+import { formatDate } from '../../../lib/core/dates';
+import { ageMatrix, primaryAgeRule } from '../../../lib/presentation';
+
+export function getStaticPaths() {
+  return getDataset().exams.filter((e) => e.maintenance === 'verified').map((exam) => ({ params: { slug: exam.slug }, props: { exam } }));
+}
+
+const { exam } = Astro.props;
+const ds = getDataset();
+const rule = primaryAgeRule(exam);
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: `Am I eligible for ${exam.shortName} ${exam.notificationNo}?`,
+  url: `${Astro.site}exams/${exam.slug}/check`,
+};
+---
+<Base
+  title={`Am I eligible for ${exam.shortName} ${exam.notificationNo}? — quick check | ExamLens`}
+  description={`Check your age against the ${exam.shortName} limit as on ${rule ? formatDate(rule.cutoff) : 'the cut-off date'} and see the qualification requirement, with the paragraph it comes from.`}
+  jsonLd={jsonLd}
+>
+  <div class="wrap narrow" style="padding-block:clamp(1.6rem,4vw,2.6rem)">
+    <nav class="crumbs tiny" aria-label="Breadcrumb">
+      <a href="/exams">Exams</a> <span aria-hidden="true">/</span>
+      <a href={`/exams/${exam.slug}`}>{exam.shortName}</a> <span aria-hidden="true">/</span> <span>check</span>
+    </nav>
+    <h1>Am I eligible for {exam.shortName}?</h1>
+    <p class="lede">
+      {exam.name} ({exam.notificationNo}).
+      {rule ? ` Age is calculated as on ${formatDate(rule.cutoff)}.` : ''}
+      The full rules, dates and change history are on the <a href={`/exams/${exam.slug}`}>exam page</a>.
+    </p>
+    {rule && (
+      <div class="table-wrap" style="margin:18px 0">
+        <table>
+          <caption class="visually-hidden">Age limit for {exam.shortName}</caption>
+          <thead>
+            <tr><th scope="col">Community</th><th scope="col" class="num">Minimum</th><th scope="col" class="num">Maximum</th><th scope="col" class="num">PwBD</th></tr>
+          </thead>
+          <tbody>
+            {ageMatrix(rule).map((r) => (
+              <tr>
+                <th scope="row" style="text-transform:none;letter-spacing:0;background:transparent">{r.label}</th>
+                <td class="num">{r.min ?? '—'}</td>
+                <td class="num">{r.max ?? 'No limit'}</td>
+                <td class="num">{r.pwd ?? '—'}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    )}
+    <div style="margin-top:22px">
+      <Checker only={exam.id} heading="Your result" />
+    </div>
+    <p class="tiny muted" style="margin-top:22px">
+      This page uses the same verified dataset as the main checker ({ds.counts.verifiedExams} notifications).
+      Official notification: <a href={exam.officialLinks.notification} target="_blank" rel="noopener">PDF</a>
+    </p>
+  </div>
+</Base>
+
+<style>
+  .crumbs { display: flex; gap: 6px; color: var(--muted); margin-bottom: 14px; flex-wrap: wrap; }
+  .crumbs a { color: var(--muted); }
+</style>

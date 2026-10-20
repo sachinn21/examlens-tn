@@ -1,0 +1,323 @@
+{
+  "id": "tnpsc-ctse-diploma-2026",
+  "board": "tnpsc",
+  "boardName": "Tamil Nadu Public Service Commission",
+  "name": "Combined Technical Services Examination (Diploma / ITI Level), Notification No. 06/2026",
+  "shortName": "TNPSC CTSE (Diploma / ITI) 2026",
+  "notificationNo": "06/2026",
+  "slug": "tnpsc-ctse-diploma-2026",
+  "year": 2026,
+  "status": "archived",
+  "level": "technical",
+  "summary": "839 posts at diploma and ITI level — Motor Vehicle Inspector, Junior Training Officer, Overseer, Draughtsman, Technical Assistant and trade instructor posts. Written examination, no interview.",
+  "whyItMatters": "This is the main route into technical service for polytechnic and ITI holders, and its age structure is unusual: the general ceiling is 32, but reserved categories have no maximum age at all for almost every post.",
+  "dates": {
+    "notification": "2026-07-07",
+    "applyStart": "2026-07-17",
+    "applyEnd": "2026-08-15",
+    "examDate": null,
+    "examDateRaw": "Hall ticket published 2 October 2026",
+    "resultDate": null,
+    "cutoffAgeDate": "2026-07-01"
+  },
+  "vacancies": {
+    "total": 839,
+    "note": "Total row of the vacancy table in para 3. Addendum 6A/2026 revised individual posts on 18 September 2026.",
+    "breakdown": []
+  },
+  "fee": {
+    "amount": 100,
+    "note": "₹100 examination fee. The one-time registration fee is ₹150. Confirm in the notification."
+  },
+  "hasAgeLimit": true,
+  "ageRules": [
+    {
+      "id": "standard-posts",
+      "label": "Standard diploma and ITI posts",
+      "appliesTo": {
+        "postCodes": [],
+        "postNames": [],
+        "gender": "any"
+      },
+      "cutoff": "2026-07-01",
+      "minAge": 18,
+      "maxAge": {
+        "general": 32,
+        "bc": 60,
+        "bcm": 60,
+        "mbc_dc": 60,
+        "sc": 60,
+        "sca": 60,
+        "st": 60
+      },
+      "concessions": {
+        "pwd": {
+          "mode": "absolute",
+          "value": 42,
+          "byCategory": {
+            "general": 42,
+            "bc": 60,
+            "bcm": 60,
+            "mbc_dc": 60,
+            "sc": 60,
+            "sca": 60,
+            "st": 60
+          }
+        },
+        "exServicemen": {
+          "mode": "absolute",
+          "value": 50,
+          "byCategory": {
+            "general": 50,
+            "bc": 60,
+            "bcm": 60,
+            "mbc_dc": 60,
+            "sc": 60,
+            "sca": 60,
+            "st": 60
+          }
+        },
+        "destituteWidow": {
+          "mode": "absolute",
+          "value": 60
+        }
+      },
+      "notes": "For SC, SC(A), ST, MBC/DC, BC(OBCM) and BCM candidates the table prints ‘No maximum age limit’ against almost every post, which para 4.1.3 defines as not having completed 60 years. The general-category ceiling is 32.",
+      "citation": {
+        "quote": "The candidates should have completed the age of 18 years for all the posts (except Junior Training Officer Posts in Employment and Training (Training Wing)) and Motor Vehicle Inspector, Grade-II.",
+        "page": 7,
+        "values": [
+          18
+        ]
+      }
+    },
+    {
+      "id": "motor-vehicle-inspector",
+      "label": "Motor Vehicle Inspector, Grade II (Post Code 2119)",
+      "appliesTo": {
+        "postCodes": [
+          "2119"
+        ],
+        "postNames": [
+          "Motor Vehicle Inspector, Grade II"
+        ],
+        "gender": "any"
+      },
+      "cutoff": "2026-07-01",
+      "minAge": 21,
+      "maxAge": {
+        "general": 34,
+        "bc": 37,
+        "bcm": 37,
+        "mbc_dc": 37,
+        "sc": 37,
+        "sca": 37,
+        "st": 37
+      },
+      "concessions": {
+        "pwd": {
+          "mode": "blocked",
+          "value": 0,
+          "note": "The table prints NA: persons with benchmark disability are not eligible for this post."
+        },
+        "exServicemen": {
+          "mode": "absolute",
+          "value": 50
+        },
+        "destituteWidow": {
+          "mode": "absolute",
+          "value": 60
+        }
+      },
+      "notes": "A higher minimum age (21) and a higher ceiling than the rest of the notification; PwBD candidates are expressly excluded.",
+      "citation": {
+        "quote": "Age Concession",
+        "page": 7,
+        "values": [
+          21,
+          34
+        ],
+        "note": "Table column heading. The values for this post are verified against the numbers printed on this page."
+      }
+    },
+    {
+      "id": "junior-training-officer",
+      "label": "Junior Training Officer (Post Codes 3617 to 3648 and 3773 to 3783)",
+      "appliesTo": {
+        "postCodes": [
+          "3617",
+          "3648",
+          "3773",
+          "3783"
+        ],
+        "postNames": [
+          "Junior Training Officer"
+        ],
+        "gender": "any"
+      },
+      "cutoff": "2026-08-01",
+      "minAge": 21,
+      "maxAge": {
+        "general": 37,
+        "bc": 60,
+        "bcm": 60,
+        "mbc_dc": 60,
+        "sc": 60,
+        "sca": 60,
+        "st": 60
+      },
+      "concessions": {
+        "pwd": {
+          "mode": "absolute",
+          "value": 47,
+          "byCategory": {
+            "general": 47,
+            "bc": 60,
+            "bcm": 60,
+            "mbc_dc": 60,
+            "sc": 60,
+            "sca": 60,
+            "st": 60
+          }
+        },
+        "exServicemen": {
+          "mode": "absolute",
+          "value": 50
+        },
+        "destituteWidow": {
+          "mode": "absolute",
+          "value": 60
+        }
+      },
+      "notes": "These posts are unusual in using a later cut-off date (01.08.2026) than the rest of the notification, so the same candidate can be inside one limit and outside another within a single examination.",
+      "citation": {
+        "quote": "The candidates should have completed 21 years of age as on 01.07.2026 for Motor Vehicle Inspector, Grade-II and as on 01.08.2026 for the post of Junior Training Officer (Post Code: 3617 to 3648 and 3773 to 3783).",
+        "page": 7,
+        "values": [
+          21
+        ]
+      }
+    },
+    {
+      "id": "procurement-quality-supervisor",
+      "label": "Procurement and Quality Control Supervisor (Post Code 3772)",
+      "appliesTo": {
+        "postCodes": [
+          "3772"
+        ],
+        "postNames": [
+          "Procurement and Quality Control Supervisor"
+        ],
+        "gender": "any"
+      },
+      "cutoff": "2026-07-01",
+      "minAge": 18,
+      "maxAge": {
+        "general": 32,
+        "bc": 34,
+        "bcm": 34,
+        "mbc_dc": 34,
+        "sc": 37,
+        "sca": 37,
+        "st": 37
+      },
+      "concessions": {
+        "pwd": {
+          "mode": "absolute",
+          "value": 42,
+          "byCategory": {
+            "general": 42,
+            "bc": 44,
+            "bcm": 44,
+            "mbc_dc": 44,
+            "sc": 47,
+            "sca": 47,
+            "st": 47
+          }
+        },
+        "exServicemen": {
+          "mode": "absolute",
+          "value": 50,
+          "byCategory": {
+            "general": 50,
+            "bc": 55,
+            "bcm": 55,
+            "mbc_dc": 55,
+            "sc": 55,
+            "sca": 55,
+            "st": 55
+          }
+        },
+        "destituteWidow": {
+          "mode": "absolute",
+          "value": 37
+        }
+      },
+      "notes": "The only reserved-category row in the notification that prints numeric limits instead of ‘No maximum age limit’.",
+      "citation": {
+        "quote": "No maximum age limit shall mean that the candidates should not have completed 60 years of age",
+        "page": 11,
+        "values": [
+          34,
+          44,
+          37,
+          47,
+          55
+        ],
+        "note": "The cited page carries both the definition paragraph and the only numeric reserved-category row in the notification."
+      }
+    }
+  ],
+  "qualifications": [
+    {
+      "postCodes": [],
+      "postNames": [],
+      "minLevel": "diploma",
+      "fieldSpecific": true,
+      "summary": "Diploma-level technical qualifications by post: Motor Vehicle Inspector requires a three-year diploma in automobile or mechanical engineering plus a driving licence; Overseer and draughtsman posts require a civil engineering diploma; textile posts a textile or handloom diploma; ITI-level Junior Training Officer posts accept SSLC with a degree, diploma or National Trade Certificate in the relevant trade.",
+      "acceptedAlternatives": [],
+      "citation": {
+        "quote": "Must possess a Diploma in Electronics and Communication Engineering recognized by the Department of Technical Education or its equivalent.",
+        "page": 12,
+        "values": []
+      }
+    }
+  ],
+  "specialRequirements": [
+    {
+      "id": "driving-licence-mvi",
+      "label": "Driving licence for Motor Vehicle Inspector",
+      "severity": "blocking",
+      "autoCheck": "none",
+      "detail": "A valid licence authorising the driving of a motorcycle with gear and a light motor vehicle is required in addition to the diploma.",
+      "citation": {
+        "quote": "Must hold a valid driving license authorising to drive motor cycle with gear and light motor vehicle",
+        "page": 12,
+        "values": []
+      }
+    }
+  ],
+  "selectionProcess": [
+    "Written examination (OMR)",
+    "Certificate verification"
+  ],
+  "officialLinks": {
+    "notification": "https://tnpsc.gov.in/document/english/CTS%20-%20Diploma-(English).pdf",
+    "apply": "https://apply.tnpscexams.in/secure?app_id=UElZMDAwMDAwMQ==",
+    "board": "https://tnpsc.gov.in/",
+    "syllabus": null
+  },
+  "sources": [
+    {
+      "id": "notification",
+      "authority": "Tamil Nadu Public Service Commission",
+      "title": "Notification No. 06/2026 — CTSE (Diploma / ITI Level)",
+      "url": "https://tnpsc.gov.in/document/english/CTS%20-%20Diploma-(English).pdf",
+      "kind": "pdf",
+      "language": "en",
+      "locator": "Para 3 (vacancies), para 4.1 (age), para 4.1.3 (definition), para 4.2 (qualifications)"
+    }
+  ],
+  "maintenance": "verified",
+  "editorialNote": "The Junior Training Officer posts use a different cut-off date from the rest of the notification; the model keeps them as a separate rule rather than averaging the two."
+}

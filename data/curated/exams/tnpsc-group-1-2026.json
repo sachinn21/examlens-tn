@@ -1,0 +1,216 @@
+{
+  "id": "tnpsc-group-1-2026",
+  "board": "tnpsc",
+  "boardName": "Tamil Nadu Public Service Commission",
+  "name": "Combined Civil Services Examination – I (Group I Services), Notification No. 05/2026",
+  "shortName": "TNPSC Group I (CCSE-I) 2026",
+  "tamilName": "தமிழ்நாடு அரசுப் பணியாளர் தேர்வாணையம் – குரூப் I",
+  "notificationNo": "05/2026",
+  "slug": "tnpsc-group-1-2026",
+  "year": 2026,
+  "status": "closed",
+  "level": "group-1",
+  "summary": "Tamil Nadu's top state-services examination: Deputy Collector, Assistant Commissioner (Commercial Taxes), Deputy Registrar and District Registrar. Three stages — preliminary, main written and interview.",
+  "whyItMatters": "It is the only Group I cycle this year and its preliminary date moved once: the Commission postponed it from 6 September to 27 September 2026 in Addendum 5A/2026, three weeks after the original date was notified.",
+  "dates": {
+    "notification": "2026-06-23",
+    "applyStart": "2026-06-30",
+    "applyEnd": "2026-07-29",
+    "examDate": "2026-09-27",
+    "examDateRaw": "Date of Examination : 27/09/2026",
+    "resultDate": null,
+    "cutoffAgeDate": "2026-07-01"
+  },
+  "vacancies": {
+    "total": 46,
+    "note": "26 in the original notification. Addendum 5B/2026 revised Assistant Commissioner (Commercial Taxes) to 10 and Deputy Registrar to 6, and added Assistant Director of Rural Development (6) and District Employment Officer (3), giving 46. The Commission has not restated a total.",
+    "breakdown": [
+      {
+        "post": "Deputy Collector",
+        "count": 12
+      },
+      {
+        "post": "Assistant Commissioner (Commercial Taxes)",
+        "count": 10
+      },
+      {
+        "post": "Deputy Registrar of Co-operative Societies",
+        "count": 6
+      },
+      {
+        "post": "District Registrar",
+        "count": 8
+      },
+      {
+        "post": "Assistant Commissioner of Labour",
+        "count": 1
+      },
+      {
+        "post": "Assistant Director of Rural Development",
+        "count": 6
+      },
+      {
+        "post": "District Employment Officer",
+        "count": 3
+      }
+    ]
+  },
+  "fee": {
+    "amount": 100,
+    "note": "₹100 for the preliminary examination and ₹200 for the main written examination. The one-time registration fee is ₹150. Confirm in the notification."
+  },
+  "hasAgeLimit": true,
+  "ageRules": [
+    {
+      "id": "all-posts",
+      "label": "All Group I posts",
+      "appliesTo": {
+        "postCodes": [
+          "1001",
+          "1003",
+          "1004",
+          "1005",
+          "1946"
+        ],
+        "postNames": [],
+        "gender": "any"
+      },
+      "cutoff": "2026-07-01",
+      "minAge": 21,
+      "maxAge": {
+        "general": 34,
+        "bc": 39,
+        "bcm": 39,
+        "mbc_dc": 39,
+        "sc": 39,
+        "sca": 39,
+        "st": 39
+      },
+      "concessions": {
+        "pwd": {
+          "mode": "absolute",
+          "value": 44,
+          "byCategory": {
+            "general": 44,
+            "bc": 49,
+            "bcm": 49,
+            "mbc_dc": 49,
+            "sc": 49,
+            "sca": 49,
+            "st": 49
+          }
+        },
+        "exServicemen": {
+          "mode": "absolute",
+          "value": 50,
+          "byCategory": {
+            "general": 50,
+            "bc": 55,
+            "bcm": 55,
+            "mbc_dc": 55,
+            "sc": 55,
+            "sca": 55,
+            "st": 55
+          }
+        },
+        "destituteWidow": {
+          "mode": "absolute",
+          "value": 39,
+          "byCategory": {
+            "general": 39,
+            "bc": 40,
+            "bcm": 40,
+            "mbc_dc": 40,
+            "sc": 40,
+            "sca": 40,
+            "st": 40
+          }
+        }
+      },
+      "notes": "For Assistant Commissioner (Commercial Taxes) candidates who hold a B.L. degree the ceiling is 35 (Others) / 40 (reserved). The age concession for ex-servicemen does not apply to those already recruited to a class or service under section 3(j)(vii) of the TN Government Servants (Conditions of Service) Act, 2016.",
+      "citation": {
+        "quote": "The candidates should have completed the minimum age of 21 years for all posts. The category wise maximum age limit and age concession details are given below.",
+        "page": 3,
+        "values": [
+          21,
+          34,
+          39,
+          44,
+          49,
+          50,
+          55
+        ]
+      }
+    }
+  ],
+  "qualifications": [
+    {
+      "postCodes": [],
+      "postNames": [],
+      "minLevel": "degree",
+      "fieldSpecific": false,
+      "summary": "A degree from any university incorporated by an Act of the Central or State Legislature, or an institution deemed a university under Section 3 of the UGC Act, 1956. Assistant Commissioner (Commercial Taxes) has a separate route for B.L. degree holders.",
+      "acceptedAlternatives": [],
+      "citation": {
+        "quote": "Candidates must possess a degree of any of the Universities incorporated by an Act of the Central or State Legislature in India or other Educational Institution established by an Act of Parliament or declared to be deemed as a University under Section 3 of the University Grants Commission Act, 1956.",
+        "page": 4,
+        "values": []
+      }
+    }
+  ],
+  "specialRequirements": [
+    {
+      "id": "tamil-eligibility",
+      "label": "Tamil language requirement",
+      "severity": "blocking",
+      "autoCheck": "tamil-sslc",
+      "detail": "Candidates must have studied Tamil up to SSLC or pass the Second Class Language Test (Full Test) in Tamil. The main written examination includes a Tamil eligibility paper that is qualifying in nature.",
+      "citation": {
+        "quote": "Second Class Language Test (Full Test) in Tamil",
+        "page": 6,
+        "values": []
+      }
+    }
+  ],
+  "selectionProcess": [
+    "Preliminary examination (objective)",
+    "Main written examination (descriptive)",
+    "Interview / oral test"
+  ],
+  "officialLinks": {
+    "notification": "https://tnpsc.gov.in/document/english/Group%20I%20Notification%202026_E.pdf",
+    "apply": "https://apply.tnpscexams.in/secure?app_id=UElZMDAwMDAwMQ==",
+    "board": "https://tnpsc.gov.in/",
+    "syllabus": null
+  },
+  "sources": [
+    {
+      "id": "notification",
+      "authority": "Tamil Nadu Public Service Commission",
+      "title": "Notification No. 05/2026 — CCSE-I (Group I Services)",
+      "url": "https://tnpsc.gov.in/document/english/Group%20I%20Notification%202026_E.pdf",
+      "kind": "pdf",
+      "language": "en",
+      "locator": "Para 4.1 (age), para 4.2 (qualification), para 3 (vacancies)"
+    },
+    {
+      "id": "addendum-5a",
+      "authority": "Tamil Nadu Public Service Commission",
+      "title": "Addendum 5A/2026 — postponement of the preliminary examination",
+      "url": "https://tnpsc.gov.in/Document/english/ADDENDUM%205A_16.07.2026.pdf",
+      "kind": "pdf",
+      "language": "en",
+      "locator": "Single page"
+    },
+    {
+      "id": "addendum-5b",
+      "authority": "Tamil Nadu Public Service Commission",
+      "title": "Addendum 5B/2026 — revision of vacancies and addition of posts",
+      "url": "https://tnpsc.gov.in/Document/english/Addendum%205B%20English.pdf",
+      "kind": "pdf",
+      "language": "en"
+    }
+  ],
+  "maintenance": "verified",
+  "editorialNote": "The preliminary examination was held on 27 September 2026, postponed from 6 September by Addendum 5A/2026. The main written examination and interview dates had not been announced when this record was captured, so the examination is shown as closed for applications rather than archived."
+}

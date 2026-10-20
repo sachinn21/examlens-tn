@@ -1,0 +1,328 @@
+{
+  "id": "tnpsc-group-2-2026",
+  "board": "tnpsc",
+  "boardName": "Tamil Nadu Public Service Commission",
+  "name": "Combined Civil Services Examination – II (Group II and IIA Services), Notification No. 07/2026",
+  "shortName": "TNPSC Group II / IIA 2026",
+  "tamilName": "தமிழ்நாடு அரசுப் பணியாளர் தேர்வாணையம் – குரூப் II",
+  "notificationNo": "07/2026",
+  "slug": "tnpsc-group-2-2026",
+  "year": 2026,
+  "status": "closed",
+  "level": "group-2",
+  "summary": "Group II and IIA services — Assistant Section Officer, Sub Registrar, Deputy Commercial Tax Officer, Probation Officer and related posts. Preliminary plus main written examination, no interview.",
+  "whyItMatters": "Group II is the usual next step after Group IV, and its ceiling (32 for Others, 37 for reserved categories) is two years above Group IV's for general candidates — which decides eligibility for a large band of repeat aspirants.",
+  "dates": {
+    "notification": "2026-08-11",
+    "applyStart": null,
+    "applyEnd": "2026-09-09",
+    "examDate": "2026-11-01",
+    "examDateRaw": "Date of Examination : 01/11/2026",
+    "resultDate": null,
+    "cutoffAgeDate": "2026-07-01"
+  },
+  "vacancies": {
+    "total": 821,
+    "note": "The notification prints two totals — 41 for Group II Services and 780 for Group IIA Services — and never states their sum. 821 is that sum; both figures are printed in para 3.",
+    "breakdown": []
+  },
+  "fee": {
+    "amount": 100,
+    "note": "₹100 for the preliminary examination and ₹150 for the main written examination. The one-time registration fee is ₹150. Confirm in the notification."
+  },
+  "hasAgeLimit": true,
+  "ageRules": [
+    {
+      "id": "most-posts",
+      "label": "Group II and IIA posts (except Executive Officer, Grade III)",
+      "appliesTo": {
+        "postCodes": [],
+        "postNames": [],
+        "gender": "any"
+      },
+      "cutoff": "2026-07-01",
+      "minAge": 18,
+      "maxAge": {
+        "general": 32,
+        "bc": 60,
+        "bcm": 60,
+        "mbc_dc": 60,
+        "sc": 60,
+        "sca": 60,
+        "st": 60
+      },
+      "concessions": {
+        "pwd": {
+          "mode": "absolute",
+          "value": 42,
+          "byCategory": {
+            "general": 42,
+            "bc": 60,
+            "bcm": 60,
+            "mbc_dc": 60,
+            "sc": 60,
+            "sca": 60,
+            "st": 60
+          }
+        },
+        "exServicemen": {
+          "mode": "absolute",
+          "value": 50,
+          "byCategory": {
+            "general": 50,
+            "bc": 60,
+            "bcm": 60,
+            "mbc_dc": 60,
+            "sc": 60,
+            "sca": 60,
+            "st": 60
+          }
+        },
+        "destituteWidow": {
+          "mode": "absolute",
+          "value": 60,
+          "note": "The table prints ‘No maximum age limit’ for every post except Deputy Commercial Tax Officer, where it is 37."
+        }
+      },
+      "notes": "This is the most misunderstood rule in the notification: for reserved categories the table says ‘No maximum age limit’ for almost every Group II post, and para 4.1.3 defines that as not having completed 60 years. The 32/37 figures apply to the general category and to the few posts with their own numbers (Deputy Commercial Tax Officer 37, or 39 with a law degree; Probation Officer minimum 22; Sub Registrar minimum 20).",
+      "citation": {
+        "quote": "The category wise maximum age limit and age concession details are given below.",
+        "page": 6,
+        "values": [
+          18,
+          32,
+          42,
+          50
+        ]
+      }
+    },
+    {
+      "id": "executive-officer-grade-3",
+      "label": "Executive Officer, Grade III (Post Code 1654)",
+      "appliesTo": {
+        "postCodes": [
+          "1654"
+        ],
+        "postNames": [
+          "Executive Officer, Grade III"
+        ],
+        "gender": "any"
+      },
+      "cutoff": "2026-07-01",
+      "minAge": 25,
+      "maxAge": {
+        "general": 37,
+        "bc": 60,
+        "bcm": 60,
+        "mbc_dc": 60,
+        "sc": 60,
+        "sca": 60,
+        "st": 60
+      },
+      "concessions": {
+        "pwd": {
+          "mode": "absolute",
+          "value": 47,
+          "byCategory": {
+            "general": 47,
+            "bc": 60,
+            "bcm": 60,
+            "mbc_dc": 60,
+            "sc": 60,
+            "sca": 60,
+            "st": 60
+          }
+        },
+        "exServicemen": null,
+        "destituteWidow": null
+      },
+      "citation": {
+        "quote": "For all posts (except Executive Officer, Grade III)",
+        "page": 7,
+        "values": [
+          25,
+          37,
+          47
+        ]
+      },
+      "notes": "Executive Officer, Grade III carries a higher minimum (25) and a general ceiling of 37."
+    },
+    {
+      "id": "probation-officer",
+      "label": "Probation Officer (Post Code 1023)",
+      "appliesTo": {
+        "postCodes": [
+          "1023"
+        ],
+        "postNames": [
+          "Probation Officer"
+        ],
+        "gender": "any"
+      },
+      "cutoff": "2026-07-01",
+      "minAge": 22,
+      "maxAge": {
+        "general": 32,
+        "bc": 60,
+        "bcm": 60,
+        "mbc_dc": 60,
+        "sc": 60,
+        "sca": 60,
+        "st": 60
+      },
+      "concessions": {
+        "pwd": {
+          "mode": "absolute",
+          "value": 42
+        },
+        "exServicemen": {
+          "mode": "absolute",
+          "value": 50
+        },
+        "destituteWidow": {
+          "mode": "absolute",
+          "value": 60
+        }
+      },
+      "notes": "Minimum age 22 rather than 18; otherwise the general ceiling of 32 applies.",
+      "citation": {
+        "quote": "Age Concession",
+        "page": 7,
+        "values": [
+          22,
+          32
+        ]
+      }
+    },
+    {
+      "id": "sub-registrar",
+      "label": "Sub Registrar, Grade II (Post Code 1071)",
+      "appliesTo": {
+        "postCodes": [
+          "1071"
+        ],
+        "postNames": [
+          "Sub Registrar, Grade II"
+        ],
+        "gender": "any"
+      },
+      "cutoff": "2026-07-01",
+      "minAge": 20,
+      "maxAge": {
+        "general": 32,
+        "bc": 60,
+        "bcm": 60,
+        "mbc_dc": 60,
+        "sc": 60,
+        "sca": 60,
+        "st": 60
+      },
+      "concessions": {
+        "pwd": {
+          "mode": "absolute",
+          "value": 42
+        },
+        "exServicemen": {
+          "mode": "absolute",
+          "value": 50
+        },
+        "destituteWidow": {
+          "mode": "absolute",
+          "value": 60
+        }
+      },
+      "notes": "Minimum age 20 rather than 18.",
+      "citation": {
+        "quote": "Age Concession",
+        "page": 7,
+        "values": [
+          20,
+          32
+        ]
+      }
+    }
+  ],
+  "qualifications": [
+    {
+      "postCodes": [],
+      "postNames": [],
+      "minLevel": "degree",
+      "fieldSpecific": false,
+      "summary": "A bachelor's degree from a UGC-recognised university is the base requirement, but several posts specify the degree: Deputy Commercial Tax Officer requires B.A., B.Sc. or B.Com.; Assistant Section Officer (Law) requires B.L.; some Assistant Section Officer posts require a master's degree. Check the post code in para 4.2 before applying.",
+      "acceptedAlternatives": [],
+      "citation": {
+        "quote": "A degree from any University recognised by the University Grants Commission.",
+        "page": 9,
+        "values": []
+      }
+    },
+    {
+      "postCodes": [
+        "1013",
+        "1073",
+        "2201",
+        "2215"
+      ],
+      "postNames": [
+        "Deputy Commercial Tax Officer",
+        "Assistant Section Officer (Law)",
+        "Assistant Section Officer (Computer Application)"
+      ],
+      "minLevel": "degree",
+      "fieldSpecific": true,
+      "summary": "Some posts name the degree: Deputy Commercial Tax Officer requires B.A., B.Sc. or B.Com.; the law post requires B.L.; some Assistant Section Officer posts require a master's degree. Check the post code in para 4.2.",
+      "acceptedAlternatives": [],
+      "citation": {
+        "quote": "Must possess the degree of B.A., B.Sc., or B.Com.",
+        "page": 10,
+        "values": []
+      }
+    }
+  ],
+  "specialRequirements": [
+    {
+      "id": "tamil-eligibility",
+      "label": "Tamil language requirement",
+      "severity": "blocking",
+      "autoCheck": "tamil-sslc",
+      "detail": "Candidates must have studied Tamil up to SSLC or pass the Second Class Language Test (Full Test) in Tamil conducted by TNPSC.",
+      "citation": {
+        "quote": "Second Class Language Test (Full Test) in Tamil",
+        "page": 15,
+        "values": []
+      }
+    }
+  ],
+  "selectionProcess": [
+    "Preliminary examination (objective)",
+    "Main written examination",
+    "Certificate verification"
+  ],
+  "officialLinks": {
+    "notification": "https://tnpsc.gov.in/document/english/07_2026%20Dated_11.08.2026%20English%20version.pdf",
+    "apply": "https://apply.tnpscexams.in/secure?app_id=UElZMDAwMDAwMQ==",
+    "board": "https://tnpsc.gov.in/",
+    "syllabus": null
+  },
+  "sources": [
+    {
+      "id": "notification",
+      "authority": "Tamil Nadu Public Service Commission",
+      "title": "Notification No. 07/2026 — CCSE-II (Group II and IIA Services)",
+      "url": "https://tnpsc.gov.in/document/english/07_2026%20Dated_11.08.2026%20English%20version.pdf",
+      "kind": "pdf",
+      "language": "en",
+      "locator": "Para 4.1 (age), para 4.2 (qualification)"
+    },
+    {
+      "id": "dashboard",
+      "authority": "Tamil Nadu Public Service Commission",
+      "title": "Exam dashboard — application window and exam date",
+      "url": "https://tnpsc.gov.in/web/examdashboard/index.aspx?key=ksojs2efre3WFDsw5",
+      "kind": "html",
+      "language": "en"
+    }
+  ],
+  "maintenance": "verified",
+  "editorialNote": "The application start date was not printed on the dashboard row at the time of capture, so only the closing date is shown."
+}

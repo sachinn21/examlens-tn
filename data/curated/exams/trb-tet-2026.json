@@ -1,0 +1,132 @@
+{
+  "id": "trb-tet-2026",
+  "board": "trb",
+  "boardName": "Teachers Recruitment Board, Tamil Nadu",
+  "name": "Tamil Nadu Teacher Eligibility Test (TNTET) for Working Teachers — 2026, Notification No. 01/2026",
+  "shortName": "TNTET 2026 (working teachers)",
+  "tamilName": "தமிழ்நாடு ஆசிரியர் தகுதித் தேர்வு 2026",
+  "notificationNo": "01/2026",
+  "slug": "trb-tet-2026",
+  "year": 2026,
+  "status": "archived",
+  "level": "teacher",
+  "summary": "The Teacher Eligibility Test for teachers already serving in Tamil Nadu schools. It issues an eligibility certificate — it is not a recruitment and creates no right to a post.",
+  "whyItMatters": "The test is the certificate that serving teachers need for promotion, yet the 2026 notification prescribes no age limit at all — a fact that is easy to miss when every other notification has one.",
+  "dates": {
+    "notification": "2026-02-13",
+    "applyStart": "2026-02-18",
+    "applyEnd": "2026-04-10",
+    "examDate": "2026-07-04",
+    "examDateRaw": "TNTET Paper I: 04-07-2026 FN (Tentative); TNTET Paper II: 05-07-2026 FN (Tentative)",
+    "resultDate": null,
+    "cutoffAgeDate": null
+  },
+  "vacancies": {
+    "total": null,
+    "note": "Not a recruitment — no vacancies. It certifies eligibility."
+  },
+  "fee": {
+    "amount": 600,
+    "note": "₹600 per application; ₹300 for SC, SC(A), ST and differently abled candidates. Separate application and fee for Paper I and Paper II."
+  },
+  "hasAgeLimit": false,
+  "ageRules": [],
+  "qualifications": [
+    {
+      "postCodes": [],
+      "postNames": [
+        "Paper I — SGT, Primary School Headmaster and equivalent"
+      ],
+      "minLevel": "diploma",
+      "fieldSpecific": true,
+      "summary": "A teacher-education qualification recognised for the SGT / primary cadre — Diploma in Teacher Education or Elementary Education (including special education), B.El.Ed., or a four-year integrated B.A.Ed. / B.Sc.Ed. The notification incorporates the qualification rules from G.O.(Ms).No.13 and G.O.(Ms).No.12 dated 30.01.2020 and NCTE norms rather than restating them.",
+      "acceptedAlternatives": [
+        "Diploma in Teacher Education",
+        "Diploma in Elementary Education",
+        "Diploma in Teacher Education (Special Education)",
+        "B.El.Ed. (4 years)",
+        "4-year integrated B.A.Ed. / B.Sc.Ed."
+      ],
+      "citation": {
+        "quote": "Diploma in Teacher Education / Diploma in Elementary Education / Diploma in Teacher Education (Special Education)",
+        "page": 8,
+        "values": []
+      }
+    },
+    {
+      "postCodes": [],
+      "postNames": [
+        "Paper II — BT Assistant, Middle School Headmaster and equivalent"
+      ],
+      "minLevel": "degree",
+      "fieldSpecific": true,
+      "summary": "B.Ed. or Special B.Ed. or its equivalent, together with a U.G. degree in the relevant subject. Special-education candidates must also meet the IEDSS qualifications in G.O.(Ms).No.144 dated 17.06.2025.",
+      "acceptedAlternatives": [
+        "B.Ed.",
+        "Special B.Ed.",
+        "IEDSS qualifications under G.O.(Ms).No.144 dated 17.06.2025"
+      ],
+      "citation": {
+        "quote": "B.Ed., / Special B.Ed., Degree or its equivalent and other qualifications for IEDSS as mentioned in G.O.(Ms). No.144, School Education [SE3(2)] Department, dated:17.06.2025",
+        "page": 9,
+        "values": [
+          "144",
+          "17.06.2025"
+        ]
+      }
+    }
+  ],
+  "specialRequirements": [
+    {
+      "id": "serving-teacher-only",
+      "label": "Serving teachers only",
+      "severity": "blocking",
+      "autoCheck": "serving-teacher",
+      "detail": "Only working teachers appointed on or before 01.09.2025 as SGT, BT Assistant or equivalent cadre in Tamil Nadu government, aided or recognised private schools may apply. Fresh candidates are not eligible.",
+      "citation": {
+        "quote": "Applications are invited for Tamil Nadu Teacher Eligibility Test (TNTET), Paper - I and Paper - II only from the eligible working Teachers who are appointed on or before 01.09.2025 as SGT, BT Assistant and other Equivalent cadre Teachers",
+        "page": 1,
+        "values": [
+          "01.09.2025"
+        ]
+      }
+    },
+    {
+      "id": "no-age-limit",
+      "label": "No age limit",
+      "severity": "info",
+      "autoCheck": "none",
+      "detail": "The notification prescribes no minimum or maximum age. Age appears only as the pedagogy age-group (6–11 and 11–14 years) and as a field in the service certificate annexure."
+    },
+    {
+      "id": "service-certificate",
+      "label": "Service certificate is mandatory",
+      "severity": "blocking",
+      "autoCheck": "none",
+      "detail": "Annexure-I service certificate must be uploaded with the application, failing which the application is rejected."
+    }
+  ],
+  "selectionProcess": [
+    "Paper I or Paper II objective test (150 MCQs, 3 hours)",
+    "Eligibility certificate issued on qualifying"
+  ],
+  "officialLinks": {
+    "notification": "https://trb.tn.gov.in/admin/pdf/3081466994TET.pdf",
+    "apply": "https://trb1.ucanapply.com/apply_now",
+    "board": "https://trb.tn.gov.in/",
+    "syllabus": null
+  },
+  "sources": [
+    {
+      "id": "notification",
+      "authority": "Teachers Recruitment Board, Tamil Nadu",
+      "title": "TNTET for Working Teachers 2026 — Notification 01/2026",
+      "url": "https://trb.tn.gov.in/admin/pdf/3081466994TET.pdf",
+      "kind": "pdf",
+      "language": "en",
+      "locator": "Para 1 (invitation), para 3 (qualification), pages 8–9 (upload checklist)"
+    }
+  ],
+  "maintenance": "verified",
+  "editorialNote": "A pass in TET cannot be claimed as a right to employment — the notification says so expressly. The 2026 test was restricted to serving teachers; fresh candidates have no route through this notification."
+}

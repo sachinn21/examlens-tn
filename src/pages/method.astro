@@ -1,0 +1,117 @@
+---
+import Base from '../layouts/Base.astro';
+import { getDataset } from '../lib/server/data';
+import { formatRelative } from '../lib/core/dates';
+
+const ds = getDataset();
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'TechArticle',
+  headline: 'How ExamLens verifies Tamil Nadu exam rules',
+  description: 'The verification pipeline behind ExamLens: quoted citations, content hashes, dated diffs and explicit failure modes.',
+  dateModified: ds.generatedAt ?? undefined,
+};
+---
+<Base
+  title="Method — how each rule is verified | ExamLens"
+  description="ExamLens quotes every rule from the official notification, re-downloads the source on a schedule, and fails visibly when a document changes."
+  jsonLd={jsonLd}
+>
+  <div class="wrap narrow" style="padding-block:clamp(1.6rem,4vw,2.6rem)">
+    <p class="section-label">Method</p>
+    <h1>How we know a rule is still true</h1>
+    <p class="lede">
+      An age limit is easy to copy. Establishing whether it is still correct requires a record of
+      where it came from and a check that the source has not changed. This page describes that
+      process, including its limits.
+    </p>
+
+    <section class="method-section">
+      <h2>1. Every fact carries a quote</h2>
+      <p>
+        An age limit, a qualification clause or a fee is stored with a <strong>verbatim sentence</strong> from the
+        notification and the page it appears on. Where a value sits in a table cell rather than a
+        sentence, the table's own heading is stored together with the numbers, and the check confirms
+        that those numbers are still printed on that page.
+      </p>
+      <p>
+        On every run the pipeline downloads the document again (conditionally, when the server supports
+        it), extracts its text layer and searches for the quotation. If the search fails, the
+        examination is flagged: a warning appears on the page, the eligibility answer is withheld, and
+        the build records the failure. Nothing is silently rewritten.
+      </p>
+      <div class="pipeline">
+        <div><b>fetch</b><span>HTML + PDF, conditional GET</span></div>
+        <div><b>extract</b><span>text layer, page by page</span></div>
+        <div><b>verify</b><span>quote + numeric fingerprint</span></div>
+        <div><b>diff</b><span>against the stored snapshot</span></div>
+        <div><b>publish</b><span>static JSON + pages</span></div>
+      </div>
+    </section>
+
+    <section class="method-section">
+      <h2>2. The change log is a diff, not a rewrite</h2>
+      <p>
+        The pipeline keeps the previous state of every exam: its document list (category, title, URL, upload date)
+        and the raw date lines from the board dashboard. A new addendum, a changed exam-date line, a withdrawn
+        document or a revised vacancy count is a difference. Differences become dated entries.
+      </p>
+      <p>
+        Where the document states the change explicitly — “the preliminary examination … has been postponed from
+        06.09.2026 to 27.09.2026” — the sentence is stored with the entry as evidence, alongside the PDF it came from.
+      </p>
+    </section>
+
+    <section class="method-section">
+      <h2>3. Age is computed, not compared to a number</h2>
+      <p>
+        Every notification has an <em>as on</em> date, and the rule is “should not have completed N years”.
+        ExamLens computes completed years on that exact date, applies the community ceiling, then applies the
+        most favourable concession the candidate is entitled to (PwBD, ex-servicemen, destitute widow).
+        Minimum-age failures show the date you turn eligible; maximum-age failures show how far past the cut-off you are.
+      </p>
+      <p>
+        The engine is a pure function with unit tests on real notification values, so the same input always
+        produces the same answer — and the answer cites the paragraph it used.
+      </p>
+    </section>
+
+    <section class="method-section">
+      <h2>4. What this cannot do</h2>
+      <ul class="limits">
+        <li><strong>It cannot read Tamil-language PDFs reliably.</strong> Some board PDFs have text layers that extract as garbage. Those are monitored by hash, not by quote, and labelled as such.</li>
+        <li><strong>It cannot know about a post-specific rule hidden in an annexure</strong> unless that rule has been transcribed and cited. Records without verified rules say “dates tracked only” and give no verdict.</li>
+        <li><strong>It cannot replace the notification.</strong> Fees, document formats, physical standards and certificate validity are not modelled.</li>
+        <li><strong>It can lag.</strong> If a board publishes between runs, this record is behind until the next scheduled check. Every page states when its sources were last read.</li>
+      </ul>
+    </section>
+
+    <section class="method-section" id="corrections">
+      <h2>5. Corrections</h2>
+      <p>
+        The notification is the authority. Where this record disagrees with it, this record is wrong.
+        Report the notification number and the paragraph through the repository's issue tracker; the
+        entry is corrected and re-verified on the next run. Corrections pass through the same quotation
+        check as every other entry.
+      </p>
+      <p class="small muted">
+        Data licence: CC BY 4.0 for the compilation. Official notices and PDFs remain the copyright of their issuing authority.
+        ExamLens is independent and not affiliated with TNPSC, TRB, TNUSRB or the Government of Tamil Nadu.
+      </p>
+    </section>
+
+    <p class="tiny muted">Last rebuilt {ds.generatedAt ? formatRelative(ds.generatedAt) : '—'} · {ds.counts.verifiedExams} verified records · {ds.counts.sources} board endpoints.</p>
+  </div>
+</Base>
+
+<style>
+  .method-section { margin-bottom: 34px; }
+  .method-section h2 { font-size: 1.3rem; }
+  .method-section p, .method-section li { color: var(--ink-2); }
+  .pipeline { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin: 18px 0 4px; }
+  @media (max-width: 720px) { .pipeline { grid-template-columns: repeat(2, 1fr); } }
+  .pipeline div { border: 1px solid var(--rule); padding: 8px 10px; background: #fff; }
+  .pipeline b { display: block; font-family: var(--mono); font-size: 0.8rem; color: var(--link); }
+  .pipeline span { font-size: 0.76rem; color: var(--muted); }
+  .limits { padding-left: 18px; display: grid; gap: 8px; }
+</style>

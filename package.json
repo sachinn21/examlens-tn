@@ -1,0 +1,35 @@
+{
+  "name": "examlens-tn",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
+    "build": "ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
+    "check": "astro check",
+    "refresh": "tsx scripts/refresh.ts",
+    "refresh:offline": "tsx scripts/refresh.ts --offline",
+    "validate": "tsx scripts/validate-data.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "new:exam": "tsx scripts/new-exam.ts"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^7.4.1",
+    "node-html-parser": "^9.0.5",
+    "unpdf": "^1.9.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.11",
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,95 @@
+---
+import Base from '../layouts/Base.astro';
+import Checker from '../components/Checker.astro';
+import { getDataset } from '../lib/server/data';
+
+const ds = getDataset();
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebApplication',
+  name: 'ExamLens Tamil Nadu eligibility checker',
+  applicationCategory: 'EducationalApplication',
+  operatingSystem: 'Any',
+  offers: { '@type': 'Offer', price: '0', priceCurrency: 'INR' },
+  description: 'Enter your date of birth, community and qualification to see which Tamil Nadu government exams you can apply for, with the official source for each rule.',
+};
+---
+<Base
+  title="Check your eligibility for Tamil Nadu exams — free, no signup | ExamLens"
+  description="Enter your date of birth, community and qualification once. See which TNPSC, TRB and TNUSRB exams you can actually apply for, with each age limit linked to the official notification."
+  jsonLd={jsonLd}
+>
+  <div class="wrap" style="padding-block:clamp(1.6rem,4vw,2.6rem)">
+    <div class="check-head">
+      <div>
+        <p class="section-label">Eligibility check</p>
+        <h1>Can you apply?</h1>
+        <p class="lede">
+          Five fields, no account. The answer is computed in your browser from the published dataset —
+          then you can share the result as a link or save your details for next time.
+        </p>
+        <ul class="check-points">
+          <li>Age is computed on <strong>each notification’s own cut-off date</strong>, not today’s date.</li>
+          <li>Relaxations for PwBD, ex-servicemen and destitute widows are applied automatically.</li>
+          <li>Every verdict lists the paragraph it came from, with a link to the PDF.</li>
+        </ul>
+      </div>
+      <div class="check-side">
+        <Checker />
+      </div>
+    </div>
+
+    <section class="section" style="padding-top:10px">
+      <h2 class="rule-title">What the result does and does not mean</h2>
+      <div class="grid grid-3">
+        <div class="card card-flat">
+          <h3>Your data stays here</h3>
+          <p class="small">Nothing is sent anywhere. Your answers are kept in this browser’s local storage so you do not have to re-enter them, and you can clear them with one button.</p>
+        </div>
+        <div class="card card-flat">
+          <h3>Not a prediction</h3>
+          <p class="small">This is a rules check, not a ranking or a chance estimate. It tells you whether the printed conditions exclude you — nothing more.</p>
+        </div>
+        <div class="card card-flat">
+          <h3>What it does not cover</h3>
+          <p class="small">Physical standards, document formats, certificate validity and post-specific subject requirements are not modelled. Each exam page flags where those apply.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="narrow">
+        <h2>The rules behind the answer</h2>
+        <div class="rule-list">
+          <div>
+            <h3>Minimum age</h3>
+            <p class="small">You must have completed the minimum age by the cut-off. If you have not, the result tells you the date you become eligible.</p>
+          </div>
+          <div>
+            <h3>Maximum age</h3>
+            <p class="small">“Should not have completed 32 years as on 01.07.2026” means a candidate born on 02.07.1994 is inside and one born on 01.07.1994 is outside. The engine works on completed years, so the birthday matters to the day.</p>
+          </div>
+          <div>
+            <h3>Community ceiling</h3>
+            <p class="small">TN notifications print a separate ceiling for BC(OBCM), BCM, MBC/DC, SC, SC(A) and ST. Where a post-cluster has its own numbers, the exam page shows them separately.</p>
+          </div>
+          <div>
+            <h3>Concessions</h3>
+            <p class="small">PwBD, ex-servicemen and destitute widows often get a flat ceiling instead of an addition. You receive the most favourable ceiling you qualify for, and the result names it.</p>
+          </div>
+        </div>
+        <p class="small muted" style="margin-top:18px">
+          {ds.counts.verifiedExams} notifications currently have verified rules. Records without them are excluded from the verdict rather than guessed.
+        </p>
+      </div>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .check-head { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: clamp(24px, 5vw, 48px); align-items: start; }
+  @media (max-width: 900px) { .check-head { grid-template-columns: 1fr; } }
+  .check-points { padding-left: 18px; display: grid; gap: 6px; color: var(--ink-2); font-size: 0.92rem; }
+  .rule-list { display: grid; gap: 18px; }
+  .rule-list h3 { font-size: 1rem; margin-bottom: 4px; }
+</style>

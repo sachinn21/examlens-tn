@@ -1,0 +1,369 @@
+---
+interface Props {
+  only?: string;
+  compact?: boolean;
+  heading?: string;
+  prefill?: Record<string, string>;
+}
+const { only, compact = false, heading, prefill } = Astro.props;
+---
+<section class={`checker ${compact ? 'checker-compact' : ''}`} id="checker" data-only={only ?? ''}>
+  {heading && <h2 class="rule-title">{heading}</h2>}
+  <form class="checker-form" novalidate>
+    <div class="grid grid-2">
+      <div class="field">
+        <label for="dob">Date of birth</label>
+        <input type="date" id="dob" name="dob" min="1950-01-01" max={new Date().toISOString().slice(0, 10)} required autocomplete="bday" value={prefill?.dob ?? ''} />
+        <p class="hint">As printed on the SSLC or HSC mark sheet.</p>
+      </div>
+      <div class="field">
+        <label for="category">Community</label>
+        <select id="category" name="category" required>
+          <option value="general">General (no reservation)</option>
+          <option value="bc">BC (OBCM)</option>
+          <option value="bcm">BC Muslim</option>
+          <option value="mbc_dc">MBC / Denotified Community</option>
+          <option value="sc">SC</option>
+          <option value="sca">SC (Arunthathiyar)</option>
+          <option value="st">ST</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+          <option value="other">Other / not stated</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="qualification">Highest qualification</label>
+        <select id="qualification" name="qualification" required>
+          <option value="sslc">10th / SSLC</option>
+          <option value="hsc">12th / HSC</option>
+          <option value="iti">ITI certificate</option>
+          <option value="diploma">Diploma</option>
+          <option value="degree" selected>Bachelor's degree</option>
+          <option value="pg">Post-graduate degree</option>
+          <option value="none">None of these</option>
+        </select>
+      </div>
+    </div>
+
+    <fieldset class="checker-extras">
+      <legend class="checker-legend">Additional claims</legend>
+      <label class="check"><input type="checkbox" id="pwd" /> Persons with benchmark disability</label>
+      <label class="check"><input type="checkbox" id="exsm" /> Ex-serviceman or ex-serviceman widow</label>
+      <label class="check"><input type="checkbox" id="widow" /> Destitute widow</label>
+      <label class="check"><input type="checkbox" id="teacher" /> Serving teacher in a Tamil Nadu school</label>
+      <label class="check"><input type="checkbox" id="tamil" checked /> Studied Tamil up to SSLC (required by most TNPSC notifications)</label>
+    </fieldset>
+
+    <div class="checker-actions">
+      <button type="submit" class="btn btn-primary">Check eligibility</button>
+      <button type="button" class="btn btn-sm js-copy" hidden>Copy link to this page</button>
+      <button type="button" class="btn btn-sm js-reset" hidden>Clear saved details</button>
+    </div>
+    <p class="hint" style="margin-top:8px">
+      The check runs in your browser. Nothing is uploaded. Age limits change with every
+      notification; the linked official document is the authority.
+    </p>
+  </form>
+
+  <div id="checker-results" class="checker-results" aria-live="polite">
+    <noscript>
+      <div class="callout">
+        <strong>JavaScript is disabled.</strong> The age tables remain readable on each
+        <a href="/exams">examination page</a>, and the dataset is available at
+        <code>/api/v1/exams.json</code>.
+      </div>
+    </noscript>
+  </div>
+</section>
+
+<script>
+  import { evaluateExam, rankVerdicts } from '../lib/core/eligibility';
+  import { CATEGORY_LABELS, QUALIFICATION_LABELS } from '../lib/core/constants';
+  import type { Exam, Profile, Category, QualificationLevel } from '../lib/core/types';
+
+  const root = document.querySelector<HTMLElement>('.checker');
+  if (root) setup(root);
+
+  const STORAGE = 'examlens.profile.v1';
+  const VISIT = 'examlens.lastVisit.v1';
+
+  function setup(root: HTMLElement) {
+    const form = root.querySelector('form')!;
+    const results = root.querySelector<HTMLElement>('#checker-results')!;
+    const only = root.dataset.only || '';
+    const copyBtn = root.querySelector<HTMLButtonElement>('.js-copy');
+    const resetBtn = root.querySelector<HTMLButtonElement>('.js-reset');
+
+    let exams: Exam[] | null = null;
+
+    const load = async (): Promise<Exam[]> => {
+      if (exams) return exams;
+      const res = await fetch('/api/v1/exams.json', { headers: { accept: 'application/json' } });
+      if (!res.ok) throw new Error(`dataset request failed (${res.status})`);
+      const data = await res.json();
+      // Records without verified rules never receive an eligibility answer.
+      exams = (data.exams ?? []).filter(
+        (e: Exam) => (e as unknown as { maintained?: string }).maintained === 'verified' && (only ? e.id === only : true),
+      );
+      return exams!;
+    };
+
+    const readForm = (): Profile => ({
+      dob: root.querySelector<HTMLInputElement>('#dob')!.value || '2000-01-01',
+      category: root.querySelector<HTMLSelectElement>('#category')!.value as Category,
+      gender: root.querySelector<HTMLSelectElement>('#gender')!.value as Profile['gender'],
+      qualification: root.querySelector<HTMLSelectElement>('#qualification')!.value as QualificationLevel,
+      pwd: root.querySelector<HTMLInputElement>('#pwd')!.checked,
+      exServicemen: root.querySelector<HTMLInputElement>('#exsm')!.checked,
+      destituteWidow: root.querySelector<HTMLInputElement>('#widow')!.checked,
+      servingTeacher: root.querySelector<HTMLInputElement>('#teacher')!.checked,
+      pstm: false,
+      tamilMedium: true,
+      tamilSslc: root.querySelector<HTMLInputElement>('#tamil')!.checked,
+    });
+
+    const isValidProfile = (p: Partial<Profile>): boolean => {
+      const cat = ['general', 'bc', 'bcm', 'mbc_dc', 'sc', 'sca', 'st'];
+      const qual = ['none', 'sslc', 'hsc', 'iti', 'diploma', 'degree', 'pg'];
+      const gen = ['female', 'male', 'other'];
+      if (!p.dob || !/^\d{4}-\d{2}-\d{2}$/.test(p.dob)) return false;
+      if (!cat.includes(p.category as string)) return false;
+      if (!qual.includes(p.qualification as string)) return false;
+      if (p.gender && !gen.includes(p.gender as string)) return false;
+      return true;
+    };
+
+    const writeForm = (p: Partial<Profile>) => {
+      if (p.dob) root.querySelector<HTMLInputElement>('#dob')!.value = p.dob;
+      if (p.category) root.querySelector<HTMLSelectElement>('#category')!.value = p.category;
+      if (p.gender) root.querySelector<HTMLSelectElement>('#gender')!.value = p.gender;
+      if (p.qualification) root.querySelector<HTMLSelectElement>('#qualification')!.value = p.qualification;
+      root.querySelector<HTMLInputElement>('#pwd')!.checked = Boolean(p.pwd);
+      root.querySelector<HTMLInputElement>('#exsm')!.checked = Boolean(p.exServicemen);
+      root.querySelector<HTMLInputElement>('#widow')!.checked = Boolean(p.destituteWidow);
+      root.querySelector<HTMLInputElement>('#teacher')!.checked = Boolean(p.servingTeacher);
+    };
+
+    /**
+     * Date of birth, community and disability status are never written into the
+     * URL: a shared link would disclose caste and disability to whoever opens it.
+     * Preferences are kept in this browser only.
+     */
+    let saved: Partial<Profile> | null = null;
+    try {
+      saved = JSON.parse(localStorage.getItem(STORAGE) ?? 'null');
+    } catch {
+      saved = null;
+    }
+
+    if (saved && isValidProfile(saved)) {
+      writeForm(saved);
+      void run(false);
+    }
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      void run(true);
+    });
+
+    resetBtn?.addEventListener('click', () => {
+      localStorage.removeItem(STORAGE);
+      localStorage.removeItem(VISIT);
+      location.href = location.pathname;
+    });
+
+    copyBtn?.addEventListener('click', async () => {
+      await navigator.clipboard.writeText(`${location.origin}${location.pathname}`);
+      copyBtn.textContent = 'Copied';
+      setTimeout(() => (copyBtn.textContent = 'Copy link to this page'), 1800);
+    });
+
+    async function run(pushState: boolean) {
+      const dobInput = root.querySelector<HTMLInputElement>('#dob')!;
+      if (!dobInput.value) {
+        results.innerHTML = '<p class="callout" style="margin:0">Enter a date of birth. It is the only field the age conditions require.</p>';
+        dobInput.focus();
+        return;
+      }
+      const profile = readForm();
+      results.innerHTML = '<p class="muted small" style="padding:10px 0">Checking against the recorded notifications.</p>';
+
+      let list: Exam[];
+      try {
+        list = await load();
+      } catch (err) {
+        results.innerHTML = `<div class="callout" style="margin:0"><strong>The dataset could not be loaded.</strong> ${escapeHtml(
+          (err as Error).message,
+        )}. Check the connection and <button type="button" class="btn btn-sm js-retry">try again</button>.</div>`;
+        results.querySelector('.js-retry')?.addEventListener('click', () => void run(pushState));
+        return;
+      }
+
+      const verdicts = rankVerdicts(list.map((e) => evaluateExam(e, profile)), list);
+      const eligible = verdicts.filter((v) => v.status === 'eligible');
+      const partial = verdicts.filter((v) => v.status === 'partial');
+      const needsCheck = verdicts.filter((v) => v.status === 'needs_check');
+      const ineligible = verdicts.filter((v) => v.status === 'ineligible');
+
+      localStorage.setItem(STORAGE, JSON.stringify(profile));
+      copyBtn!.hidden = false;
+      resetBtn!.hidden = false;
+
+      const since = Number(localStorage.getItem(VISIT) ?? '0');
+      localStorage.setItem(VISIT, String(Date.now()));
+      const changesSince = since
+        ? (window.__examlensChanges ?? []).filter((c) => Date.parse(c.detectedAt) > since)
+        : [];
+
+      results.innerHTML = `
+        <h2 class="rule-title" style="margin-top:4px">Result</h2>
+        <div class="result-head">
+          <p class="result-count">
+            <strong>${eligible.length}</strong> ${eligible.length === 1 ? 'examination' : 'examinations'} you can apply for${
+              partial.length ? `, <strong>${partial.length}</strong> for some posts only` : ''
+            }${needsCheck.length ? `, <strong>${needsCheck.length}</strong> needing one detail checked` : ''}.
+          </p>
+          <p class="small muted">
+            Age calculated on each notification's own cut-off date, for
+            ${escapeHtml(CATEGORY_LABELS[profile.category])} candidates whose highest qualification is
+            ${escapeHtml(QUALIFICATION_LABELS[profile.qualification].toLowerCase())}.
+          </p>
+          ${changesSince.length ? `<p class="small"><a href="/changes">${changesSince.length} change${changesSince.length === 1 ? '' : 's'}</a> recorded since your last visit.</p>` : ''}
+        </div>
+        ${group('Eligible', [...eligible, ...partial])}
+        ${group('Verify one detail before applying', needsCheck)}
+        ${group('Not eligible on the recorded conditions', ineligible)}
+      `;
+
+      if (!eligible.length && !partial.length && !needsCheck.length) {
+        results.insertAdjacentHTML(
+          'beforeend',
+          '<p class="small muted">No recorded examination matches these details. The change log records new notifications as they are published.</p>',
+        );
+      }
+    }
+
+    function group(title: string, verdicts: ReturnType<typeof evaluateExam>[]): string {
+      if (!verdicts.length) return '';
+      return `
+        <section class="verdict-group">
+          <h3 class="verdict-group-title">${escapeHtml(title)} <span class="muted">(${verdicts.length})</span></h3>
+          <div class="verdict-list">
+            ${verdicts.map((v) => verdictRow(v)).join('')}
+          </div>
+        </section>`;
+    }
+
+    function verdictRow(v: ReturnType<typeof evaluateExam>): string {
+      const rule = v.rules.find((r) => r.ageStatus === 'pass') ?? v.rules[0];
+      const label =
+        v.status === 'eligible' ? 'Eligible'
+          : v.status === 'partial' ? 'Some posts'
+          : v.status === 'needs_check' ? 'Verify'
+          : 'Not eligible';
+      const cls =
+        v.status === 'eligible' ? 'tag-ok'
+          : v.status === 'ineligible' ? 'tag-bad'
+          : 'tag-warn';
+      const ageLine = rule
+        ? `Age ${v.ageAtCutoff} on the cut-off date; limit ${rule.maxAge ?? 'none'}${rule.concession ? ` (${escapeHtml(rule.concession)})` : ''}`
+        : '';
+      return `
+        <article class="verdict" data-exam="${escapeHtml(v.examId)}">
+          <div class="verdict-head">
+            <div>
+              <h4><a href="/exams/${escapeHtml(v.slug)}">${escapeHtml(v.shortName)}</a></h4>
+              <div class="small muted">${escapeHtml(v.headline)}${ageLine ? ` · ${ageLine}` : ''}</div>
+            </div>
+            <span class="tag ${cls}">${label}</span>
+          </div>
+          ${
+            v.blockers.length
+              ? `<p class="small verdict-reason">${escapeHtml(v.blockers[0])}</p>`
+              : v.nearMiss
+                ? `<p class="small muted verdict-reason">${escapeHtml(v.nearMiss)}</p>`
+                : ''
+          }
+          <details class="disclosure" style="margin-top:6px">
+            <summary>Conditions applied</summary>
+            <ul class="criteria">
+              ${v.criteria
+                .map(
+                  (c) => `<li class="c-${c.status}">
+                    <span class="crit-status">${c.status === 'pass' ? 'Pass' : c.status === 'fail' ? 'Fail' : c.status === 'unknown' ? 'Check' : 'Note'}</span>
+                    <span class="crit-label">${escapeHtml(c.label)}</span>
+                    <span class="crit-detail">${escapeHtml(c.detail)}</span>
+                    ${c.source?.quote ? `<span class="crit-source">Source: <a href="${escapeHtml(c.source.url ?? '#')}" target="_blank" rel="noopener">official document${c.source.page ? `, page ${c.source.page}` : ''}</a></span>` : ''}
+                  </li>`,
+                )
+                .join('')}
+            </ul>
+          </details>
+        </article>`;
+    }
+  }
+
+  function escapeHtml(input: string | undefined | null): string {
+    return String(input ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!);
+  }
+
+  declare global {
+    interface Window {
+      __examlensChanges?: Array<{ examId: string; detectedAt: string }>;
+    }
+  }
+  fetch('/api/v1/changes.json')
+    .then((r) => (r.ok ? r.json() : null))
+    .then((d) => {
+      if (d?.changes) window.__examlensChanges = d.changes;
+    })
+    .catch(() => {});
+</script>
+
+<style>
+  .checker { border: 1px solid var(--ink); padding: 16px; background: #fff; }
+  .checker-extras {
+    border: 1px solid var(--rule);
+    padding: 8px 10px 10px;
+    margin: 4px 0 12px;
+  }
+  .checker-legend {
+    font-size: 0.76rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    padding: 0 4px;
+  }
+  .checker-actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .checker-results { margin-top: 16px; }
+  .checker-results:empty { display: none; }
+  .result-head { border-bottom: 1px solid var(--rule); padding-bottom: 10px; margin-bottom: 12px; }
+  .result-count { margin: 0 0 4px; font-size: 0.95rem; }
+  .verdict-group { margin-top: 16px; }
+  .verdict-group-title {
+    font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em;
+    color: var(--muted); font-weight: 600; border-bottom: 1px solid var(--rule);
+    padding-bottom: 3px; margin-bottom: 8px;
+  }
+  .verdict { border: 1px solid var(--rule); padding: 10px 12px; margin-bottom: 8px; }
+  .verdict-head { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
+  .verdict h4 { margin: 0 0 2px; font-size: 0.95rem; font-weight: 600; }
+  .verdict h4 a { color: var(--ink); text-decoration: none; }
+  .verdict h4 a:hover { text-decoration: underline; }
+  .verdict-reason { margin: 6px 0 0; }
+  .criteria { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+  .criteria li { font-size: 0.84rem; }
+  .crit-status { display: inline-block; min-width: 52px; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+  .criteria .c-pass .crit-status { color: var(--ok); }
+  .criteria .c-fail .crit-status { color: var(--bad); }
+  .criteria .c-unknown .crit-status { color: var(--warn); }
+  .crit-label { font-weight: 600; }
+  .crit-label::after { content: ': '; }
+  .crit-detail { color: var(--ink-2); }
+  .crit-source { display: block; font-size: 0.76rem; color: var(--muted); }
+</style>

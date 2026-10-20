@@ -1,0 +1,147 @@
+---
+import Base from '../layouts/Base.astro';
+import { getDataset } from '../lib/server/data';
+import { stalenessLabel } from '../lib/presentation';
+import { formatDate, formatRelative } from '../lib/core/dates';
+
+const ds = getDataset();
+const fresh = ds.freshness;
+const reports = ds.citations;
+const allSources = fresh?.sources ?? [];
+const okCount = allSources.filter((s) => s.ok).length;
+const issueCount = reports.reduce((n, r) => n + r.issues.length, 0);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'Source health — ExamLens Tamil Nadu',
+  description: 'Every official document ExamLens reads, when it was last checked, and whether its contents still match the rules we publish.',
+};
+---
+<Base
+  title="Source health — every official document we read | ExamLens"
+  description="The full list of Tamil Nadu government sources ExamLens monitors, with last-checked timestamps, HTTP status and citation verification results."
+  jsonLd={jsonLd}
+>
+  <div class="wrap" style="padding-block:clamp(1.6rem,4vw,2.6rem)">
+    <p class="section-label">Trust, in the open</p>
+    <h1>Sources we read</h1>
+    <p class="lede">
+      A rule that has quietly changed is worse than no rule at all. The checking is therefore
+      published in full: every document, when it was last read, and whether the sentences quoted
+      from it can still be found.
+    </p>
+
+    <div class="summary-grid">
+      <div class="card card-flat">
+        <span class="tiny muted">Boards polled</span>
+        <b class="big-num">{allSources.length}</b>
+        <span class="tiny muted">{okCount} responding normally</span>
+      </div>
+      <div class="card card-flat">
+        <span class="tiny muted">Exams with a citation report</span>
+        <b class="big-num">{reports.length}</b>
+        <span class="tiny muted">{reports.filter((r) => r.ok).length} fully matching</span>
+      </div>
+      <div class="card card-flat">
+        <span class="tiny muted">Unresolved citations</span>
+        <b class="big-num" style={issueCount ? 'color:var(--bad)' : ''}>{issueCount}</b>
+        <span class="tiny muted">{issueCount ? 'review required' : 'nothing to fix'}</span>
+      </div>
+      <div class="card card-flat">
+        <span class="tiny muted">Last pipeline run</span>
+        <b class="big-num" style="font-size:1.15rem" data-rel={fresh?.generatedAt ?? undefined}>
+          {fresh?.generatedAt ? formatRelative(fresh.generatedAt) : '—'}
+        </b>
+        <span class="tiny muted">{fresh?.generatedAt ? formatDate(fresh.generatedAt.slice(0, 10)) : 'never'}</span>
+      </div>
+    </div>
+
+    <h2 style="margin-top:34px;font-size:1.3rem">Board endpoints</h2>
+    {allSources.length === 0 ? (
+      <div class="callout"><strong>No run recorded yet.</strong> Run <code>pnpm refresh</code> to produce the first freshness report.</div>
+    ) : (
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Source</th><th>Status</th><th>Content hash</th><th>Last checked</th></tr>
+          </thead>
+          <tbody>
+            {allSources.map((s) => (
+              <tr>
+                <td>
+                  <a href={s.url} target="_blank" rel="noopener">{s.name}</a>
+                  {s.error && <div class="tiny" style="color:var(--bad)">{s.error}</div>}
+                </td>
+                <td>
+                  {s.ok
+                    ? <span class="badge badge-ok">OK{s.httpStatus ? ` · ${s.httpStatus}` : ''}</span>
+                    : <span class="badge badge-bad">Failing{s.httpStatus ? ` · ${s.httpStatus}` : ''}</span>}
+                </td>
+                <td class="tiny num muted">{s.contentHash?.slice(0, 12) ?? '—'}</td>
+                <td class="tiny nowrap"><span data-rel={s.checkedAt}>{formatRelative(s.checkedAt)}</span></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    )}
+
+    <h2 style="margin-top:38px;font-size:1.3rem">Citation verification, per exam</h2>
+    <p class="small muted" style="max-width:70ch">
+      Each row shows how many quoted sentences were searched for in the freshly downloaded PDF, and how many were found.
+      A failure does not delete the rule — it raises a visible warning on the exam page until a human reviews the new document.
+    </p>
+
+    <div class="source-cards">
+      {reports.map((r) => {
+        const exam = ds.exams.find((e) => e.id === r.examId);
+        const passed = r.sources.reduce((n, s) => n + s.citationsPassed, 0);
+        const total = r.sources.reduce((n, s) => n + s.citationsChecked, 0);
+        return (
+          <article class="card card-flat source-card">
+            <div class="source-card-head">
+              <a href={exam ? `/exams/${exam.slug}` : '#'} style="font-weight:650;color:var(--ink);text-decoration:none">
+                {exam?.shortName ?? r.examId}
+              </a>
+              {r.ok ? <span class="badge badge-ok">All quotes found</span> : <span class="badge badge-bad">{r.issues.length} issue{r.issues.length === 1 ? '' : 's'}</span>}
+            </div>
+            <p class="tiny muted" style="margin:4px 0 8px">
+              {passed}/{total} citations matched · checked <span data-rel={r.checkedAt}>{formatRelative(r.checkedAt)}</span>
+            </p>
+            <ul class="src-list">
+              {r.sources.map((s) => (
+                <li>
+                  <span class={s.ok ? 'tag tag-ok' : 'tag tag-bad'}>{s.ok ? 'OK' : 'FAIL'}</span>
+                  <span class="tiny">
+                    {s.kind.toUpperCase()} · {s.pageCount ? `${s.pageCount} pages · ` : ''}
+                    {s.notModified ? 'unchanged (304)' : s.bytes ? `${Math.round(s.bytes / 1024)} KB` : s.error ?? '—'}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </article>
+        );
+      })}
+    </div>
+
+    <div class="callout" style="margin-top:30px">
+      <strong>Found a mistake?</strong> Government PDFs occasionally change without a new filename, and Tamil-language
+      PDFs sometimes have text layers that cannot be quoted. If a number here disagrees with the notification, the
+      notification wins — <a href="/method#corrections">tell us which one</a> and it is corrected in the next run.
+    </div>
+  </div>
+</Base>
+
+<style>
+  .summary-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; margin-top: 20px; background: var(--rule); border: 1px solid var(--rule); }
+  @media (max-width: 780px) { .summary-grid { grid-template-columns: repeat(2, 1fr); } }
+  .big-num { display: block; font-size: 1.7rem; line-height: 1.1; margin: 4px 0 2px; font-variant-numeric: tabular-nums; }
+  .summary-grid > .card { border: 0; }
+  .source-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; margin-top: 16px; }
+  .source-card-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .src-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 3px; }
+  .src-list li { display: flex; gap: 7px; align-items: baseline; }
+  .src-ok { color: var(--link); font-size: 0.7rem; }
+  .src-bad { color: var(--bad); font-size: 0.7rem; }
+</style>

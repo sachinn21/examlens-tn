@@ -1,0 +1,239 @@
+{
+  "id": "tnpsc-ctse-noninterview-2026",
+  "board": "tnpsc",
+  "boardName": "Tamil Nadu Public Service Commission",
+  "name": "Combined Technical Services Examination (Non-Interview Posts), Notification No. 04/2026",
+  "shortName": "TNPSC CTSE (Non-Interview) 2026",
+  "notificationNo": "04/2026",
+  "slug": "tnpsc-ctse-noninterview-2026",
+  "year": 2026,
+  "status": "archived",
+  "level": "technical",
+  "summary": "461 engineering, science and technical posts filled without an interview — Assistant Engineer, Assistant Geologist, Drug Inspector, Agriculture Officer and similar. Written examination only.",
+  "whyItMatters": "This is the notification where the age rules are least uniform: the general ceiling is 32, but for reserved categories most posts carry no maximum at all, defined as 60 years, and a handful of technical posts sit above 32 even for general candidates.",
+  "dates": {
+    "notification": "2026-05-20",
+    "applyStart": "2026-05-27",
+    "applyEnd": "2026-06-25",
+    "examDate": "2026-08-16",
+    "examDateRaw": "16.08.2026 FN to 20.08.2026 FN & AN, 07.09.2026 FN & AN to 12.09.2026 AN and 19.09.2026 FN & AN",
+    "resultDate": null,
+    "cutoffAgeDate": "2026-07-01"
+  },
+  "vacancies": {
+    "total": 461,
+    "note": "Total row of the vacancy table. The Commission states the figure is tentative and liable to modification before certificate verification or counselling.",
+    "breakdown": []
+  },
+  "fee": {
+    "amount": 100,
+    "note": "₹100 examination fee, plus ₹100 for each additional subject paper. The one-time registration fee is ₹150. Confirm in the notification."
+  },
+  "hasAgeLimit": true,
+  "ageRules": [
+    {
+      "id": "standard-posts",
+      "label": "Standard technical posts (Assistant Engineer, Assistant Geologist, Drug Inspector and most others)",
+      "appliesTo": {
+        "postCodes": [],
+        "postNames": [],
+        "gender": "any"
+      },
+      "cutoff": "2026-07-01",
+      "minAge": 21,
+      "maxAge": {
+        "general": 32,
+        "bc": 60,
+        "bcm": 60,
+        "mbc_dc": 60,
+        "sc": 60,
+        "sca": 60,
+        "st": 60
+      },
+      "concessions": {
+        "pwd": {
+          "mode": "absolute",
+          "value": 42,
+          "byCategory": {
+            "general": 42,
+            "bc": 60,
+            "bcm": 60,
+            "mbc_dc": 60,
+            "sc": 60,
+            "sca": 60,
+            "st": 60
+          }
+        },
+        "exServicemen": {
+          "mode": "absolute",
+          "value": 50,
+          "byCategory": {
+            "general": 50,
+            "bc": 60,
+            "bcm": 60,
+            "mbc_dc": 60,
+            "sc": 60,
+            "sca": 60,
+            "st": 60
+          }
+        },
+        "destituteWidow": {
+          "mode": "absolute",
+          "value": 37,
+          "byCategory": {
+            "general": 37,
+            "bc": 60,
+            "bcm": 60,
+            "mbc_dc": 60,
+            "sc": 60,
+            "sca": 60,
+            "st": 60
+          }
+        }
+      },
+      "notes": "The general-category ceiling is 32. For SC, SC(A), ST, MBC/DC, BC(OBCM) and BCM candidates most posts print ‘No maximum age limit’, defined in para 4.1.3 as not having completed 60 years. Only posts 3269 and 3606 carry numeric reserved limits (37, with PwBD 47, ex-servicemen 55 and destitute widow 39).",
+      "citation": {
+        "quote": "The candidates should have completed the age of 21 years for all the posts.",
+        "page": 5,
+        "values": [
+          21,
+          32,
+          42,
+          50
+        ]
+      }
+    },
+    {
+      "id": "general-exceptions",
+      "label": "Posts with a higher general ceiling (Junior Photographer, AE Industries, System Manager, agriculture officers)",
+      "appliesTo": {
+        "postCodes": [
+          "3805",
+          "1900",
+          "3664",
+          "1678",
+          "3001"
+        ],
+        "postNames": [
+          "Junior Photographer",
+          "Assistant Engineer (Industries)",
+          "System Manager",
+          "Agriculture Officer (Extension)",
+          "Horticultural Officer"
+        ],
+        "gender": "any"
+      },
+      "cutoff": "2026-07-01",
+      "minAge": 21,
+      "maxAge": {
+        "general": 42,
+        "bc": 60,
+        "bcm": 60,
+        "mbc_dc": 60,
+        "sc": 60,
+        "sca": 60,
+        "st": 60
+      },
+      "concessions": {
+        "pwd": {
+          "mode": "absolute",
+          "value": 52,
+          "byCategory": {
+            "general": 52,
+            "bc": 60,
+            "bcm": 60,
+            "mbc_dc": 60,
+            "sc": 60,
+            "sca": 60,
+            "st": 60
+          }
+        },
+        "exServicemen": {
+          "mode": "absolute",
+          "value": 50
+        },
+        "destituteWidow": {
+          "mode": "absolute",
+          "value": 60
+        }
+      },
+      "notes": "Junior Photographer is 42 (PwBD 52). Assistant Engineer (Industries) is 37 and System Manager 35. Agriculture Officer (Extension) and Horticultural Officer are 32, raised to 34 for a relevant postgraduate degree or Ph.D.",
+      "citation": {
+        "quote": "Age Concession",
+        "page": 6,
+        "values": [
+          42,
+          52
+        ],
+        "note": "Table column heading; the exceptional values are verified against the numbers on this page."
+      }
+    }
+  ],
+  "qualifications": [
+    {
+      "postCodes": [],
+      "postNames": [],
+      "minLevel": "degree",
+      "fieldSpecific": true,
+      "summary": "Every post requires a degree-level technical qualification — mostly B.E./B.Tech. in a named branch, or an M.Sc. in a named science subject. No post in this notification is open on a diploma alone. The exact branch matters and is printed against each post code.",
+      "acceptedAlternatives": [],
+      "citation": {
+        "quote": "(i) Must possess the B.E degree in Civil Engineering or Civil and Structural Engineering;",
+        "page": 12,
+        "values": []
+      }
+    }
+  ],
+  "specialRequirements": [
+    {
+      "id": "tamil-eligibility",
+      "label": "Tamil language requirement",
+      "severity": "blocking",
+      "autoCheck": "tamil-sslc",
+      "detail": "Tamil eligibility is tested in the written examination; candidates who did not study Tamil to SSLC must pass the Second Class Language Test.",
+      "citation": {
+        "quote": "Second Class Language Test",
+        "page": 17,
+        "values": []
+      }
+    },
+    {
+      "id": "no-pwd-posts",
+      "label": "Some posts are not open to persons with benchmark disability",
+      "severity": "blocking",
+      "autoCheck": "no-pwd",
+      "detail": "The notification marks PwBD as not applicable for several posts, including Librarian, Assistant Librarian, Translator, Statistical Assistant, Assistant Director (Industrial Safety and Health) and Assistant Engineer (Civil)."
+    }
+  ],
+  "selectionProcess": [
+    "Written examination (OMR)",
+    "Certificate verification"
+  ],
+  "officialLinks": {
+    "notification": "https://tnpsc.gov.in/document/english/CTS(Non%20Interview)%20English%20Final_.pdf",
+    "apply": "https://apply.tnpscexams.in/secure?app_id=UElZMDAwMDAwMQ==",
+    "board": "https://tnpsc.gov.in/",
+    "syllabus": null
+  },
+  "sources": [
+    {
+      "id": "notification",
+      "authority": "Tamil Nadu Public Service Commission",
+      "title": "Notification No. 04/2026 — CTSE (Non-Interview Posts)",
+      "url": "https://tnpsc.gov.in/document/english/CTS(Non%20Interview)%20English%20Final_.pdf",
+      "kind": "pdf",
+      "language": "en",
+      "locator": "Para 3 (vacancies), para 4.1 (age), para 4.2 (qualifications)"
+    },
+    {
+      "id": "dashboard",
+      "authority": "Tamil Nadu Public Service Commission",
+      "title": "Exam dashboard — application window and exam dates",
+      "url": "https://tnpsc.gov.in/web/examdashboard/index.aspx?key=ksojs2efre3WFDsw5",
+      "kind": "html",
+      "language": "en"
+    }
+  ],
+  "maintenance": "verified",
+  "editorialNote": "Two age rules are modelled because the notification genuinely splits the cohort: a standard ceiling of 32 (37 reserved) and a defined no-maximum ceiling of 60 for the posts marked that way."
+}

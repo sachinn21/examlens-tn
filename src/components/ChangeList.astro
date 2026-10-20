@@ -1,0 +1,47 @@
+---
+import type { ChangeEvent } from '../lib/core/types';
+import { getDataset } from '../lib/server/data';
+import { CHANGE_LABEL, changeTone } from '../lib/presentation';
+import { formatDate, formatRelative } from '../lib/core/dates';
+
+interface Props {
+  changes: ChangeEvent[];
+  limit?: number;
+  showExam?: boolean;
+  emptyText?: string;
+}
+const { changes, limit, showExam = true, emptyText = 'No changes logged yet.' } = Astro.props;
+const items = limit ? changes.slice(0, limit) : changes;
+const slugById = new Map(getDataset().exams.map((e) => [e.id, e.slug]));
+const hrefFor = (id: string) => (slugById.has(id) ? `/exams/${slugById.get(id)}` : `/changes?exam=${id}`);
+const toneClass: Record<string, string> = { ok: 'badge-ok', warn: 'badge-warn', bad: 'badge-bad', neutral: 'badge-neutral' };
+---
+{items.length === 0 ? (
+  <p class="muted small">{emptyText}</p>
+) : (
+  <ol class="timeline">
+    {items.map((c) => (
+      <li class={`k-${c.kind}`}>
+        <div class="change-when">
+          <time datetime={c.effectiveAt ?? c.detectedAt}>{formatDate((c.effectiveAt ?? c.detectedAt).slice(0, 10))}</time>
+          {c.effectiveAt && <span class="muted"> · published</span>}
+          <span class="muted"> · first logged <span data-rel={c.detectedAt}>{formatRelative(c.detectedAt)}</span></span>
+        </div>
+        <div class="change-summary">
+          <span class={`badge ${toneClass[changeTone(c.kind)]}`} style="margin-right:6px">{CHANGE_LABEL[c.kind]}</span>
+          {showExam && <a href={hrefFor(c.examId)} style="color:var(--ink);text-decoration:none;font-weight:650">{c.examName}</a>}
+          {showExam && <span class="muted">: </span>}
+          <span>{c.summary}</span>
+        </div>
+        {c.before && c.after && (
+          <div class="change-diff">
+            <del>{c.before}</del> <span>to</span> <ins>{c.after}</ins>
+          </div>
+        )}
+        {c.evidence && <blockquote class="evidence">{c.evidence}</blockquote>}
+        <a class="tiny" href={c.sourceUrl} target="_blank" rel="noopener">Source: {c.sourceTitle.length > 90 ? c.sourceTitle.slice(0, 89) + '…' : c.sourceTitle}</a>
+        {c.confidence !== 'official' && <span class="badge badge-warn tiny" style="margin-left:8px">parsed</span>}
+      </li>
+    ))}
+  </ol>
+)}

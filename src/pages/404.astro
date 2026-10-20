@@ -1,0 +1,15 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Page not found | ExamLens" description="That page does not exist. Browse the exam list or the change log." noindex={true}>
+  <div class="wrap narrow" style="padding-block:80px">
+    <p class="section-label">404</p>
+    <h1>That page moved or never existed</h1>
+    <p class="lede">Exam notifications get renumbered and archived. Try the exam list, the change log, or search the dataset.</p>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:20px">
+      <a class="btn btn-accent" href="/exams">All exams</a>
+      <a class="btn" href="/check">Check eligibility</a>
+      <a class="btn" href="/changes">Change log</a>
+    </div>
+  </div>
+</Base>

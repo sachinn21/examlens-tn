@@ -1,0 +1,184 @@
+---
+import '../styles/global.css';
+import { getDataset } from '../lib/server/data';
+import { formatRelative, formatDate } from '../lib/core/dates';
+
+interface Props {
+  title: string;
+  description: string;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  noindex?: boolean;
+  ogType?: string;
+  path?: string;
+}
+
+const { title, description, jsonLd, noindex = false, ogType = 'website', path } = Astro.props;
+const site = Astro.site ?? new URL('https://examlens.pages.dev');
+const cleanPath = (path ?? Astro.url.pathname).replace(/\/index\.html$/, '/').replace(/\.html$/, '');
+const canonical = new URL(cleanPath, site).toString();
+const dataset = getDataset();
+const generatedAt = dataset.generatedAt;
+
+const nav = [
+  { href: '/exams', label: 'Exams' },
+  { href: '/check', label: 'Eligibility' },
+  { href: '/changes', label: 'Change log' },
+  { href: '/sources', label: 'Sources' },
+  { href: '/method', label: 'Method' },
+];
+const current = Astro.url.pathname.replace(/\/$/, '') || '/';
+const blocks = Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : [];
+// JSON.stringify does not escape "<", so scraped text containing "</script>"
+// could close the JSON-LD block. Escape the characters that matter.
+const ld = (b: unknown) =>
+  JSON.stringify(b)
+    .replace(/</g, '\\u003c')
+    .replace(/\u2028/g, '\\u2028')
+    .replace(/\u2029/g, '\\u2029');
+---
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex,follow" />}
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="generator" content="Astro" />
+
+    <meta property="og:type" content={ogType} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content="en_IN" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title="ExamLens change log" href="/changes.xml" />
+    <link rel="alternate" type="text/plain" title="llms.txt" href="/llms.txt" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    {generatedAt && <meta name="dcterms.modified" content={generatedAt} />}
+
+    {blocks.map((block) => (
+      <script type="application/ld+json" set:html={ld(block)} />
+    ))}
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <div class="utility">
+      <div class="wrap">
+        <span><strong>Independent public-interest mirror.</strong> Not a Government of Tamil Nadu website.</span>
+        <span class="sep" aria-hidden="true">|</span>
+        <span>
+          {generatedAt
+            ? <>Dataset last verified <time datetime={generatedAt}>{formatDate(generatedAt.slice(0, 10))}</time> (<span data-rel={generatedAt}>{formatRelative(generatedAt)}</span>)</>
+            : 'Dataset awaiting first refresh'}
+        </span>
+        <span class="sep" aria-hidden="true">|</span>
+        <span>{dataset.counts.verifiedExams} notifications with verified rules · {dataset.counts.changes} recorded changes</span>
+      </div>
+    </div>
+
+    <header class="masthead">
+      <div class="wrap">
+        <a class="wordmark" href="/" aria-label="ExamLens home">
+          <span class="name">ExamLens</span>
+          <span class="sub">Tamil Nadu state examinations · eligibility and notification record</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary">
+          {nav.map((item) => (
+            <a href={item.href} aria-current={current === item.href || current.startsWith(item.href + '/') ? 'page' : undefined}>
+              {item.label}
+            </a>
+          ))}
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <slot />
+    </main>
+
+    <footer class="footer">
+      <div class="wrap">
+        <div class="footer-grid">
+          <div>
+            <h2>About this site</h2>
+            <p style="margin-top:0;max-width:46ch">
+              ExamLens reproduces the eligibility conditions and dates published by Tamil Nadu
+              recruitment boards, with a verbatim quotation from the source document for every
+              rule, and a dated record of each change.
+            </p>
+            <p class="tiny muted">
+              Independent project. Not affiliated with TNPSC, TRB, TNUSRB or the Government of Tamil Nadu.
+              The official notification always prevails.
+            </p>
+          </div>
+          <div>
+            <h2>Sections</h2>
+            <ul>
+              <li><a href="/exams">Examinations</a></li>
+              <li><a href="/check">Eligibility check</a></li>
+              <li><a href="/changes">Change log</a></li>
+              <li><a href="/sources">Source status</a></li>
+              <li><a href="/method">Method and corrections</a></li>
+              <li><a href="/calendar.ics">Deadline calendar (.ics)</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2>Data</h2>
+            <ul>
+              <li><a href="/api/v1/exams.json">JSON dataset</a></li>
+              <li><a href="/api/v1/changes.json">Change feed (JSON)</a></li>
+              <li><a href="/data/exams.csv">CSV</a></li>
+              <li><a href="/llms.txt">llms.txt</a></li>
+              <li><a href="/changes.xml">RSS</a></li>
+              <li><a href="/api">API reference</a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="tiny muted" style="margin-top:22px;border-top:1px solid var(--rule);padding-top:12px">
+          Compilation licensed CC BY 4.0. Official notices and PDFs remain the copyright of the issuing authority.
+          Information only; not legal advice.
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      // Countdown and relative timestamps are computed in the browser so a
+      // cached page never states a stale "days left".
+      const rel = (iso: string) => {
+        const d = new Date(iso);
+        const mins = Math.round((Date.now() - d.getTime()) / 60000);
+        if (Number.isNaN(mins)) return '';
+        if (mins < 1) return 'just now';
+        if (mins < 60) return `${mins} min ago`;
+        const h = Math.round(mins / 60);
+        if (h < 24) return `${h} hour${h === 1 ? '' : 's'} ago`;
+        const days = Math.round(h / 24);
+        return `${days} day${days === 1 ? '' : 's'} ago`;
+      };
+      const tick = () => {
+        document.querySelectorAll<HTMLElement>('[data-countdown]').forEach((el) => {
+          const target = new Date(el.dataset.countdown!).getTime();
+          const diff = target - Date.now();
+          if (Number.isNaN(diff)) return;
+          const days = Math.floor(diff / 86400000);
+          const hours = Math.floor((diff % 86400000) / 3600000);
+          el.textContent = diff < 0 ? 'closed' : days > 0 ? `${days} days left` : `${hours} hours left`;
+        });
+        document.querySelectorAll<HTMLElement>('[data-rel]').forEach((el) => {
+          const t = rel(el.dataset.rel!);
+          if (t) el.textContent = t;
+        });
+      };
+      tick();
+      setInterval(tick, 60000);
+    </script>
+  </body>
+</html>

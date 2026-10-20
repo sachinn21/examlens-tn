@@ -1,0 +1,3733 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-20T05:52:34.831Z",
+  "exams": {
+    "16f23df0-a669-4855-a718-8083a5745077": {
+      "examId": "tnpsc-1-2026",
+      "sourceExamId": "16f23df0-a669-4855-a718-8083a5745077",
+      "title": "RASHTRIYA INDIAN MILITARY COLLEGE, DEHRADUN (JANUARY-2027 TERM) - 01/2026",
+      "docs": [
+        {
+          "id": "1w6hrkdghz16",
+          "category": "Notification",
+          "title": "Notification No. 01/2026",
+          "url": "https://tnpsc.gov.in/document/english/NOTIFICATION-RIMC-English.pdf",
+          "uploadedAt": "2026-02-13",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        }
+      ],
+      "examDateRaw": "07/06/2026",
+      "applyRaw": null,
+      "fetchedAt": "2026-10-20T05:52:34.831Z",
+      "sourceUrl": "https://tnpsc.gov.in/web/examdashboard/index.aspx?notid=16f23df0-a669-4855-a718-8083a5745077"
+    },
+    "024fc5d2-a6b0-4c29-93db-979bf485d544": {
+      "examId": "tnpsc-ctse-noninterview-2026",
+      "sourceExamId": "024fc5d2-a6b0-4c29-93db-979bf485d544",
+      "title": "COMBINED TECHNICAL SERVICES EXAMINATION (NON – INTERVIEW POSTS) - 04/2026",
+      "docs": [
+        {
+          "id": "4sc11lokumtv",
+          "category": "Tentative Answer Key",
+          "title": "Tentative Answer Key",
+          "url": null,
+          "uploadedAt": "2026-10-07",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "2ptxesvx7wtq",
+          "category": "Question Papers",
+          "title": "Descriptive Type (Translation)",
+          "url": "https://www.tnpsc.gov.in/English/descriptive-questions.html",
+          "uploadedAt": "2026-10-06",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "10jsgi011cj6",
+          "category": "Question Papers",
+          "title": "Without Tentative Answer keys",
+          "url": "https://tnpsc.gov.in/english/question_paper_withoutkey.html",
+          "uploadedAt": "2026-08-19",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "ag7y82w89i4w",
+          "category": "Press Release",
+          "title": "Combined Technical Services Examination (Non Interview Posts) vide., Notification No.04/2026, dated: 20.05.2026. Computer Based Test (CBT), Objective Type (OMR) and Descriptive Type Examination for the said posts is scheduled to be held from 16.08.2026 FN to 20.08.2026 FN & AN, 07.09.2026 FN & AN to 12.09.2026 AN and 19.09.2026 FN & AN. Download Hall Ticket – Press release regarding.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Press%20Release%20English.pdf",
+          "uploadedAt": "2026-08-06",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1wopnqv1acrr",
+          "category": "Hall Ticket",
+          "title": "Hall Ticket for Written Examination",
+          "url": "https://apply.tnpscexams.in/otr?app_id=UElZMDAwMDAwMQ==",
+          "uploadedAt": "2026-08-06",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1no97dq15lwd",
+          "category": "Addendum",
+          "title": "Addendum for Notification No. 04/2026 ADDENDUM (4B/2026)",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum%204B.pdf",
+          "uploadedAt": "2026-07-16",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1x9cvcw1q6m1",
+          "category": "Press Release",
+          "title": "Press release regarding the publication of Addendum No.4A/2026 to the posts in Combined Technical Services Examination (Non-Interview Posts) (Notification No.4/2026).",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/4A-26-Addendum%20-press%20release.pdf",
+          "uploadedAt": "2026-06-11",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "b9zffcslxfwa",
+          "category": "Addendum",
+          "title": "Addendum for Notification No. 04/2026 ADDENDUM (4A/2026)",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum%204A-2026.pdf",
+          "uploadedAt": "2026-06-11",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "ff3vpeavsgz",
+          "category": "Notification",
+          "title": "Notification No. 04/2026",
+          "url": "https://tnpsc.gov.in/document/english/CTS(Non%20Interview)%20English%20Final_.pdf",
+          "uploadedAt": "2026-05-20",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1pnndtvd3i6i",
+          "category": "Press Release",
+          "title": "Press release regarding the publication of Notification to the post in Combined Technical Services Examination (Non-Interview Posts ) (Notification No.4/2026).",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Press_Release_51_2026.pdf",
+          "uploadedAt": "2026-05-20",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        }
+      ],
+      "examDateRaw": "16.08.2026 FN to 20.08.2026 FN & AN, 07.09.2026 FN & AN to 12.09.2026 AN and 19.09.2026 FN & AN",
+      "applyRaw": "Date of commencement of receiving application : 27.05.2026 Last date and time for submission of online application : 25.06.2026 11.59 PM",
+      "fetchedAt": "2026-10-20T05:52:34.831Z",
+      "sourceUrl": "https://tnpsc.gov.in/web/examdashboard/index.aspx?notid=024fc5d2-a6b0-4c29-93db-979bf485d544"
+    },
+    "33aa5415-6205-4ae9-842e-212d62d088f1": {
+      "examId": "tnpsc-group-1-2026",
+      "sourceExamId": "33aa5415-6205-4ae9-842e-212d62d088f1",
+      "title": "COMBINED CIVIL SERVICES EXAMINATION – I (GROUP I SERVICES) - 05/2026",
+      "docs": [
+        {
+          "id": "4sc11lokumtv",
+          "category": "Tentative Answer Key",
+          "title": "Tentative Answer Key",
+          "url": null,
+          "uploadedAt": "2026-10-06",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "ejfzqf19wfg0",
+          "category": "Press Release",
+          "title": "Posts in Combined Civil Services Examination-I (Group-I Services), vide., Notification No. 05/2026, dated: 23.06.2026 – Preliminary Examination (Objective Type) (OMR Mode) is scheduled to be held on 27.09.2026 F.N. – Download Hall Ticket – Press release regarding.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Press%20Release%20-%20Prelims%20-%20English.pdf",
+          "uploadedAt": "2026-09-17",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1wopnqv1acrr",
+          "category": "Hall Ticket",
+          "title": "Hall Ticket for Preliminary Examination",
+          "url": "https://apply.tnpscexams.in/otr?app_id=UElZMDAwMDAwMQ==",
+          "uploadedAt": "2026-09-17",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "hl87b410y5tb",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.05/2026 ADDENDUM (5B/2026)",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum%205B%20English.pdf",
+          "uploadedAt": "2026-08-13",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "zq3uwsdxb06u",
+          "category": "Press Release",
+          "title": "Press Release relating to postponement of date of preliminary examination for Combined Civil Services Examination –I (Group I Services) NotificationNo.05/2026, dated 23.06.2026 – Regarding.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/press%20dt%2016.7.26%20(1).pdf",
+          "uploadedAt": "2026-07-16",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "t2slg56znmwb",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.05/2026 ADDENDUM (5A/2026)",
+          "url": "https://tnpsc.gov.in/Document/english/ADDENDUM%205A_16.07.2026.pdf",
+          "uploadedAt": "2026-07-16",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "aq7hxcaoc4xa",
+          "category": "Notification",
+          "title": "Notification No. 05/2026",
+          "url": "https://tnpsc.gov.in/document/english/Group%20I%20Notification%202026_E.pdf",
+          "uploadedAt": "2026-06-23",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "wzkvxrratn85",
+          "category": "Press Release",
+          "title": "Press release regarding the publication of Notification to the posts in Combined Civil Services Examination - I (Group-I Services) (Notification No.5/2026)",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Press%20Release%2020.05.2026.pdf",
+          "uploadedAt": "2026-06-23",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        }
+      ],
+      "examDateRaw": "27/09/2026",
+      "applyRaw": "Date of commencement of receiving application : 30.06.2026 Last date and time for submission of online application : 29.07.2026 11.59 PM",
+      "fetchedAt": "2026-10-20T05:52:34.831Z",
+      "sourceUrl": "https://tnpsc.gov.in/web/examdashboard/index.aspx?notid=33aa5415-6205-4ae9-842e-212d62d088f1"
+    },
+    "ea45cb0a-2d35-4b46-a38d-f05d6ee0965b": {
+      "examId": "tnpsc-ctse-diploma-2026",
+      "sourceExamId": "ea45cb0a-2d35-4b46-a38d-f05d6ee0965b",
+      "title": "COMBINED TECHNICAL SERVICES EXAMINATION (DIPLOMA / ITI LEVEL) - 06/2026",
+      "docs": [
+        {
+          "id": "1yj5eg81azw8",
+          "category": "Question Papers",
+          "title": "Without Tentative Answer keys",
+          "url": "https://tnpsc.gov.in/English/question_paper_withoutkey.html",
+          "uploadedAt": "2026-10-16",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1wopnqv1acrr",
+          "category": "Hall Ticket",
+          "title": "Hall ticket for written examination",
+          "url": "https://apply.tnpscexams.in/otr?app_id=UElZMDAwMDAwMQ==",
+          "uploadedAt": "2026-10-02",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "7s76stya1gvf",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.06/2026 (ADDENDUM (6A/2026)",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum%206A_2026-ENGLISH.pdf",
+          "uploadedAt": "2026-09-18",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "xtkcdl97r2k7",
+          "category": "Notification",
+          "title": "Notification No. 06/2026",
+          "url": "https://tnpsc.gov.in/document/english/CTS%20-%20Diploma-(English).pdf",
+          "uploadedAt": "2026-07-07",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "12msk6yniu8y",
+          "category": "Press Release",
+          "title": "Press release regarding the publication of notification to the posts in Combined Technical Services Examination (Diploma/ITI Level) (Notification No.06/2026).",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Press%20Release%2007.07.2026.pdf",
+          "uploadedAt": "2026-07-07",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        }
+      ],
+      "examDateRaw": null,
+      "applyRaw": "Date of commencement of receiving application : 17.07.2026 Last date and time for submission of online application : 15.08.2026 11.59 PM",
+      "fetchedAt": "2026-10-20T05:52:34.831Z",
+      "sourceUrl": "https://tnpsc.gov.in/web/examdashboard/index.aspx?notid=ea45cb0a-2d35-4b46-a38d-f05d6ee0965b"
+    },
+    "89113de0-6a0e-4d47-a409-c84fb04ef33e": {
+      "examId": "tnpsc-group-2-2026",
+      "sourceExamId": "89113de0-6a0e-4d47-a409-c84fb04ef33e",
+      "title": "COMBINED CIVIL SERVICES EXAMINATION - II (GROUP II AND IIA SERVICES) - 07/2026",
+      "docs": [
+        {
+          "id": "1oh0co015uu3",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.07/2026 ADDENDUM (7A/2026)",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum%207A_2026%20English.pdf",
+          "uploadedAt": "2026-09-03",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "lmqoaa1orgfq",
+          "category": "Notification",
+          "title": "Notification No. 07/2026",
+          "url": "https://tnpsc.gov.in/document/english/07_2026%20Dated_11.08.2026%20English%20version.pdf",
+          "uploadedAt": "2026-08-11",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        }
+      ],
+      "examDateRaw": "01/11/2026",
+      "applyRaw": "Last date and time for submission of online application : 09.09.2026 11.59 P.M.",
+      "fetchedAt": "2026-10-20T05:52:34.831Z",
+      "sourceUrl": "https://tnpsc.gov.in/web/examdashboard/index.aspx?notid=89113de0-6a0e-4d47-a409-c84fb04ef33e"
+    },
+    "cf52b42c-7e4d-4d72-a8bf-77adf8242159": {
+      "examId": "tnpsc-ctse-interview-2026",
+      "sourceExamId": "cf52b42c-7e4d-4d72-a8bf-77adf8242159",
+      "title": "COMBINED TECHNICAL SERVICES EXAMINATION (INTERVIEW POSTS) - 08/2026",
+      "docs": [
+        {
+          "id": "x42jhy6yxl90",
+          "category": "Notification",
+          "title": "Notification No. 08/2026",
+          "url": "https://tnpsc.gov.in/document/english/CTSE%20(Interview%20Posts)%20%20English.pdf",
+          "uploadedAt": "2026-08-31",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        }
+      ],
+      "examDateRaw": null,
+      "applyRaw": "Date of commencement of receiving application : 07.09.2026 Last date and time for submission of online application : 06.10.2026 - 11:59 P.M",
+      "fetchedAt": "2026-10-20T05:52:34.831Z",
+      "sourceUrl": "https://tnpsc.gov.in/web/examdashboard/index.aspx?notid=cf52b42c-7e4d-4d72-a8bf-77adf8242159"
+    },
+    "7a880763-80dc-4c3a-bbbe-81b6a3a75a87": {
+      "examId": "tnpsc-group-4-2026",
+      "sourceExamId": "7a880763-80dc-4c3a-bbbe-81b6a3a75a87",
+      "title": "COMBINED CIVIL SERVICES EXAMINATION - IV (GROUP IV SERVICES) - 11/2026",
+      "docs": [
+        {
+          "id": "1qlbc6ugrcaq",
+          "category": "Notification",
+          "title": "Notification No. 11/2026",
+          "url": "https://tnpsc.gov.in/document/english/group_english.pdf",
+          "uploadedAt": "2026-10-06",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        }
+      ],
+      "examDateRaw": "10/01/2027",
+      "applyRaw": "Date of commencement of receiving application : 06.10.2026 Last date and time for submission of online application : 05.11.2026 - 11:59 P.M",
+      "fetchedAt": "2026-10-20T05:52:34.831Z",
+      "sourceUrl": "https://tnpsc.gov.in/web/examdashboard/index.aspx?notid=7a880763-80dc-4c3a-bbbe-81b6a3a75a87"
+    },
+    "c9c1ee07-50ff-4783-9498-693b83475303": {
+      "examId": "tnpsc-1-2025",
+      "sourceExamId": "c9c1ee07-50ff-4783-9498-693b83475303",
+      "title": "RASHTRIYA INDIAN MILITARY COLLEGE, DEHRADUN (JAN-2026 TERM) - 01/2025",
+      "docs": [
+        {
+          "id": "191ppvob2dpj",
+          "category": "Examination Result",
+          "title": "22/08/2025 - WRITTEN RESULT BOYS",
+          "url": "https://tnpsc.gov.in/document/finalresult/WRITTEN_RESULT_BOYS_OF_RIMC_ENTRANCE_EXAM_JUN_2025.pdf",
+          "uploadedAt": "2025-08-22",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1t7l2wd30279",
+          "category": "Examination Result",
+          "title": "22/08/2025 - WRITTEN RESULT GIRLS",
+          "url": "https://tnpsc.gov.in//document/finalresult/WRITTEN_RESULT_GIRLS_OF_RIMC_ENTRANCE_EXAM_JUN_2025.pdf",
+          "uploadedAt": "2025-08-22",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1yx3x071ae2k",
+          "category": "Notification",
+          "title": "Notification No. 01/2025",
+          "url": "https://tnpsc.gov.in/document/english/2025_01_Notification_English_.pdf",
+          "uploadedAt": "2025-01-21",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        }
+      ],
+      "examDateRaw": "01/06/2025",
+      "applyRaw": null,
+      "fetchedAt": "2026-10-20T05:52:34.831Z",
+      "sourceUrl": "https://tnpsc.gov.in/web/examdashboard/index.aspx?notid=c9c1ee07-50ff-4783-9498-693b83475303"
+    },
+    "1b90abbb-6229-4fca-a211-5ccb85bc8ae5": {
+      "examId": "tnpsc-4-2025",
+      "sourceExamId": "1b90abbb-6229-4fca-a211-5ccb85bc8ae5",
+      "title": "COMBINED CIVIL SERVICES EXAMINATION - I (GROUP - I SERVICES) - 04/2025",
+      "docs": [
+        {
+          "id": "1ckxa1tdxp44",
+          "category": "Result",
+          "title": "16-09-2026 (MAIN)",
+          "url": "https://tnpsc.gov.in/english/checkresult.aspx?key=1b90abbb-6229-4fca-a211-5ccb85bc8ae5&&id=31e6cc6d-cf30-4d33-a774-185b22e4425b",
+          "uploadedAt": "2026-09-16",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "afobkb1im5zm",
+          "category": "Result",
+          "title": "16-09-2026 (PRE)",
+          "url": "https://tnpsc.gov.in/english/checkresult.aspx?key=1b90abbb-6229-4fca-a211-5ccb85bc8ae5&&id=d95431b6-9dd4-42e7-92e6-7dcdacda38d7",
+          "uploadedAt": "2026-09-16",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "m58j41urqhu3",
+          "category": "Final Answer Keys",
+          "title": "FINAL ANSWER KEY (PRELIM)",
+          "url": "https://tnpsc.gov.in/Document/Answerkeyfinalresult/04_2025_GR_I%20and%201A%20FAK.pdf",
+          "uploadedAt": "2026-09-16",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "qeo76k1jyvcx",
+          "category": "Final Result",
+          "title": "16-07-2026 (PUBLICATION-LIST-GROUP-I)",
+          "url": "https://tnpsc.gov.in/document/finalresult/PPUB_LIST_04_2025.pdf",
+          "uploadedAt": "2026-07-16",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "2bmnhj1hpe3e",
+          "category": "Counselling Memo",
+          "title": "Phase : I, 05-06-2026 (DOWNLOAD COUNSELLING MEMO)",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=d40f25f5-9337-436d-9498-2fa2fcba7f10&&keys=e4f7bf29-8874-49b9-b7df-44a9c5eb2acd",
+          "uploadedAt": "2026-06-05",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "n6tz793r33xv",
+          "category": "Oral Test Memo",
+          "title": "Phase : I, 28/04/2026 (Download medical examination memo)",
+          "url": "https://tnpsc.gov.in/english/Checkmemo.aspx?key=1b90abbb-6229-4fca-a211-5ccb85bc8ae5&&type=2&&phase=1adcfc27-d587-45c9-bce1-956ae12fd19c&&valuekey=c442d267-f742-f111-8f12-0a94efa51dc7",
+          "uploadedAt": "2026-04-28",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "h140kh1jiryj",
+          "category": "Oral Test Mark List",
+          "title": "21-04-2026 (RANK-LIST-GROUP-I)",
+          "url": "https://tnpsc.gov.in/document/oraltestmarks/RANKLIST_HOSTING.pdf",
+          "uploadedAt": "2026-04-21",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "j109x71t1kh3",
+          "category": "Oral Test Mark List",
+          "title": "16-04-2026 (CML-GROUP-I-04-2025)",
+          "url": "https://tnpsc.gov.in/document/oraltestmarks/cml_fc_group1.pdf",
+          "uploadedAt": "2026-04-16",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "2dn0yjis9lwt",
+          "category": "Oral Test Memo",
+          "title": "Phase : I, 01/04/2026 (Download PCV and Interview Memo )",
+          "url": "https://tnpsc.gov.in/english/Checkmemo.aspx?key=1b90abbb-6229-4fca-a211-5ccb85bc8ae5&&type=2&&phase=1adcfc27-d587-45c9-bce1-956ae12fd19c&&valuekey=5c8bd285-c52d-f111-8f12-0a94efa51dc7",
+          "uploadedAt": "2026-04-01",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "v2v2bo1voqcb",
+          "category": "Press Release",
+          "title": "Press Release relating to publication of List for Physical Certificate Verification and Interview for direct recruitment to the posts included in Combined Civil Services Examination – Group I Services (Notification No.04/2025) – List for Physical Standards Verification and Endurance Test for Combined Civil Services Examination (Group-IA Service) (Post of Assistant Conservator of Forests) (Notification No.15/2025) – Marks and Rank Position in interactive mode for Combined Civil Services Examination – Group VA Services – on the Commission’s Website.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/PR_362026.pdf",
+          "uploadedAt": "2026-03-30",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1tqo1g41cn7q",
+          "category": "Press Release",
+          "title": "Press Release relating to publication of List for Physical Certificate Verification and Interview for direct recruitment to the posts included in Combined Civil Services Examination – Group I Services (Notification No.04/2025) – on the Commission’s Website.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/PR_372026_ENG.pdf",
+          "uploadedAt": "2026-03-30",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "dvaubkxl7fzy",
+          "category": "Oral Test List",
+          "title": "Phase : I, 30-03-2026 (PCV AND INTERVIEW)",
+          "url": "https://tnpsc.gov.in/document/oraltest/04_2025_GROUP_I_PUB_LIST.pdf",
+          "uploadedAt": "2026-03-30",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "phrsv91lhb00",
+          "category": "Question Papers",
+          "title": "Descriptive Type",
+          "url": "https://tnpsc.gov.in/English/descriptive-questions.html",
+          "uploadedAt": "2025-12-30",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "66ppc084z31a",
+          "category": "Press Release",
+          "title": "Combined Civil Services Examination – I (Group - I Services) Notification No. 04/2025, dated 01.04.2025 – Main Written Examination - Arrangements made – Regarding.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1612025.pdf",
+          "uploadedAt": "2025-11-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1wopnqv1acrr",
+          "category": "Hall Ticket",
+          "title": "Hall Ticket for Main Written Examination",
+          "url": "https://apply.tnpscexams.in/otr?app_id=UElZMDAwMDAwMQ==",
+          "uploadedAt": "2025-11-21",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1papaeovsijy",
+          "category": "Press Release",
+          "title": "CCSE-I (Group-I Services) (Notification No. 04/2025, dated 01.04.2025) and for the post of Assistant Conservator of Forests in CCSE-IA (Group-IA Service) (Notification No. 05/2025, dated 01.04.2025) Descriptive Type Examination for the said posts is scheduled to be held from 01.12.2025 to 04.12.2025 and 08.12.2025 to 10.12.2025. Download Hall Ticket – Press release regarding.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1592025_ENG.pdf",
+          "uploadedAt": "2025-11-21",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "4utzfcgr5cla",
+          "category": "Press Release",
+          "title": "Press release regarding opportunity to re-upload missing/complete certificates for the posts included in Combined Civil Services Examination- I (Group I Services) (Notification No.: 04/2025, Date: 01.04.2025).",
+          "url": "https://tnpsc.gov.in/document/pressenglish/Group-I%20Press%20release_English.pdf",
+          "uploadedAt": "2025-10-09",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "5gt17ismdf8g",
+          "category": "Certificate Verification List",
+          "title": "Phase : I, 09-10-2025 (04_2025_CCSE-I_REUPLOAD_PUB_LIST)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/04_2025_GROUP_I_SERVICES_OCV1.pdf",
+          "uploadedAt": "2025-10-09",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1xydxigcpalq",
+          "category": "Certificate Verification Memo",
+          "title": "Phase : I, 09-10-2025 (Download Document Reupload Memo)",
+          "url": "https://tnpsc.gov.in/english/checkmemo.aspx?key=1b90abbb-6229-4fca-a211-5ccb85bc8ae5&&type=1&&phase=1adcfc27-d587-45c9-bce1-956ae12fd19c&&valuekey=d99764be-a553-4d26-b8f2-bf80238a9ac0",
+          "uploadedAt": "2025-10-09",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1u6o6pw1t86w",
+          "category": "Certificate Verification Memo",
+          "title": "Phase : I, 02-09-2025 (Download Document Upload Memo)",
+          "url": "https://tnpsc.gov.in/english/checkmemo.aspx?key=1b90abbb-6229-4fca-a211-5ccb85bc8ae5&&type=1&&phase=1adcfc27-d587-45c9-bce1-956ae12fd19c&&valuekey=b2097821-0ad6-4c1b-ba90-f65d756573da",
+          "uploadedAt": "2025-09-02",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1kwlce61a70r",
+          "category": "Preliminary Examination Results",
+          "title": "LIST OF CANDIDATES ADMITTED TO MAIN WRITTEN EXAMINATION",
+          "url": "https://tnpsc.gov.in/document/finalresult/04_2025_GR_I_PUB_LIST_28.08.2025.pdf",
+          "uploadedAt": "2025-08-28",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1mx9hy9l8ne9",
+          "category": "Press Release",
+          "title": "ஒருங்கிணைந்த குடிமைப் பணிகள் தேர்வு-I (தொகுதி-I பணிகள்) அடங்கிய பதவிகளின் முதன்மை தேர்வுக்கு தற்காலிகமாக அனுமதிக்கப்பட்ட தேர்வர்களின் பதிவெண் கொண்ட பட்டியல் தேர்வாணைய வலைதளத்தில் வெளியிடப்பட்டுள்ளது தொடர்பான செய்தி வெளியீடு.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/117%20press%20release.pdf",
+          "uploadedAt": "2025-08-28",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1rufimceaee7",
+          "category": "Press Release",
+          "title": "ஒருங்கிணைந்த குடிமைப் பணிகள் தேர்வு-I (தொகுதி-I பணிகள்) மற்றும் ஒருங்கிணைந்த குடிமைப் பணிகள் தேர்வு-IA (தொகுதி-IA பணி) அடங்கிய பதவிகளின் முதன்மை தேர்வுக்கு தற்காலிகமாக அனுமதிக்கப்பட்ட தேர்வர்களின் பதிவெண் கொண்ட பட்டியல் தேர்வாணைய வலைதளத்தில் வெளியிடப்பட்டுள்ளது தொடர்பான செய்தி வெளியீடு.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/118%20press%20release.pdf",
+          "uploadedAt": "2025-08-28",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1f1dphdudrbv",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.04/2025 Addendum for Notification No.04/2025 (4D/2025)",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum%204D%202025_English.pdf",
+          "uploadedAt": "2025-08-25",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1re7jpi14w6g",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.04/2025 Addendum for Notification No.04/2025 (4C/2025)",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum_4C_2025_ENGLISH.pdf",
+          "uploadedAt": "2025-08-08",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1wx3s951pdvb",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.04/2025 Addendum for Notification No.04/2025 (4B/2025)",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum_4B_ENGLISH.pdf",
+          "uploadedAt": "2025-08-06",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "4sc11lokumtv",
+          "category": "Tentative Answer Key",
+          "title": "Tentative Answer Key",
+          "url": null,
+          "uploadedAt": "2025-06-23",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "12ylreqbxscv",
+          "category": "Press Release",
+          "title": "15.06.2025 முற்பகல் நடைபெறவிருக்கும் ஒருங்கிணைந்த குடிமைப் பணிகள் தேர்வு – I மற்றும் IA பணிகள் ஆகிய பதவிகளுக்கான பொதுவான முதல்நிலைத் தேர்விற்கான தேர்வுக்கூட நுழைவுச் சீட்டு பதிவிறக்கம் தொடர்பான செய்தி வெளியீடு",
+          "url": "https://tnpsc.gov.in/document/pressenglish/66-2025%20Press%20Release.pdf",
+          "uploadedAt": "2025-06-05",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "zghv9bd59ke5",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.04/2025 ADDENDUM_4A",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum%204A%202025%20English_GROUP1.pdf",
+          "uploadedAt": "2025-05-21",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "klygnkgti61",
+          "category": "Notification",
+          "title": "Notification No. 04/2025",
+          "url": "https://tnpsc.gov.in/document/english/Grp%20I%20notification_English_.pdf",
+          "uploadedAt": "2025-04-01",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1cfcnzs11md4",
+          "category": "Press Release",
+          "title": "ஒருங்கிணைந்த குடிமைப் பணிகள் தேர்வு (தொகுதி I மற்றும் IA பணிகள்) அறிவிக்கைகள் - தொடர்பான செய்தி வெளியீடு",
+          "url": "https://tnpsc.gov.in/document/pressenglish/Press%20Notice%20Group%20I%20&%20IA.pdf",
+          "uploadedAt": "2025-04-01",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        }
+      ],
+      "examDateRaw": "15/06/2025",
+      "applyRaw": null,
+      "fetchedAt": "2026-10-20T05:52:34.831Z",
+      "sourceUrl": "https://tnpsc.gov.in/web/examdashboard/index.aspx?notid=1b90abbb-6229-4fca-a211-5ccb85bc8ae5"
+    },
+    "0b440312-7ac7-46a9-8f26-eae36da5dbed": {
+      "examId": "tnpsc-5-2025",
+      "sourceExamId": "0b440312-7ac7-46a9-8f26-eae36da5dbed",
+      "title": "COMBINED CIVIL SERVICES EXAMINATION - IA (GROUP IA SERVICE) - 05/2025",
+      "docs": [
+        {
+          "id": "4wonvisfyorw",
+          "category": "Final Result",
+          "title": "23-07-2026 (PUB-LIST-ACF-05-2025)",
+          "url": "https://tnpsc.gov.in/document/finalresult/PUB_LIST_ACF_05_2025.pdf",
+          "uploadedAt": "2026-09-29",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1cny36ofczia",
+          "category": "Oral Test Mark List",
+          "title": "25-06-2026 (CCSE-IA-ACF)",
+          "url": "https://tnpsc.gov.in/document/oraltestmarks/CML_REGNOWISE.pdf",
+          "uploadedAt": "2026-06-25",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1f939dp1lx7f",
+          "category": "Oral Test Memo",
+          "title": "Phase : I, 17/06/2026 (Download Interview Memo )",
+          "url": "https://tnpsc.gov.in/english/Checkmemo.aspx?key=0b440312-7ac7-46a9-8f26-eae36da5dbed&&type=2&&phase=21da879c-70ef-43f2-8481-a02d17287a81&&valuekey=e7d95f8a-3b6a-f111-8f12-0a94efa51dc7",
+          "uploadedAt": "2026-06-17",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "ag7y82w89i4w",
+          "category": "Press Release",
+          "title": "Press Release relating to publication of (i) List for Physical CertificateVerification and Interview (Phase-II) for the posts included in Combined Technical ServicesExamination (Interview Posts) (Notification No.08/2025) - (ii) List for Physical Certificate Verification and Interview for Combined Civil Services Examination-IA(Group IA Service)(Post of Assistant Conservator of Forests) (Notification No.05/2025) on the Commission’s website.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Press%20Release%20English.pdf",
+          "uploadedAt": "2026-06-10",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "f1zkg61qf9rw",
+          "category": "Oral Test List",
+          "title": "Phase : I, 10-06-2026",
+          "url": "https://tnpsc.gov.in/document/oraltest/05_2025_PUB_LIST_ACF.pdf",
+          "uploadedAt": "2026-06-10",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "xz6b5u1l92mz",
+          "category": "Certificate Verification List",
+          "title": "Phase : I - Physical Standards Verification and Endurance Test, 30-03-2026 (Physical Standards Verification and Endurance Test)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/05_2025_PUB_LIST_IA.pdf",
+          "uploadedAt": "2026-03-30",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "phrsv91lhb00",
+          "category": "Question Papers",
+          "title": "Descriptive Type",
+          "url": "https://tnpsc.gov.in/English/descriptive-questions.html",
+          "uploadedAt": "2025-12-30",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1wopnqv1acrr",
+          "category": "Hall Ticket",
+          "title": "Hall Ticket for Main Written Examination",
+          "url": "https://apply.tnpscexams.in/otr?app_id=UElZMDAwMDAwMQ==",
+          "uploadedAt": "2025-11-21",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1papaeovsijy",
+          "category": "Press Release",
+          "title": "CCSE-I (Group-I Services) (Notification No. 04/2025, dated 01.04.2025) and for the post of Assistant Conservator of Forests in CCSE-IA (Group-IA Service) (Notification No. 05/2025, dated 01.04.2025) Descriptive Type Examination for the said posts is scheduled to be held from 01.12.2025 to 04.12.2025 and 08.12.2025 to 10.12.2025. Download Hall Ticket – Press release regarding.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1592025_ENG.pdf",
+          "uploadedAt": "2025-11-21",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "ilo4on2cxdp5",
+          "category": "Press Release",
+          "title": "Press release regarding opportunity to re-upload missing/complete certificates for the post of Assistant Conservator of Forests in Combined Civil Services Examination- IA (Group IA Services) (Notification No.: 05/2025, Date: 01.04.2025).",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1432025_ENG.pdf",
+          "uploadedAt": "2025-10-22",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1kg5vwq1qz8d",
+          "category": "Certificate Verification List",
+          "title": "Phase : I, 22-10-2025 (05_2025_CCSE-IA_ACF_REUPLOAD_PUB_LIST)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/05_2025_GROUP_IA_ACF_OCV1.pdf",
+          "uploadedAt": "2025-10-22",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "18eoc9f11tva",
+          "category": "Certificate Verification Memo",
+          "title": "Phase : I, 22-10-2025 (Download Document Reupload Memo)",
+          "url": "https://tnpsc.gov.in/english/checkmemo.aspx?key=0b440312-7ac7-46a9-8f26-eae36da5dbed&&type=1&&phase=21da879c-70ef-43f2-8481-a02d17287a81&&valuekey=d0620ec6-2491-4703-a1a7-9d76a9d298a6",
+          "uploadedAt": "2025-10-22",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1xy69l58aztd",
+          "category": "Certificate Verification Memo",
+          "title": "Phase : I, 02-09-2025 (Download Document Upload Memo)",
+          "url": "https://tnpsc.gov.in/english/checkmemo.aspx?key=0b440312-7ac7-46a9-8f26-eae36da5dbed&&type=1&&phase=21da879c-70ef-43f2-8481-a02d17287a81&&valuekey=70405f17-df21-4293-a8b4-cd428cc73d49",
+          "uploadedAt": "2025-09-02",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1l7e09q1dxis",
+          "category": "Preliminary Examination Results",
+          "title": "LIST OF CANDIDATES ADMITTED TO MAIN WRITTEN EXAMINATION",
+          "url": "https://tnpsc.gov.in/document/finalresult/05_2025_GR_IA_PUB_LIST_28.08.2025.pdf",
+          "uploadedAt": "2025-08-28",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1rufimceaee7",
+          "category": "Press Release",
+          "title": "ஒருங்கிணைந்த குடிமைப் பணிகள் தேர்வு-I (தொகுதி-I பணிகள்) மற்றும் ஒருங்கிணைந்த குடிமைப் பணிகள் தேர்வு-IA (தொகுதி-IA பணி) அடங்கிய பதவிகளின் முதன்மை தேர்வுக்கு தற்காலிகமாக அனுமதிக்கப்பட்ட தேர்வர்களின் பதிவெண் கொண்ட பட்டியல் தேர்வாணைய வலைதளத்தில் வெளியிடப்பட்டுள்ளது தொடர்பான செய்தி வெளியீடு.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/118%20press%20release.pdf",
+          "uploadedAt": "2025-08-28",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "12ylreqbxscv",
+          "category": "Press Release",
+          "title": "15.06.2025 முற்பகல் நடைபெறவிருக்கும் ஒருங்கிணைந்த குடிமைப் பணிகள் தேர்வு – I மற்றும் IA பணிகள் ஆகிய பதவிகளுக்கான பொதுவான முதல்நிலைத் தேர்விற்கான தேர்வுக்கூட நுழைவுச் சீட்டு பதிவிறக்கம் தொடர்பான செய்தி வெளியீடு",
+          "url": "https://tnpsc.gov.in/document/pressenglish/66-2025%20Press%20Release.pdf",
+          "uploadedAt": "2025-06-05",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "flv44x14s06x",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.05/2025 ADDENDUM_5A",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum%205A%202025%20English_GROUP1A.pdf",
+          "uploadedAt": "2025-05-21",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1kl3keixcyx7",
+          "category": "Notification",
+          "title": "Notification No. 05/2025",
+          "url": "https://tnpsc.gov.in/document/english/Group%20IA%20Notification_English_.pdf",
+          "uploadedAt": "2025-04-01",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1cfcnzs11md4",
+          "category": "Press Release",
+          "title": "ஒருங்கிணைந்த குடிமைப் பணிகள் தேர்வு (தொகுதி I மற்றும் IA பணிகள்) அறிவிக்கைகள் - தொடர்பான செய்தி வெளியீடு",
+          "url": "https://tnpsc.gov.in/document/pressenglish/Press%20Notice%20Group%20I%20&%20IA.pdf",
+          "uploadedAt": "2025-04-01",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        }
+      ],
+      "examDateRaw": "15/06/2025",
+      "applyRaw": null,
+      "fetchedAt": "2026-10-20T05:52:34.831Z",
+      "sourceUrl": "https://tnpsc.gov.in/web/examdashboard/index.aspx?notid=0b440312-7ac7-46a9-8f26-eae36da5dbed"
+    },
+    "d0703699-b8fe-4b9b-a6d9-26ca2e0d7af5": {
+      "examId": "tnpsc-7-2025",
+      "sourceExamId": "d0703699-b8fe-4b9b-a6d9-26ca2e0d7af5",
+      "title": "COMBINED CIVIL SERVICES EXAMINATION - IV (GROUP IV SERVICES) - 07/2025",
+      "docs": [
+        {
+          "id": "fdktiz1iqilg",
+          "category": "Press Release",
+          "title": "CCSE-IV (Group-IV Services) Notification No. 07/2025 dated 25.04.2025 Posts of Forest Guard, Forest Guard with Driving Licence and Forest Watcher, Forest Watcher (Tribal Youth) (Outstanding Sportspersons)included in Tamil Nadu Forest Subordinate Service- Publication List of PCV and Counselling Hosted on the Commission’s website – Reg. (Press release)",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Press%20release-96.pdf",
+          "uploadedAt": "2026-08-14",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1d52kwedfz6i",
+          "category": "Counselling List",
+          "title": "Phase : I_FOREST_SPORTS - Physical Certificate Verification and Counselling, 14.08.2026 (Physical Certificate Verification and Counselling)",
+          "url": "https://tnpsc.gov.in/document/counselling/07_2025_FG_FW_PCV_COUNS_PUB_LIST.pdf",
+          "uploadedAt": "2026-08-14",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1b19vqqfxn07",
+          "category": "Counselling Memo",
+          "title": "Phase : I_FOREST_SPORTS - Physical Certificate Verification and Counselling, 17-08-2026 (COUNS)",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=27667a7f-9b17-4b34-91af-9276a932fdd4&&keys=43487bfe-8b1d-43bc-9e5a-d89a8c898104",
+          "uploadedAt": "2026-08-14",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "13l8agbiskrf",
+          "category": "Counselling List",
+          "title": "Phase : IV - Physical Certificate Verification and Counselling, 24.07.2026 (Physical Certificate Verification and Counselling)",
+          "url": "https://tnpsc.gov.in/document/counselling/07_2025_CCSE_GRP_IV_PH4_PUB_LIST.pdf",
+          "uploadedAt": "2026-07-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "dzfeleze5vl8",
+          "category": "Counselling Memo",
+          "title": "Phase : IV - Physical Certificate Verification and Counselling, 28-07-2026 (Physical Certificate Verification and Counselling)",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=fd666891-7fb2-48b5-8b60-412dcd65e7f4&&keys=febe57a1-215d-4fc0-b8a2-37b6f127867c",
+          "uploadedAt": "2026-07-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1e06zd9o5fdd",
+          "category": "Press Release",
+          "title": "Downloading of Memorandum regarding re-uploading of missing/defective documents for the posts of ForestGuard/Forest Guard with Driving Licence/Forest Watcher/ForestWatcher (Tribal Youth) included in the Combined Civil Services Examination – IV(Group - IV) - Regarding.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Press%20release%20-%20NEw%20-%20PDF.pdf",
+          "uploadedAt": "2026-07-15",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "11doyx762on4",
+          "category": "Certificate Verification List",
+          "title": "Phase : FOREST-NON-SPORTS-I - List of candidates provisionally admitted to Onscreen Certificate Verification, 15-07-2026 (FOREST_NON_SPORTS_I_REUPLOADING_DOCUMENTS_PUBL_LIST (Publication List for Re-Uploading of Documents))",
+          "url": "https://tnpsc.gov.in/document/certificateverification/07_2025_FOREST_NON_SPORTS_PUBL_LIST.pdf",
+          "uploadedAt": "2026-07-15",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "iok91v16efbs",
+          "category": "Certificate Verification Memo",
+          "title": "Phase : FOREST-NON-SPORTS-I - List of candidates provisionally admitted to Onscreen Certificate Verification, 15-07-2026 (FOREST_NON_SPORTS_I_REUPLOADING_DOCUMENTS (Download Document Re-upload Memo))",
+          "url": "https://tnpsc.gov.in/english/checkmemo.aspx?key=d0703699-b8fe-4b9b-a6d9-26ca2e0d7af5&&type=1&&phase=374094e7-5c84-4917-9f36-ec12f74e4542&&valuekey=a40250f5-28d6-4bb5-86f7-149aa4ed8543",
+          "uploadedAt": "2026-07-15",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1gty0a86qbbq",
+          "category": "Certificate Verification List",
+          "title": "Phase : FOREST-NON-SPORTS-I - List of candidates provisionally admitted to Onscreen Certificate Verification, 19-06-2026 (List of candidates provisionally admitted to Onscreen Certificate Verification (Posts of Forest Guard, Forest Guard with Driving Licence, Forest Watcher and Forest Watcher (Tribal Youth)) )",
+          "url": "https://tnpsc.gov.in/document/certificateverification/07_2025_CCSE_IV_NON_SPORTS_PUB_LIST_OCV_19_06_2026.pdf",
+          "uploadedAt": "2026-06-19",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "5yocphycl34n",
+          "category": "Certificate Verification Memo",
+          "title": "Phase : I-FOREST - PHYSICAL TEST, 09-06-2026 (Download Forest Guard/ Forest Guard with Driving Licence / Forest Watcher / Forest Watcher (Tribal Youth) memo)",
+          "url": "https://tnpsc.gov.in/english/checkmemo.aspx?key=d0703699-b8fe-4b9b-a6d9-26ca2e0d7af5&&type=1&&phase=d60db424-4a6e-4866-98b6-d035cfbda9cb&&valuekey=fc13031b-9894-4e5b-9404-e4c89ae8426f",
+          "uploadedAt": "2026-06-09",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "kbmmma1ui8co",
+          "category": "Press Release",
+          "title": "CCSE-IV (Group-IV Services) Notification No. 07/2025 dated 25.04.2025 Posts of Forest Guard, Forest Guard with Driving Licence, Forest Watcher and Forest Watcher (Tribal Youth) Under reservation for outstanding sportspersons - Publication List for Physical Standards and Endurance Test - Hosted on the Commission’s website – Press release - Reg.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Press%20release%20_FG_FW_ET.pdf",
+          "uploadedAt": "2026-05-26",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1wwntbi1e5qj",
+          "category": "Certificate Verification List",
+          "title": "Phase : I-FOREST - PHYSICAL TEST, 26-05-2026 (FG_FW-PHYSICAL-TEST)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/07_2025_GR_IV_FOREST_26052026.pdf",
+          "uploadedAt": "2026-05-26",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1jl5oqxi72h7",
+          "category": "Press Release",
+          "title": "Combined Civil Services Examination-IV (Group IV Services) – Notification No.07/2025, dated 25.04.2025 – List of candidates permitted to attend Physical Certificate Verification and Counselling – Hosted in the Commission’s website – Regarding.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Press%20release-PCV_GR%20IV_%20Phase%20-III.pdf",
+          "uploadedAt": "2026-04-10",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "gliyfoocvk1y",
+          "category": "Counselling List",
+          "title": "Phase : PH_III - PCV & COUNS, 10.04.2026 (PCV & COUNS)",
+          "url": "https://tnpsc.gov.in/document/counselling/07_2025_CCSE_IV_PH3_PUB_LIST.pdf",
+          "uploadedAt": "2026-04-10",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1lnm8l81xj0t",
+          "category": "Counselling Memo",
+          "title": "Phase : PH_III - PCV & COUNS, 15-04-2026 (07_2025_CCSE_IV_PH3)",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=f0f80b0e-b82c-4e63-84a4-940a2d5af842&&keys=09c647e7-2870-4be3-91a2-124de5d9d504",
+          "uploadedAt": "2026-04-10",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1oxmy8o11r74",
+          "category": "Press Release",
+          "title": "Downloading of Memorandum regarding re-uploading of missing/defective documents for the posts of Forest Guard/Forest Guard with Driving License/Forest Watcher/Forest Watcher (Tribal Youth) under reservation for Outstanding Sports persons included in the Combined Civil Services Examination – IV (Group - IV) - Regarding.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Press%20release%20-%20pdf.pdf",
+          "uploadedAt": "2026-03-12",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "zfcwat1xjd2g",
+          "category": "Certificate Verification List",
+          "title": "Phase : I_FOREST - OCV_FOREST, 12-03-2026 (Publication List for Re-Uploading of Documents)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/07_2025_GR4_FG_FGDL_FW_FWTY_SPORTS__REUPLOAD_DOCC.pdf",
+          "uploadedAt": "2026-03-12",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "xv6zt0h12iqq",
+          "category": "Certificate Verification Memo",
+          "title": "Phase : I_FOREST - OCV_FOREST, 12-03-2026 (Download Document Re-upload Memo)",
+          "url": "https://tnpsc.gov.in/english/checkmemo.aspx?key=d0703699-b8fe-4b9b-a6d9-26ca2e0d7af5&&type=1&&phase=a3e28165-ec32-4dd2-995b-fedc94590fc2&&valuekey=3f8f2589-656d-4f02-93bf-57e7dc77319b",
+          "uploadedAt": "2026-03-12",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1r9rxsa1oiv4",
+          "category": "Press Release",
+          "title": "CCSE-IV (Group-IV Services) Notification No. 07/2025 dated 25.04.2025 Posts of Forest Guard, Forest Guard with Driving Licence, Forest Watcher and Forest Watcher (Tribal Youth) included in Tamil Nadu Forest Subordinate Service) under reservation for outstanding sportspersons - Publication List of OCV Hosted on the Commission’s website – Reg.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Press%20release%20OCV_FG_FW.pdf",
+          "uploadedAt": "2026-02-25",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "9d797118aljd",
+          "category": "No. of Vacancies at the end of Counselling",
+          "title": "Phase-II -STENO TYPIST - Dept/Unit-wise vacancies at the end of Counselling (25.02.2026)",
+          "url": "https://tnpsc.gov.in/Document/Counselling/07_2025_CCSE_IV_STENO_TYP_PH_2_DEPT_WISE_25022026.pdf",
+          "uploadedAt": "2026-02-25",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "wejiew1cfzag",
+          "category": "No. of Vacancies at the end of Counselling",
+          "title": "Phase-II -STENO TYPIST - Communal-wise vacancies at the end of Counselling (25.02.2026)",
+          "url": "https://tnpsc.gov.in/Document/Counselling/07_2025_CCSE_IV_STENO_TYP_PH_2_COMM_WISE_25022026.pdf",
+          "uploadedAt": "2026-02-25",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "14otdziji28j",
+          "category": "Certificate Verification List",
+          "title": "Phase : I_FOREST - OCV_FOREST, 25-02-2026 (OCV_FOREST)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/07_2025_CCSE_IV_FOREST_PUB_LIST_25022026.pdf",
+          "uploadedAt": "2026-02-25",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "194jrro2u86z",
+          "category": "No. of Vacancies at the end of Counselling",
+          "title": "Phase-II -TYPIST - Dept/Unit-wise vacancies at the end of Counselling (24.02.2026)",
+          "url": "https://tnpsc.gov.in/Document/Counselling/07_2025_CCSE_IV_TYPIST_PHASE_II_DEPT_WISE_VAC_24022026.pdf",
+          "uploadedAt": "2026-02-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1mpcmbews2gt",
+          "category": "No. of Vacancies at the end of Counselling",
+          "title": "Phase-II -TYPIST - Communal-wise vacancies at the end of Counselling (24.02.2026)",
+          "url": "https://tnpsc.gov.in/Document/Counselling/07_2025_CCSE_IV_TYPIST_PH_II_COMM_WISE_VAC_24022026.pdf",
+          "uploadedAt": "2026-02-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "ljg3jr5st155",
+          "category": "No. of Vacancies at the end of Counselling",
+          "title": "Phase-II-JA-Dept/Unit-wise vacancies at the end of Counselling- (24.02.2026)",
+          "url": "https://tnpsc.gov.in/Document/Counselling/07_2025_CCSE_IV_JA_PH_II_DEPT_WISE_VAC_24022026.pdf",
+          "uploadedAt": "2026-02-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "137l4qwmqvnz",
+          "category": "No. of Vacancies at the end of Counselling",
+          "title": "Phase-II -JA-Communal-wise vacancies at the end of Counselling (24.02.2026)",
+          "url": "https://tnpsc.gov.in/Document/Counselling/07_2025_CCSE_IV_JA_PH_II_COMM_WISE_VAC_24022026.pdf",
+          "uploadedAt": "2026-02-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1htq9qh1saim",
+          "category": "Counselling Memo",
+          "title": "Phase : II-JA-TYP - PCV & COUNS, 05-02-2026 (PCV AND COUNS)",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=8b02ae6a-d751-4742-b59f-3cfc9f0cfc5c&&keys=271b7a08-7ec0-4e3b-b7fe-810c86e2c18a",
+          "uploadedAt": "2026-02-05",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "u6ebtt1qtwxs",
+          "category": "Counselling Memo",
+          "title": "Phase : II-STENO - PCV & COUNS, 05-02-2026 (PCV AND COUNS)",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=691ba763-2474-43c3-b31d-82ac5b80e394&&keys=ddbfcf2a-e5b2-4170-a1c7-5c15b11727eb",
+          "uploadedAt": "2026-02-05",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "6rsdbg1y2l6c",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of List of register number of candidates provisionally admitted to Physical Certificate Verification and Counseling (Phase-II) for the post of Junior Assistant and other posts /Typist/ Steno-Typist included in Combined Civil Services Examination IV (Group-IV Services) (Notification No.07/2025, dated 25.04.2025)",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/PR_102026.pdf",
+          "uploadedAt": "2026-02-04",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "7ogtbngifw49",
+          "category": "Counselling List",
+          "title": "Phase : II - PCV & COUNS, 04.02.2026 ((JA,TYPIST,STENO TYPIST))",
+          "url": "https://tnpsc.gov.in/document/counselling/07_2025_GRP_IV_PHASE_2_SEL_04022026.pdf",
+          "uploadedAt": "2026-02-04",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "en983ngdmn99",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of Marks and Rank Position in Interactive Mode for the post of Forest Guard, Forest Guard with Driving Licence, Forest Watcher and Forest Watcher (Tribal Youth) for Reservation of Outstanding Sportsperson included in Combined Civil Services Examination-IV (Group-IV Services) (Notification No.07/2025)",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/PR_032026_ENG.pdf",
+          "uploadedAt": "2026-01-07",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1qcrazx1kaxe",
+          "category": "EXAM RESULTS – FOR THE POSTS UNDER RESERVATION FOR OUTSTANDING SPORTSPERSONS",
+          "title": "SPORTS ACHIEVEMENT MARK AND RANK POSITION",
+          "url": "https://tnpscresults.tn.gov.in/sportresult/index.aspx?token=18tn#13fwoux",
+          "uploadedAt": "2026-01-07",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "x7l1j7le3tt9",
+          "category": "No. of Vacancies at the end of Counselling",
+          "title": "STENO TYPIST - Communal-wise vacancies at the end of Counselling (31.12.2025)",
+          "url": "https://tnpsc.gov.in/Document/Counselling/07_2025_STENO_COM_WISE_31_12_2025.pdf",
+          "uploadedAt": "2025-12-31",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1xmhjp115a37",
+          "category": "No. of Vacancies at the end of Counselling",
+          "title": "STENO TYPIST - Dept/Unit-wise vacancies at the end of Counselling (31.12.2025)",
+          "url": "https://tnpsc.gov.in/Document/Counselling/07_2025_STENO_DEPT_WISE_31_12_2025.pdf",
+          "uploadedAt": "2025-12-31",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "syrwka1n7r4z",
+          "category": "No. of Vacancies at the end of Counselling",
+          "title": "TYPIST - Communal-wise vacancies at the end of Counselling (26.12.2025)",
+          "url": "https://tnpsc.gov.in/Document/Counselling/07_2025_GR_IV_SERVICES_TYPIST_COM_VAC_26122025.pdf",
+          "uploadedAt": "2025-12-26",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "17f5ffi1k2wv",
+          "category": "No. of Vacancies at the end of Counselling",
+          "title": "TYPIST - Dept/Unit-wise vacancies at the end of Counselling (26.12.2025)",
+          "url": "https://tnpsc.gov.in/Document/Counselling/07_2025_GR_IV_SERVICES_TYPIST_DEPT_VAC_26122025.pdf",
+          "uploadedAt": "2025-12-26",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1u8kdupm2tpo",
+          "category": "No. of Vacancies at the end of Counselling",
+          "title": "Communal-wise vacancies at the end of Counselling (17.12.2025)",
+          "url": "https://tnpsc.gov.in/Document/Counselling/07_2015_GR_IV_SERVICES_JA_COM_VAC_17122025.pdf",
+          "uploadedAt": "2025-12-17",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1e9cbn31cnpz",
+          "category": "No. of Vacancies at the end of Counselling",
+          "title": "Dept/Unit-wise vacancies at the end of Counselling (17.12.2025)",
+          "url": "https://tnpsc.gov.in/Document/Counselling/07_2015_GR_IV_SERVICES_JA_DEPT_VAC_17122025.pdf",
+          "uploadedAt": "2025-12-17",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "13qbm7orktsa",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.07/2025 ADDENDUM (7D/2025)",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum_7D_2025_ENGLISH.pdf",
+          "uploadedAt": "2025-12-12",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "8fudhsqzq60e",
+          "category": "Counselling Memo",
+          "title": "Phase : I STENO_TYP - PCV&COUNS, 12-12-2025 (COUNS)",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=3f4cf6dc-84c0-4a0c-9f55-d7836438e4e8&&keys=ca7758fe-d9df-48f8-a538-7af386704c86",
+          "uploadedAt": "2025-12-12",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "cafjn47p9zqu",
+          "category": "Counselling Memo",
+          "title": "Phase : I_TYPIST - PCV & COUNS, 12-12-2025 (GROUP - IV - TYPIST - PCV)",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=43de068c-df86-45ed-9277-2769b9388670&&keys=636c6f97-d155-4ff9-90bb-4a6a2007e0c6",
+          "uploadedAt": "2025-12-12",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1fnl120185rp",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of List of register number of candidates provisionally admitted to Physical Certificate Verification and Counseling for the post of Typist and Steno-Typist included in Combined Civil Services Examination IV (Group-IV Services) (Notification No.07/2025)",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1692025.pdf",
+          "uploadedAt": "2025-12-03",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1h23l9a783bw",
+          "category": "Press Release",
+          "title": "Press release relating to 645 additional vacancies for the for the posts in Combined Civil Services Examination – IV (Group IV Services) - Reg.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1702025.pdf",
+          "uploadedAt": "2025-12-03",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1x5rp6h1aktt",
+          "category": "Counselling List",
+          "title": "Phase : I-TYP-ST-TYP - PCV & COUNS, 03.12.2025 (TYPIST-STENO TYPIST (PCV AND COUNS))",
+          "url": "https://tnpsc.gov.in/document/counselling/07_2025_TYP_STENO_PUB_LIST_I_03122025.pdf",
+          "uploadedAt": "2025-12-03",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "30jteo16jr8k",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.07/2025 ADDENDUM (7C/2025)",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum_7C_2025.pdf",
+          "uploadedAt": "2025-12-03",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "gd6o0i10i4zj",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of List of register number of candidates provisionally admitted to Physical Certificate Verification and Counseling for the post of Junior Assistant, Village Administrative Officer and other posts included in Combined Civil Services Examination IV (Group-IV Services) (Notification No.07/2025)",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1672025.pdf",
+          "uploadedAt": "2025-12-01",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "16ktlmq14nw3",
+          "category": "Counselling List",
+          "title": "Phase : I PCV - COUNS, 01.12.2025 (JA-PCV & COUNS)",
+          "url": "https://tnpsc.gov.in/document/counselling/07_2025_GROUP_IV_JA_SEL_PUB_LIST_01122025.pdf",
+          "uploadedAt": "2025-12-01",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1951wve1cy93",
+          "category": "Counselling Memo",
+          "title": "Phase : I PCV - COUNS, 02-12-2025 (GROUP-IV - JA - PCV (I PHASE))",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=94e5f6ab-f686-4b02-af73-6a099b2a9659&&keys=b09f4d80-de64-4ae3-953e-c549738682e4",
+          "uploadedAt": "2025-12-01",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1rdd7g4qe9o4",
+          "category": "Press Release",
+          "title": "Press release regarding instructions to those candidates who have claimed as ‘Outstanding Sportspersons’ in applications relating to Combined Civil Services Examination – IV (Group–IV Services) (Notification No.07/2025, dated 25.04.2025), to re-upload documents related to sports achievement.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1652025.pdf",
+          "uploadedAt": "2025-11-27",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1p6nxdulvci9",
+          "category": "Certificate Verification Memo",
+          "title": "Phase : I, 27-11-2025 ((Download Document Re-upload Memo for Outstanding Sportspersons))",
+          "url": "https://tnpsc.gov.in/english/checkmemo.aspx?key=d0703699-b8fe-4b9b-a6d9-26ca2e0d7af5&&type=1&&phase=c7bba3bc-8476-4b8c-b965-6423d09de3f8&&valuekey=38583d0f-8f08-45ef-9bc6-fcfce7717154",
+          "uploadedAt": "2025-11-27",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "10350hc1p3nq",
+          "category": "Question Papers",
+          "title": "Final Answer keys",
+          "url": "https://tnpsc.gov.in/Document/Answerkeyfinalresult/07_2025_CCSE_IV_FINAL_ANSWER_KEY.pdf",
+          "uploadedAt": "2025-11-17",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "9yrxl1q63h7v",
+          "category": "Press Release",
+          "title": "Press release regarding opportunity to re-upload missing/defective certificates for the posts included in Combined Civil Services Examination- IV (Group IV Services) (Notification No.: 07/2025, Date: 25.04.2025).",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1532025.pdf",
+          "uploadedAt": "2025-11-14",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1oni5wmro19d",
+          "category": "Certificate Verification List",
+          "title": "Phase : I - OCV, 13-11-2025 (Publication List for Re-Uploading of Documents)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/Publication_list_13.11.25.pdf",
+          "uploadedAt": "2025-11-13",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "16nh0j71hnyp",
+          "category": "Certificate Verification Memo",
+          "title": "Phase : I - OCV, 13-11-2025 (Download Document Re-upload Memo)",
+          "url": "https://tnpsc.gov.in/english/checkmemo.aspx?key=d0703699-b8fe-4b9b-a6d9-26ca2e0d7af5&&type=1&&phase=73b0a429-1def-4539-9376-e11a900f1fcd&&valuekey=cdc6494d-8258-4116-aecb-54ebb0223dc4",
+          "uploadedAt": "2025-11-13",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "zik7d2wr55f0",
+          "category": "Press Release",
+          "title": "Press release regarding instructions to those candidates who have claimed as ‘Outstanding Sportspersons’ in applications relating to Combined Civil Services Examination – IV (Group–IV Services) (Notification No.07/2025, dated 25.04.2025), to upload /re-upload documents related to sports achievement.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1522025.pdf",
+          "uploadedAt": "2025-11-07",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "14uooht1deir",
+          "category": "Press Release",
+          "title": "ஒருங்கிணைந்த குடிமைப் பணிகள் தேர்வு–IV (தொகுதி IV பணிகள்) (அறிவிக்கை எண்.07/2025, நாள்.25.04.2025) தேர்விற்கான கணினி வழித்திரை சான்றிதழ் சரிபார்ப்பிற்கு (On Screen Certificate Verification) தற்காலிகமாக அனுமதிக்கப்பட்ட தேர்வர்களின் பட்டியல் வெளியிடுவது தொடர்பான செய்தி வெளியீடு.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1482025.pdf",
+          "uploadedAt": "2025-10-29",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "12ndinj143qz",
+          "category": "Certificate Verification List",
+          "title": "Phase : I, 29-10-2025 ((JA/TYPIST/STENO TYPIST))",
+          "url": "https://tnpsc.gov.in/document/certificateverification/07_2025_GR_IV_JA_TYP_STENO_TYP_PUB_SEL_LIST_OCV.pdf",
+          "uploadedAt": "2025-10-29",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "rj6q741gupwh",
+          "category": "Certificate Verification Memo",
+          "title": "Phase : I, 25-10-2025 (Download Document Upload Memo for Outstanding Sportspersons)",
+          "url": "https://tnpsc.gov.in/english/checkmemo.aspx?key=d0703699-b8fe-4b9b-a6d9-26ca2e0d7af5&&type=1&&phase=c7bba3bc-8476-4b8c-b965-6423d09de3f8&&valuekey=811c86e1-3b2e-43c3-9654-33cb763b0397",
+          "uploadedAt": "2025-10-25",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "9qso5f1c6niu",
+          "category": "WRITTEN EXAMINATION RESULTS",
+          "title": "MARKS AND RANK POSITION",
+          "url": "https://tnpsc.gov.in/results/grp4/index.aspx",
+          "uploadedAt": "2025-10-22",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "16nvhcc9kjzd",
+          "category": "Press Release",
+          "title": "ஒருங்கிணைந்த குடிமைப் பணிகள் தேர்வு தொகுதி-IV (தொகுதி-IV பணிகள்)-ற்கான இருவழி தொடர்பு முறையில் மதிப்பெண் மற்றும் தரவரிசைப் பட்டியல் தேர்வாணைய வலைதளத்தில் வெளியிடப்பட்டுள்ளது தொடர்பான செய்தி வெளியீடு.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1422025_ENG.pdf",
+          "uploadedAt": "2025-10-22",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1jt2644ufbnj",
+          "category": "Press Release",
+          "title": "ஒருங்கிணைந்த குடிமைப்பணிகள் தேர்வு - தொகுதி IV பணிகளில் 727 காலிப்பணியிடங்கள் கூடுதலாக அறிவிப்பு- தொடர்பான செய்தி வெளியீடு.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/Press%20Release%2026.09.2025.pdf",
+          "uploadedAt": "2025-09-26",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "aos37a7wb0o",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.07/2025 Addendum for Notification No.07/2025 (7B/2025)",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum_7B_English.pdf",
+          "uploadedAt": "2025-09-26",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "3rq71h1v1wq3",
+          "category": "Press Release",
+          "title": "12.07.2025 மு.ப, நடைபெற்ற ஒருங்கிணைந்த குடிமைப்பணிகள் தேர்வு - IV (தொகுதி - IV) தொடர்பாக ஊடகங்களில் வெளியான செய்தி தொடர்பான தேர்வாணையத்தின் செய்திக்குறிப்பு.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/press_release.pdf",
+          "uploadedAt": "2025-07-22",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "4sc11lokumtv",
+          "category": "Tentative Answer Key",
+          "title": "Tentative Answer Key",
+          "url": null,
+          "uploadedAt": "2025-07-21",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1nuadejrx1nq",
+          "category": "Press Release",
+          "title": "ஒருங்கிணைந்த குடிமைப் பணிகள் தேர்வு - IV (தொகுதி-IV) - அறிவிக்கை எண்.07/2025, நாள் 25.04.2025 - தேர்வு நாள் 12.07.2025 முற்பகல் - தேர்விற்கான முன்னேற்பாடுகள் - தொடர்பான செய்தி வெளியீடு.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PRESS%20RELEASE%20GROUP-IV.pdf",
+          "uploadedAt": "2025-07-11",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1ak3m2d67ax4",
+          "category": "Press Release",
+          "title": "ஒருங்கிணைந்த குடிமைப் பணிகள் தேர்வு - IV (தொகுதி-IV) - தேர்வு நாள் 12.07.2025 முற்பகல் - தேர்வுக்கான வினாத்தாள், OMR விடைத்தாள் உள்ளிட்ட மந்தணப் பொருட்கள் உரிய பாதுகாப்புடன் எடுத்து செல்வது - தொடர்பான செய்தி வெளியீடு.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/Press%20Release%2090-2025.pdf",
+          "uploadedAt": "2025-07-11",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1elgzqsjo0cs",
+          "category": "Press Release",
+          "title": "12.07.2025 முற்பகல் நடைபெற உள்ள ஒருங்கிணைந்த குடிமைப் பணிகள் தேர்வு – IV (தொகுதி – IV பணிகள்) பதவிகளுக்கான கொள்குறி வகைத்தேர்வு - தேர்வுக்கூட நுழைவுச் சீட்டு பதிவிறக்கம் தொடர்பான செய்தி வெளியீடு",
+          "url": "https://tnpsc.gov.in/document/pressenglish/Group%20IV%20Hall%20Ticket%20-%20Press%20Release%20-%20PDF-2.pdf",
+          "uploadedAt": "2025-07-02",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1lhewfju3qs4",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.07/2025 ADDENDUM_7A",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum%207A%202025_ENGLISH_GROUP4.pdf",
+          "uploadedAt": "2025-05-21",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "17i4pgb1ejgi",
+          "category": "Notification",
+          "title": "Notification No. 07/2025",
+          "url": "https://tnpsc.gov.in/document/english/Grp%20IV%20English_.pdf",
+          "uploadedAt": "2025-04-25",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "ulbm4oo11esi",
+          "category": "Press Release",
+          "title": "ஒருங்கிணைந்த குடிமைப் பணிகள் தேர்வு –IV (தொகுதி-IV பணிகள்) அறிவிக்கை தொடர்பான செய்தி வெளியீடு",
+          "url": "https://tnpsc.gov.in/document/pressenglish/Press%20Release_25.04.2025.pdf",
+          "uploadedAt": "2025-04-25",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        }
+      ],
+      "examDateRaw": "12/07/2025",
+      "applyRaw": null,
+      "fetchedAt": "2026-10-20T05:52:34.831Z",
+      "sourceUrl": "https://tnpsc.gov.in/web/examdashboard/index.aspx?notid=d0703699-b8fe-4b9b-a6d9-26ca2e0d7af5"
+    },
+    "afb8ec0c-e846-4f08-85e3-61e9e4d5476b": {
+      "examId": "tnpsc-8-2025",
+      "sourceExamId": "afb8ec0c-e846-4f08-85e3-61e9e4d5476b",
+      "title": "COMBINED TECHNICAL SERVICES EXAMINATION (INTERVIEW POSTS) - 08/2025",
+      "docs": [
+        {
+          "id": "4kb5nh1jcdt8",
+          "category": "Final Result",
+          "title": "13-10-2026 (PUB-LIST-RKD)",
+          "url": "https://tnpsc.gov.in/document/finalresult/Pub_List-%20for%20FM%20_RKD_HOSTED.pdf",
+          "uploadedAt": "2026-10-13",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "i6vht8ciws66",
+          "category": "Oral Test Mark List",
+          "title": "06-10-2026 (CML - ASSISTANT PLANNER (3542))",
+          "url": "https://tnpsc.gov.in/document/oraltestmarks/cml_fc_ASST_PLANNER_3542.pdf",
+          "uploadedAt": "2026-10-06",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1yc0jq11d14i",
+          "category": "Oral Test Memo",
+          "title": "Phase : I, 24/09/2026 (Download Interview Memo )",
+          "url": "https://tnpsc.gov.in/english/Checkmemo.aspx?key=afb8ec0c-e846-4f08-85e3-61e9e4d5476b&&type=2&&phase=a2963080-9f52-479d-aea1-d83bf7c186f2&&valuekey=0dbf978b-feb7-f111-8f12-0a94efa51dc7",
+          "uploadedAt": "2026-09-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1y857nb1a5ez",
+          "category": "Oral Test Mark List",
+          "title": "25-06-2026 (CTS-PH-II-FACOTRY-MANAGER)",
+          "url": "https://tnpsc.gov.in/document/oraltestmarks/CML_FC_cts_ph_ii.pdf",
+          "uploadedAt": "2026-06-25",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1byh8ys1yttz",
+          "category": "Oral Test Memo",
+          "title": "Phase : II, 17/06/2026 (Download Interview Memo )",
+          "url": "https://tnpsc.gov.in/english/Checkmemo.aspx?key=afb8ec0c-e846-4f08-85e3-61e9e4d5476b&&type=2&&phase=bcd6db60-0a91-42a6-971a-a64817d921e3&&valuekey=365c3406-326a-f111-8f12-0a94efa51dc7",
+          "uploadedAt": "2026-06-17",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "ag7y82w89i4w",
+          "category": "Press Release",
+          "title": "Press Release relating to publication of (i) List for Physical CertificateVerification and Interview (Phase-II) for the posts included in Combined Technical ServicesExamination (Interview Posts) (Notification No.08/2025) - (ii) List for Physical Certificate Verification and Interview for Combined Civil Services Examination-IA(Group IA Service)(Post of Assistant Conservator of Forests) (Notification No.05/2025) on the Commission’s website.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Press%20Release%20English.pdf",
+          "uploadedAt": "2026-06-10",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1auqi441c6cg",
+          "category": "Final Result",
+          "title": "10-06-2026 (PUB-LIST-CTS-08-2025)",
+          "url": "https://tnpsc.gov.in/document/finalresult/CTS_Pub_List-fc-updated.pdf",
+          "uploadedAt": "2026-06-10",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1g6awn61rsqr",
+          "category": "Oral Test List",
+          "title": "Phase : II, 10-06-2026",
+          "url": "https://tnpsc.gov.in/document/oraltest/08_2025_CTS_OT_II_PUB_LIST.pdf",
+          "uploadedAt": "2026-06-10",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "95sxuge3a5gi",
+          "category": "Oral Test Mark List",
+          "title": "02-06-2026 (CML-PSYCHOLOGIST)",
+          "url": "https://tnpsc.gov.in/document/oraltestmarks/1942_REGNO%20-%20akshaya_psy.pdf",
+          "uploadedAt": "2026-06-02",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "nb30eyhsyvpo",
+          "category": "Press Release",
+          "title": "Press release regarding opportunity to re-upload missing/complete certificates for the posts included in Combined Technical Services Examination (Interview posts) (notification No.08/2025, dated 07.05.2025) – Onscreen certificate verification (Phase – II).",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Press%20release%20(English)-%20CTS%20(Interview)-%20OCV-Ph%20II-%2012.03.2026.pdf",
+          "uploadedAt": "2026-03-12",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "5sjdx727yvot",
+          "category": "Certificate Verification List",
+          "title": "Phase : II, 12-03-2026 (08_2025_CTS_OT_OCV_Publication List for Re-Uploading of Documents)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/08_2025_CTS_OT_OCV_PHASE_II_12.03.2026.pdf",
+          "uploadedAt": "2026-03-12",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1o63umdf5bmo",
+          "category": "Certificate Verification Memo",
+          "title": "Phase : II, 13-03-2026 (Download Document Reupload Memo)",
+          "url": "https://tnpsc.gov.in/english/checkmemo.aspx?key=afb8ec0c-e846-4f08-85e3-61e9e4d5476b&&type=1&&phase=bcd6db60-0a91-42a6-971a-a64817d921e3&&valuekey=b941a434-05bd-4fd1-931f-573c73c975ba",
+          "uploadedAt": "2026-03-12",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1nrpp806vzgj",
+          "category": "Oral Test Mark List",
+          "title": "06-03-2026 (CTS-CML-08-2025)",
+          "url": "https://tnpsc.gov.in/document/oraltestmarks/08_2025_CTS_INTERVIEW_POSTS_CML_06032026.pdf",
+          "uploadedAt": "2026-03-06",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "13fhwvnaaek1",
+          "category": "Oral Test List",
+          "title": "Phase : I, 14-02-2026 (PCV AND INTERVIEW )",
+          "url": "https://tnpsc.gov.in/document/oraltest/08_2025_CTS_INT_PUB_LIST_OT.pdf",
+          "uploadedAt": "2026-02-14",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "rkb7ui1m2v34",
+          "category": "Oral Test Memo",
+          "title": "Phase : I, 14/02/2026",
+          "url": "https://tnpsc.gov.in/english/Checkmemo.aspx?key=afb8ec0c-e846-4f08-85e3-61e9e4d5476b&&type=2&&phase=a2963080-9f52-479d-aea1-d83bf7c186f2&&valuekey=f673fd50-0b08-f111-8f12-0a94efa51dc7",
+          "uploadedAt": "2026-02-14",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "awcwzo9eqvtu",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of Physical Certificate Verification and Interview & Onscreen Certificate Verification (Phase-II) for the posts included in Combined Technical Services Examination (Interview Posts) (Notification No.08/2025) on the Commission’s Website.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/PR_192026_ENG.pdf",
+          "uploadedAt": "2026-02-12",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "td8r5br49bv1",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of Physical Certificate Verification and Interview & Onscreen Certificate Verification (Phase-II) for the posts included in Combined Technical Services Examination (Interview Posts) (Notification No.08/2025) on the Commission’s Website.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/PR_182026_ENG.pdf",
+          "uploadedAt": "2026-02-12",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1hvjx3011o9j",
+          "category": "Certificate Verification List",
+          "title": "Phase : II, 12-02-2026 (OCV (PHASE - II))",
+          "url": "https://tnpsc.gov.in/document/certificateverification/08_2025_CTS_INT_PUB_LIST_CV_II.pdf",
+          "uploadedAt": "2026-02-12",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1ui0xle1rw59",
+          "category": "Press Release",
+          "title": "Press release regarding opportunity to re-upload missing/complete certificates for the posts included in Combined Technical Services Examination (Interview posts) (notification No.08/2025, dated 07.05.2025).",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1802025_ENG.pdf",
+          "uploadedAt": "2025-12-26",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1if9bk01p8lj",
+          "category": "Certificate Verification List",
+          "title": "Phase : I, 26-12-2025 (08_2025_CTS_OT_OCV_Publication List for Re-Uploading of Documents)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/08_2025_CTS_OT_OCV1.pdf",
+          "uploadedAt": "2025-12-26",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1j57zz4cit8l",
+          "category": "Certificate Verification Memo",
+          "title": "Phase : I, 26-12-2025 (Download Document Reupload Memo)",
+          "url": "https://tnpsc.gov.in/english/checkmemo.aspx?key=afb8ec0c-e846-4f08-85e3-61e9e4d5476b&&type=1&&phase=a2963080-9f52-479d-aea1-d83bf7c186f2&&valuekey=40bed020-a0d1-4b26-9f0e-bcd288036c51",
+          "uploadedAt": "2025-12-26",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "4z9lcj4svoxt",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of List of register number of candidates provisionally admitted to Onscreen Certificate Verification for direct recruitment to the posts included in Combined Technical Services Examination (Interview Posts).",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1502025_ENG.pdf",
+          "uploadedAt": "2025-11-05",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "13mk4831o6xk",
+          "category": "Certificate Verification List",
+          "title": "Phase : I, 05-11-2025",
+          "url": "https://tnpsc.gov.in/document/certificateverification/08_2025_PUB_LIST_OCV.pdf",
+          "uploadedAt": "2025-11-05",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1gaaj561ebr8",
+          "category": "Press Release",
+          "title": "The response portions (answer sheets) pertaining to the posts in CTS Examination (Interview Posts) (CBT method) held from 20.07.2025 FN & AN to 22.07.2025 FN & AN (Notification No. 08/2025) and the response portions (answer sheets) pertaining to the posts in CTS Examination (Non – Interview Posts) held from 04.08.2025 to 10.08.2025 (Notification No. 09/2025) have been re-hosted on the Commission’s website on 23.10.2025 – Reg.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1442025_ENG.pdf",
+          "uploadedAt": "2025-10-23",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1mjqwwy1vatc",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.08/2025 ADDENDUM - 8C",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum_8C_2025_English.pdf",
+          "uploadedAt": "2025-10-09",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "ppe1eurlqfpc",
+          "category": "Press Release",
+          "title": "தமிழ்நாடு அரசுப் பணியாளர் தேர்வாணையத்தால் 21.07.2025 முற்பகல் அன்று நடைபெற்ற மரபு கட்டிடக்கலை மற்றும் மரபு சிற்பக்கலை (Traditional Architecture and Traditional Sculpture) (பாட குறியீடு எண்: 511) பாடத்திற்கான வினாத்தாள் மற்றும் அதற்கான தோராய விடைகள் தேர்வாணைய இணைய தளமான https://www.tnpsc.gov.inல் மறுபதிவேற்றம் செய்யப்பட்டுள்ளது தொடர்பான செய்தி வெளியீடு.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/press%20release%20final.pdf",
+          "uploadedAt": "2025-08-20",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "4sc11lokumtv",
+          "category": "Tentative Answer Key",
+          "title": "Tentative Answer Key",
+          "url": null,
+          "uploadedAt": "2025-08-19",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "u9h6r912febb",
+          "category": "Press Release",
+          "title": "The response portions (answer sheets) pertaining to the posts in Combined Technical Services Examination (Interview Posts) conducted by the Commission ( CBT method) from 20.07.2025 FN & AN to 22.07.2025 FN & AN (Notification No. 08/2025) hosted on the Commission’s website on 11.08.2025 – Reg.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/presss%20release%20_110-2.pdf",
+          "uploadedAt": "2025-08-11",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1m40b9a102he",
+          "category": "Press Release",
+          "title": "தமிழ்நாடு அரசுப் பணியாளர் தேர்வாணையத்தால் 20.07.2025 முதல் 22.07.2025 வரை நடைபெற்ற ஒருங்கிணைந்த தொழில்நுட்ப பணிகளில் (நேர்முகத் தேர்வு பதவிகள்) அடங்கிய பதவிகளுக்கான உத்தேச விடைகள் தேர்வாணைய இணையதளத்தில் வெளியிடப்பட்டுள்ளது தொடர்பான செய்தி வெளியீடு",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PRESS%20RELEASE%20109.pdf",
+          "uploadedAt": "2025-08-08",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "4sc11lokumtv",
+          "category": "Tentative Answer Key",
+          "title": "Tentative Answer Key",
+          "url": null,
+          "uploadedAt": "2025-08-07",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "10jsgi011cj6",
+          "category": "Question Papers",
+          "title": "Without Tentative Answer keys",
+          "url": "https://tnpsc.gov.in/english/question_paper_withoutkey.html",
+          "uploadedAt": "2025-07-21",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "s17e76bosvdw",
+          "category": "Press Release",
+          "title": "20.07.2025 முதல் 22.07.2025 வரை நடைபெறவிருக்கும் ஒருங்கிணைந்த தொழில் நுட்ப பணிகள் தேர்வு (நேர்முகத் தேர்வு பதவிகள்)-இல் உள்ள கணினி வழி தேர்விற்கான தேர்வுக் கூட நுழைவுச் சீட்டு பதிவிறக்கம் தொடர்பான செய்தி வெளியீடு.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_ENG_91_2025.pdf",
+          "uploadedAt": "2025-07-11",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "l2sgevbxzbx9",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.08/2025 ADDENDUM_8B",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum%20_8B_2025.pdf",
+          "uploadedAt": "2025-06-20",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1qbzetdpybqt",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.08/2025 ADDENDUM_8A",
+          "url": "https://tnpsc.gov.in/Document/english/addendum%208A-2025.pdf",
+          "uploadedAt": "2025-06-10",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "4nua8a107a2u",
+          "category": "Notification",
+          "title": "Notification No. 08/2025",
+          "url": "https://tnpsc.gov.in/document/english/CTS%20English%202025_.pdf",
+          "uploadedAt": "2025-05-07",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1fmooo51leie",
+          "category": "Press Release",
+          "title": "ஒருங்கிணைந்த தொழில்நுட்ப பணிகள் தேர்வு (நேர்முகத் தேர்வு பதவிகள்) (அறிவிக்கை எண்.08/2025) அறிவிக்கை தொடர்பான செய்தி வெளியீடு",
+          "url": "https://tnpsc.gov.in/document/pressenglish/Press%20Release%2007.05.2025.pdf",
+          "uploadedAt": "2025-05-07",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        }
+      ],
+      "examDateRaw": "20/07/2025 to 23/07/2025",
+      "applyRaw": null,
+      "fetchedAt": "2026-10-20T05:52:34.831Z",
+      "sourceUrl": "https://tnpsc.gov.in/web/examdashboard/index.aspx?notid=afb8ec0c-e846-4f08-85e3-61e9e4d5476b"
+    },
+    "12bdbdbb-0e3f-48c3-971b-bdaf307503c6": {
+      "examId": "tnpsc-9-2025",
+      "sourceExamId": "12bdbdbb-0e3f-48c3-971b-bdaf307503c6",
+      "title": "COMBINED TECHNICAL SERVICES EXAMINATION (NON - INTERVIEW POSTS) - 09/2025",
+      "docs": [
+        {
+          "id": "9p8q861ogbfq",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of List of register number ofcandidates provisionally admitted to Phase-V Physical Certificate Verification and Counselling / Physical Certificate Verification for the posts included in Combined Technical Services Examination (Non-Interview Posts) (Notification No.09/2025).",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Press%20Release%20Phase%20VI%20FC%2024.06.2026.pdf",
+          "uploadedAt": "2026-06-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1a28g401giuq",
+          "category": "Counselling List",
+          "title": "Phase : VI - PCV & COUNS, 24.06.2026 (PCV & COUNS)",
+          "url": "https://tnpsc.gov.in/document/counselling/09_2025_CTS_NON_OT_PUB_LIST_PH_6.pdf",
+          "uploadedAt": "2026-06-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1nlcu5fgz0oo",
+          "category": "Counselling Memo",
+          "title": "Phase : VI - PCV & COUNS, 29-06-2026 (PCV & COUNS)",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=9618e570-9f64-4f40-bc12-5218401f2e1e&&keys=65d3e118-abf2-4cef-a245-552e91d5fd37",
+          "uploadedAt": "2026-06-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1gpbva61mzoo",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.09/2025 ADDENDUM (9E/2025)",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum%20_9E-2025%20final.pdf",
+          "uploadedAt": "2026-06-18",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1snomle1fibi",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of List of register number of candidates provisionally admitted to Phase-V Physical Certificate Verification and Counselling / Physical Certificate Verification for the posts included in Combined Technical Services Examination (Non-Interview Posts) (Notification No.09/2025).",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Press%20Release%20-%20FC%20CTS%2009_2025.pdf",
+          "uploadedAt": "2026-06-11",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1t95eqn1fwxc",
+          "category": "Counselling List",
+          "title": "Phase : V--PCV/COUNS - PCV & COUNS, 11.06.2026 (PCV & COUNS)",
+          "url": "https://tnpsc.gov.in/document/counselling/09_2025_CTS_DEG_PUB_LIST_PH_V.pdf",
+          "uploadedAt": "2026-06-11",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "93jls0123hle",
+          "category": "Counselling Memo",
+          "title": "Phase : V--PCV/COUNS - PCV & COUNS, 11-06-2026 (09_2025_CTS_DEG_PH5)",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=d47a248b-b6b0-4f4a-b760-98b16bf3a101&&keys=16e0dc52-d323-4e79-8200-a6204644057e",
+          "uploadedAt": "2026-06-11",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "h0dxpk1fbwda",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of List of register number of candidates provisionally admitted to Phase-IV Physical Certificate Verification and Counselling / Physical Certificate Verification for the posts included in Combined Technical Services Examination (Non-Interview Posts) (Notification No. 09/2025).",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Press%20Release%20-%20FC%20CTS%2009_2025%20FC.pdf",
+          "uploadedAt": "2026-06-09",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1hlioasnx0zw",
+          "category": "Counselling List",
+          "title": "Phase : IV-PCV/COUNS - PCV & COUNS, 09.06.2026 (PCV & COUNS)",
+          "url": "https://tnpsc.gov.in/document/counselling/09_2025_CTS_DEG_PUB_LIST_PH_IV.pdf",
+          "uploadedAt": "2026-06-09",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "9gnaaq1xm5iz",
+          "category": "Counselling Memo",
+          "title": "Phase : IV-PCV/COUNS - PCV & COUNS, 09-06-2026 (09_2025_CTS_DEG_PH4)",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=8b36ffc9-d81d-4e04-a128-82fd66342843&&keys=18dc30ca-baf9-4b98-8729-5eda898e6928",
+          "uploadedAt": "2026-06-09",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "13ul74w1pq5x",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of List of register number of candidates provisionally admitted to Phase-III Physical Certificate Verification and Counselling / Physical Certificate Verification for the posts included in Combined Technical Services Examination (Non-Interview Posts) (Notification No.09/2025).",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/CTS_PRESS%20RELEASE%20PHASE%20III-FC.pdf",
+          "uploadedAt": "2026-05-21",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1laaveuyzgcn",
+          "category": "Counselling List",
+          "title": "Phase : III-PCV - PCV, 21.05.2026 (PCV)",
+          "url": "https://tnpsc.gov.in/document/counselling/09_2025_CTS_NON_OT_PH3_PUB_LIST.pdf",
+          "uploadedAt": "2026-05-21",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1kvh18f181yt",
+          "category": "Counselling Memo",
+          "title": "Phase : III-PCV - PCV, 22-05-2026 (PCV )",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=3afbad07-b9b4-42f2-bf73-842e187d3e52&&keys=f1c432a2-1753-41dd-bf80-4ca1778d40c8",
+          "uploadedAt": "2026-05-21",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "vaeozpzy4qej",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of List of register number ofcandidates provisionally admitted to Physical Certificate Verification for the posts included in Combined Technical Services Examination (Non-Interview Posts) (Notification No.09/2025).",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/press%2015.05.2026.pdf",
+          "uploadedAt": "2026-05-15",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "166e72whylxn",
+          "category": "Counselling List",
+          "title": "Phase : II-PCV - PCV, 15.05.2026 (PCV )",
+          "url": "https://tnpsc.gov.in/document/counselling/09_2025_CTS_DEGREE_NON_OT_LIST_II_15052026.pdf",
+          "uploadedAt": "2026-05-15",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "imfrvy1jht0w",
+          "category": "Counselling Memo",
+          "title": "Phase : II-PCV - PCV, 18-05-2026 (PCV)",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=3657eaf9-91bc-4672-97b4-e9289217b6f7&&keys=e47cb2ff-8514-4649-91aa-852d5955ee79",
+          "uploadedAt": "2026-05-15",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1j6k93l1cqvd",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of List of register number of candidates provisionally admitted to Physical Certificate Verification and Counselling / Physical Certificate Verification for the posts included in Combined Technical Services Examination (Non-Interview Posts) (Notification No. 09/2025).",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Press%20Release%20-%20FC%20Final%20CTS%2009_2025.pdf",
+          "uploadedAt": "2026-05-04",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1vux8d6byl4w",
+          "category": "Counselling List",
+          "title": "Phase : I-PCV - PCV AND COUNS, 30.04.2026 (PCV AND COUNS)",
+          "url": "https://tnpsc.gov.in/document/counselling/09_2025_CTS_DEGREE_PUB_PCV_I_30042026.pdf",
+          "uploadedAt": "2026-04-30",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "17sqscdku6eh",
+          "category": "Counselling Memo",
+          "title": "Phase : I-PCV - PCV AND COUNS, 04-05-2026 (PCV AND COUNS)",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=d05c72b4-4b4d-4be7-8c0c-ef06f92530df&&keys=0d99059a-72c0-4523-93a4-4407ab3b42f8",
+          "uploadedAt": "2026-04-30",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "kfxsy414xhuw",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.09/2025 ADDENDUM (9D/2025)",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum%20_9D.pdf",
+          "uploadedAt": "2026-04-08",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1faq9hzrgppl",
+          "category": "Press Release",
+          "title": "Press release regarding opportunity to re-upload missing / incomplete certificates for the posts included in Combined Technical Services Examination (Non - Interview posts) (Notification No.09/2025, dated 21.05.2025).",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/press-release.pdf",
+          "uploadedAt": "2026-03-27",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "14as2u0jjfaz",
+          "category": "Certificate Verification List",
+          "title": "Phase : I - Download Document Reupload Memo, 27-03-2026 (Publication List for Re-Uploading of Documents)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/09_2025_CTS_NON_OT_REUPLOADING_PUBLICATION_LIST.pdf",
+          "uploadedAt": "2026-03-27",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "b8cfe2d9vizk",
+          "category": "Certificate Verification Memo",
+          "title": "Phase : I - Download Document Reupload Memo, 27-03-2026 (Download Document Reupload Memo)",
+          "url": "https://tnpsc.gov.in/english/checkmemo.aspx?key=12bdbdbb-0e3f-48c3-971b-bdaf307503c6&&type=1&&phase=4709e7f8-eefb-4a6f-9601-68f48c7e16c7&&valuekey=d12cc290-9c55-4b8c-b4ca-1ae31f661ba8",
+          "uploadedAt": "2026-03-27",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1cerd9wyie2z",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of List of register number of candidates provisionally admitted to Onscreen Certificate Verification for the posts included in Combined Technical Services Examination (Non-Interview Posts) (Notification No. 09/2025).",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/PR_252026.pdf",
+          "uploadedAt": "2026-02-26",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "9xc7bl4k2p5r",
+          "category": "Certificate Verification List",
+          "title": "Phase : I-CTS-NON-OT - OCV, 26-02-2026 (OCV)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/09_2025_CTS_NON_OT_PUBL_LIST_26022026.pdf",
+          "uploadedAt": "2026-02-26",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1g5s0jbqkq6i",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of Mark and Rank Position in Interactive Mode on the Commission’s Website for direct recruitment to the posts included in Combined Technical Services Examination (Non-Interview Posts) (Notification No 09/2025).",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/PR_072026_ENG.pdf",
+          "uploadedAt": "2026-01-23",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1etrhlt4hhsf",
+          "category": "WRITTEN EXAMINATION RESULTS",
+          "title": "WRITTEN EXAMINATION RESULTS",
+          "url": "https://tnpscresults.tn.gov.in/resultnoninterview/cts-index.aspx?token=P9X2R7K5A8",
+          "uploadedAt": "2026-01-23",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1v36cok11ogb",
+          "category": "Final Answer Keys",
+          "title": "Final Answer Keys",
+          "url": "https://tnpsc.gov.in/Document/Answerkeyfinalresult/09_2025_CTS_NON_INT_FAK.pdf",
+          "uploadedAt": "2026-01-22",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "13ic3m212lax",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.09/2025 ADDENDUM_9C",
+          "url": "https://tnpsc.gov.in/Document/english/ADDENDUM%20_9C_ENGLISH.pdf",
+          "uploadedAt": "2025-11-12",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1n2u8r31fg7b",
+          "category": "Press Release",
+          "title": "தமிழ்நாடு அரசுப் பணியாளர் தேர்வாணையத்தால் 04.08.2025 முதல் 10.08.2025 மற்றும் 17.08.2025 வரை நடைபெற்ற ஒருங்கிணைந்த தொழில்நுட்ப பணிகளில் நேர்முகத் தேர்வு அல்லாத பதவிகளுக்கான உத்தேச விடைகள் தேர்வாணைய இணையதளத்தில் வெளியிடப்பட்டுள்ளது தொடர்பான செய்தி வெளியீடு.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/Press%20Release%20-%20CTS%20(Non%20Interview).pdf",
+          "uploadedAt": "2025-09-03",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1c5oo9210v0j",
+          "category": "Press Release",
+          "title": "தேர்வாணையத்தால் 04.08.2025 மு.ப. முதல் 10.08.2025 பி.ப. வரை நடத்தப்பட்ட ஒருங்கிணைந்த தொழில்நுட்ப பணிகள் (நேர்முகத் தேர்வு அல்லாத பதவிகள்) தேர்வுக்கான (அறிவிக்கை எண்.09/2025, நாள் 21.05.2025) கணினி வழித் தேர்வு விடைத்தாள்கள் (CBT - Response Sheet) தேர்வாணைய இணையதளத்தில் 03.09.2025 அன்று பதிவேற்றம் செய்யப்பட்டுள்ளன. தேர்வர்கள், ஒருமுறை பதிவெண் (OTR Dashboard) வாயிலாக (03.09.2025 முதல் 09.09.2025 வரை) பதிவிறக்கம் செய்து கொள்வது தொடர்பான செய்தி வெளியீடு",
+          "url": "https://tnpsc.gov.in/document/pressenglish/Press%20Release%20No.122%20of%202025.pdf",
+          "uploadedAt": "2025-09-03",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "4sc11lokumtv",
+          "category": "Tentative Answer Key",
+          "title": "Tentative Answer Key",
+          "url": null,
+          "uploadedAt": "2025-09-01",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "9iq3g100d1r6",
+          "category": "Press Release",
+          "title": "Combined Technical Services Examination (Non Interview Posts) vide., Notification No. 09/2025, dated: 21.05.2025. Computer Based Test (CBT), Objective Type (OMR) and Descriptive Type Examination for the said posts is scheduled to be held from 04.08.2025 to 10.08.2025 FN & AN 17.08.2025 FN & AN and 18.08.2025 FN. Download Hall Ticket – Press release regarding.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/104_english.pdf",
+          "uploadedAt": "2025-07-29",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "56fya4xp6mfy",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.09/2025 Addendum for Notification No.09/2025 (9B/2025)",
+          "url": "https://tnpsc.gov.in/Document/english/09_2025_CTSE_NON_OT_Addendum%20_9B_2025.pdf",
+          "uploadedAt": "2025-07-09",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "joy3r0ti6kvy",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.09/2025 ADDENDUM_9A",
+          "url": "https://tnpsc.gov.in/Document/english/addendum%209A-2025%2011.06.2025.pdf",
+          "uploadedAt": "2025-06-11",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "8qavcz83rm3l",
+          "category": "Notification",
+          "title": "Notification No. 09/2025",
+          "url": "https://tnpsc.gov.in/document/english/CTS%20-Non%20Interview%20English_.pdf",
+          "uploadedAt": "2025-05-21",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1g9liwqnn21e",
+          "category": "Press Release",
+          "title": "ஒருங்கிணைந்த தொழில்நுட்ப பணிகள் தேர்வு (நேர்முகத்தேர்வு அல்லாத பதவிகள்) – 2025 –க்கான அறிவிக்கை தொடர்பான செய்தி வெளியீடு",
+          "url": "https://tnpsc.gov.in/document/pressenglish/59-2025%20Press%20Release%2021.05.2025.pdf",
+          "uploadedAt": "2025-05-21",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        }
+      ],
+      "examDateRaw": "04.08.2025 to 10.08.2025, 17.08.2025 & 18.08.2025",
+      "applyRaw": null,
+      "fetchedAt": "2026-10-20T05:52:34.831Z",
+      "sourceUrl": "https://tnpsc.gov.in/web/examdashboard/index.aspx?notid=12bdbdbb-0e3f-48c3-971b-bdaf307503c6"
+    },
+    "336b145f-ffc4-4386-ab9b-e29abed1ef4a": {
+      "examId": "tnpsc-10-2025",
+      "sourceExamId": "336b145f-ffc4-4386-ab9b-e29abed1ef4a",
+      "title": "COMBINED TECHNICAL SERVICES EXAMINATION (DIPLOMA / ITI LEVEL) - 10/2025",
+      "docs": [
+        {
+          "id": "133uiae3282a",
+          "category": "Counselling List",
+          "title": "Phase : VII-PCV/COUNS - Physical Certificate Verification/Counselling, 09/10/2026 (Physical Certificate Verification/Counselling)",
+          "url": "https://tnpsc.gov.in/document/counselling/10_2025_PH_VII_PUBL_LIST_09_10_2026.pdf",
+          "uploadedAt": "2026-10-09",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "vigvjz1gay6d",
+          "category": "Counselling Memo",
+          "title": "Phase : VII-PCV/COUNS - Physical Certificate Verification/Counselling, 12-10-2026 (PCV/COUNS)",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=14b75c71-2e15-401f-98ec-7635a4ae9295&&keys=78b3ea00-59ec-49e7-9f53-0020988eed69",
+          "uploadedAt": "2026-10-09",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1jyvcc1or89c",
+          "category": "Certificate Verification List",
+          "title": "Phase : II OCV - REUPLOAD, 10-09-2026 (Publication List for Re-Uploading of Documents)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/REUPLOAD%20LIST.pdf",
+          "uploadedAt": "2026-09-10",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "6mxzmy9hiak4",
+          "category": "Certificate Verification Memo",
+          "title": "Phase : II OCV - REUPLOAD, 10-09-2026 (Download Document / Reupload Memo)",
+          "url": "https://tnpsc.gov.in/english/checkmemo.aspx?key=336b145f-ffc4-4386-ab9b-e29abed1ef4a&&type=1&&phase=4fcca2e6-74de-48a2-899e-2d13b1f6e5f7&&valuekey=560230eb-ac85-49b7-a5ef-31b5b7ace57f",
+          "uploadedAt": "2026-09-10",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "8wyzpnv5tz6x",
+          "category": "Certificate Verification List",
+          "title": "Phase : II-OCV - Onscreen Certificate Verification, 09-09-2026 (Onscreen Certificate Verification-II)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/10_2025_CTS_DIP_ITI_PUB_LIST_OCV_II.pdf",
+          "uploadedAt": "2026-09-09",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1fv7ckrwxgb7",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of List of register numbers of candidates provisionally admitted to Physical Certificate Verification/Counselling (Phase-VI) for the posts included in Combined Technical Services Examination (Diploma/ITI Level) (NotificationNo. 10/2025) and its addenda.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/press%20release%20VI.pdf",
+          "uploadedAt": "2026-07-29",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "fitgrkjfjnwi",
+          "category": "Counselling List",
+          "title": "Phase : VI - Physical Certificate Verification and Counselling, 29/07/2026 ( Physical Certificate Verification and Counselling)",
+          "url": "https://tnpsc.gov.in/document/counselling/10_2025_CTS_DIP_PHASE_VI_29072026.pdf",
+          "uploadedAt": "2026-07-29",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1xsk0zr2tbc9",
+          "category": "Counselling Memo",
+          "title": "Phase : VI - Physical Certificate Verification and Counselling, 30-07-2026 (Physical Certificate Verification and Counselling)",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=bd27d153-5b09-4e44-a829-c08b1dc36eb7&&keys=a7a3ab4a-0582-451d-9e22-9a41413dca34",
+          "uploadedAt": "2026-07-29",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1mukw5praznb",
+          "category": "Counselling List",
+          "title": "Phase : V - Physical Certificate Verification and Counselling, 24.07.2026 (Physical Certificate Verification and Counselling)",
+          "url": "https://tnpsc.gov.in/document/counselling/10_2025_CTS_DIP_ITI_PH5_PUB_LIST.pdf",
+          "uploadedAt": "2026-07-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "16vkwl31out9",
+          "category": "Counselling Memo",
+          "title": "Phase : V - Physical Certificate Verification and Counselling, 27-07-2026 (Physical Certificate Verification and Counselling)",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=0a3f67bb-e200-492a-855e-7dbd716ed87e&&keys=94f8b775-f763-4282-adee-33adc52a1395",
+          "uploadedAt": "2026-07-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1y1nmxvoun6m",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of List of register numbers of candidates provisionally admitted to Physical Certificate Verification/Counselling (Phase-IV) for theposts included in Combined Technical Services Examination (Diploma/ITI Level)(Notification No. 10/2025) and its addenda.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Phase-IV%20press%20release.pdf",
+          "uploadedAt": "2026-07-16",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1y1nmxvoun6m",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of List of register numbers of candidates provisionally admitted to Physical Certificate Verification/Counselling (Phase-IV) for theposts included in Combined Technical Services Examination (Diploma/ITI Level)(Notification No. 10/2025) and its addenda.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Phase-IV%20press%20release.pdf",
+          "uploadedAt": "2026-07-16",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "el31541tt2v7",
+          "category": "Counselling List",
+          "title": "Phase : IV - Physical Certificate Verification and Counselling, 16.07.2026 (Physical Certificate Verification and Counselling)",
+          "url": "https://tnpsc.gov.in/document/counselling/10_2025_CTS_DIP_ITI_PH4_PUB_LIST.pdf",
+          "uploadedAt": "2026-07-16",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "16cc9lus2u16",
+          "category": "Counselling Memo",
+          "title": "Phase : IV - Physical Certificate Verification and Counselling, 17-07-2026 (Physical Certificate Verification and Counselling)",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=3d49f3d0-d4e0-4735-9f42-75db3f9aa691&&keys=c8f904db-8882-4177-9c43-5be8183032dd",
+          "uploadedAt": "2026-07-16",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "ivocloa8j2xy",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of List of register number of candidates provisionally admitted to Physical Certificate Verification (Phase-III) for the posts included in Combined Technical Services Examination (Diploma/ITI Level) (Notification No. 10/2025) and its addenda.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/press%20release%20fc%20(1).pdf",
+          "uploadedAt": "2026-07-07",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "195kst7js4u7",
+          "category": "Counselling List",
+          "title": "Phase : III - Physical Certificate Verification, 07.07.2026 (Physical Certificate Verification)",
+          "url": "https://tnpsc.gov.in/document/counselling/10_2025_CTS_DIP_ITI_PH3_PUB_LIST.pdf",
+          "uploadedAt": "2026-07-07",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1n1xke21glrz",
+          "category": "Counselling Memo",
+          "title": "Phase : III - Physical Certificate Verification, 08-07-2026 (Physical Certificate Verification)",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=632e2d27-7247-40e2-ae6a-04b6ce99bb35&&keys=d069c2b7-b144-4d2b-81ee-61beead70fff",
+          "uploadedAt": "2026-07-07",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "179jpfi1yd82",
+          "category": "Counselling Memo",
+          "title": "Phase : II-08072026 - Physical Certificate Verification_08072026, 02-07-2026 (PCV-08.07.2026)",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=fd514046-dffd-43cf-903f-35549b14943f&&keys=17b23b45-2363-461c-a98f-89e4f7534a99",
+          "uploadedAt": "2026-07-02",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "t2qy4k110551",
+          "category": "Counselling Memo",
+          "title": "Phase : II-09072026 - Physical Certificate Verification-09072026, 02-07-2026 (PCV-09.07.2026)",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=33e9cc3a-0897-469f-aa7b-7b9171f9978f&&keys=afad0d0f-16a9-4d72-a173-2a7ff8aac1a0",
+          "uploadedAt": "2026-07-02",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "sslmjp13okuw",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of List of register number of candidates provisionally admitted to Physical Certificate Verification (Phase II) for the posts included in Combined Technical Services Examination (Diploma/ITI Level) (Notification No. 10/2025) and its addenda.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/press%20release-final%20(1).pdf",
+          "uploadedAt": "2026-07-01",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1yci7e13pivq",
+          "category": "Counselling List",
+          "title": "Phase : II-PCV - Physical Certificate Verification, 01.07.2026 ( Physical Certificate Verification)",
+          "url": "https://tnpsc.gov.in/document/counselling/10_2025_CTS_DIP_ITI_PHASE_II_PUB_LIST_FC.pdf",
+          "uploadedAt": "2026-07-01",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "wlupkf5hjeud",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of List of register number of candidates provisionally admitted to Physical Certificate Verification and Counselling / Physical Certificate Verification for the posts included in Combined Technical Services Examination (Diploma / ITI level) Notification No.10/2025, dated 13.06.2025 and its Addenda.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/press%20release_phase1_final.pdf",
+          "uploadedAt": "2026-06-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "ryi9nv2ld22x",
+          "category": "Counselling List",
+          "title": "Phase : I - Physical Certificate Verification and Counselling, 24.06.2026 (Physical Certificate Verification and Counselling)",
+          "url": "https://tnpsc.gov.in/document/counselling/10_2025_CTS_DIP_PUBLIST.pdf",
+          "uploadedAt": "2026-06-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "3mr5diuok7do",
+          "category": "Counselling Memo",
+          "title": "Phase : I - Physical Certificate Verification and Counselling, 25-06-2026 (PCV & COUNS)",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=f2a4e7dc-def9-46d3-82cb-26fba0fdb855&&keys=34812eb4-07b8-4df5-9520-b270af3be771",
+          "uploadedAt": "2026-06-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "l1px4h9vxbu7",
+          "category": "Press Release",
+          "title": "Press release regarding opportunity to re-upload missing/incomplete certificates for the posts included in Combined Technical Services Examination (Diploma/ITI Level) Notification No.10/2025, Dated:13.06.2025.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Press%20release.pdf",
+          "uploadedAt": "2026-04-17",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "ml2hlzowghrp",
+          "category": "Certificate Verification List",
+          "title": "Phase : I - Download Document Reupload Memo, 17-04-2026 (Publication List for Re-Uploading of Documents)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/Publication%20list%20-%20Re-uploading%20of%20documents.pdf",
+          "uploadedAt": "2026-04-17",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1jgux4i1etc5",
+          "category": "Certificate Verification Memo",
+          "title": "Phase : I - Download Document Reupload Memo, 17-04-2026 (Download Document Reupload Memo)",
+          "url": "https://tnpsc.gov.in/english/checkmemo.aspx?key=336b145f-ffc4-4386-ab9b-e29abed1ef4a&&type=1&&phase=4fedbbd8-53fd-4280-8bda-29219f327407&&valuekey=038359e6-5aa9-48fe-a022-574d83156671",
+          "uploadedAt": "2026-04-17",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1286ck71du4o",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of List of register number of candidates provisionally admitted to Onscreen Certificate Verification for the posts included in Combined Technical Services Examination (Diploma/ITI Level) (Notification No. 10/2025, dated 13.06.2025 and its Addenda).",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/PR_332026.pdf",
+          "uploadedAt": "2026-03-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "sdrkiuafs1tg",
+          "category": "Certificate Verification List",
+          "title": "Phase : I - OCV, 24-03-2026 (OCV)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/PUB_LIST_10_2025_OCV_24_03_2026.pdf",
+          "uploadedAt": "2026-03-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "g9qdpal78qas",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.10/2025 ADDENDUM (10C/2025)",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum%2010C-2025.pdf",
+          "uploadedAt": "2026-03-11",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "so25y5907tz3",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of Mark and Rank Position in Interactive Mode for direct recruitment to the posts included in Combined Technical Services Examination (Diploma/ITI Level) (Notification No.10/2025) on the Commission’s website.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/English%20pdf.pdf",
+          "uploadedAt": "2026-02-27",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1s1liiv1jqmf",
+          "category": "WRITTEN EXAMINATION RESULTS",
+          "title": "WRITTEN EXAMINATION RESULTS",
+          "url": "https://tnpscresults.tn.gov.in/Diploma_iti_202602/cts-index.aspx?token=JDHSUJWJ9873JHDY87JD",
+          "uploadedAt": "2026-02-27",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "19tnbv6msiro",
+          "category": "Final Answer Keys",
+          "title": "Final Answer Keys",
+          "url": "https://tnpsc.gov.in/Document/Answerkeyfinalresult/10_2025_CTS_DIPLOMA_ITI_FAK_ALL.pdf",
+          "uploadedAt": "2026-02-25",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "17m3mma1xuko",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.10/2025 ADDENDUM (10B/2025)",
+          "url": "https://tnpsc.gov.in/Document/english/ADDENDUM_10B_2025_ENGLISH.pdf",
+          "uploadedAt": "2025-12-12",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "ydl2sa8rgkhw",
+          "category": "Press Release",
+          "title": "தமிழ்நாடு அரசுப் பணியாளர் தேர்வாணையத்தால் 07.09.2025 முதல் 27.09.2025 வரை பல்வேறு நாட்களில் நடைபெற்ற ஒருங்கிணைந்த தொழில்நுட்ப பணிகளில் பட்டயப்படிப்பு மற்றும் தொழிற்பயிற்சி நிலை பதவிகளுக்கான தாள் – II பாடத்திற்கான உத்தேச விடைகள் தேர்வாணைய இணையதளத்தில் வெளியிடப்பட்டுள்ளது தொடர்பான செய்தி வெளியீடு.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1412025.pdf",
+          "uploadedAt": "2025-10-17",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "4sc11lokumtv",
+          "category": "Tentative Answer Key",
+          "title": "Tentative Answer Key",
+          "url": null,
+          "uploadedAt": "2025-10-17",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "tv030v1st8ns",
+          "category": "Press Release",
+          "title": "The response portions (answer sheets) pertaining to the posts in Combined Technical Services Examination (Diploma / ITI level) conducted by the Commission ( CBT method) on 07.09.2025 FN, 11.09.2025 to 18.09.2025 and from 22.09.2025 to 27.09.2025 FN (Notification No. 10/2025) hosted on the Commission’s website on 13.10.2025 – Reg.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_140_2025_ENG.pdf",
+          "uploadedAt": "2025-10-14",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "4sc11lokumtv",
+          "category": "Tentative Answer Key",
+          "title": "Tentative Answer Key",
+          "url": null,
+          "uploadedAt": "2025-10-10",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "166qju819x1d",
+          "category": "Press Release",
+          "title": "தமிழ்நாடு அரசுப் பணியாளர் தேர்வாணையத்தால் 31.08.2025 அன்று நடைபெற்ற ஒருங்கிணைந்த தொழில்நுட்ப பணிகளில் பட்டயப்படிப்பு மற்றும் தொழிற்பயிற்சி நிலை பதவிகளுக்கான தமிழ் தகுதித் தேர்வு, திறனறிவு மற்றும் மனக்கணக்கு நுண்ணறிவு பாடத்திற்கான உத்தேச விடைகள் தேர்வாணைய இணையதளத்தில் வெளியிடப்பட்டுள்ளது தொடர்பான செய்தி வெளியீடு.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/Press%20Release%20CTS%20-%20Diploma_ITI.pdf",
+          "uploadedAt": "2025-09-30",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "4sc11lokumtv",
+          "category": "Tentative Answer Key",
+          "title": "Tentative Answer Key",
+          "url": null,
+          "uploadedAt": "2025-09-30",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1jj3duqselbl",
+          "category": "Press Release",
+          "title": "ஒருங்கிணைந்த தொழில்நுட்ப பணிகளில் (பட்டயம் / தொழிற்பயிற்சி நிலை) அடங்கியுள்ள பதவிகளுக்கான கணினி வழித் தேர்வு மற்றும் ஒளிக்குறிஉணரி வகை தேர்வு - தேர்வுக்கூட நுழைவு சீட்டு-II பதிவிறக்கம் – தொடர்பான செய்தி வெளியீடு.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/Press%20Release%20English.pdf",
+          "uploadedAt": "2025-09-01",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "148qufz19skd",
+          "category": "Press Release",
+          "title": "ஒருங்கிணைந்த தொழில்நுட்ப பணிகளில் (பட்டயம் / தொழிற்பயிற்சிநிலை) அடங்கியுள்ள பதவிகளுக்கான ஒளிக்குறிஉணரி வகை தேர்வு - தேர்வுக்கூட நுழைவு சீட்டு பதிவிறக்கம் – தொடர்பான செய்தி வெளியீடு.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/Press%20Release%20English%20-%20OMR.pdf",
+          "uploadedAt": "2025-08-22",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "10jsgi011cj6",
+          "category": "Question Papers",
+          "title": "Without Tentative Answer keys",
+          "url": "https://tnpsc.gov.in/english/question_paper_withoutkey.html",
+          "uploadedAt": "2025-08-09",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "3wohet5nm0pf",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.10/2025 Addendum for Notification No.10/2025 (10A/2025)",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum_10A_2025_English.pdf",
+          "uploadedAt": "2025-08-01",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "ncoxyu4w7zuo",
+          "category": "Notification",
+          "title": "Notification No. 10/2025",
+          "url": "https://tnpsc.gov.in/document/english/CTS%20-%20Diploma,%202025%20Final%20English_.pdf",
+          "uploadedAt": "2025-06-13",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "c45dxregoiqd",
+          "category": "Press Release",
+          "title": "ஒருங்கிணைந்த தொழில் நுட்ப பணிகள் தேர்வு (பட்டயம் / தொழிற்பயிற்சி நிலை), 2025க்கான அறிவிக்கை தொடர்பான செய்தி வெளியீடு",
+          "url": "https://tnpsc.gov.in/document/pressenglish/Press%20Release%2013.06.2025.pdf",
+          "uploadedAt": "2025-06-13",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        }
+      ],
+      "examDateRaw": "31/08/2025 FN, 07.09.2025 FN, 11.09.2025 to 18.09.2025 FN / AN and 22.09.2025 to 27.09.2025 FN / AN.",
+      "applyRaw": null,
+      "fetchedAt": "2026-10-20T05:52:34.831Z",
+      "sourceUrl": "https://tnpsc.gov.in/web/examdashboard/index.aspx?notid=336b145f-ffc4-4386-ab9b-e29abed1ef4a"
+    },
+    "54747e48-e778-462b-ba53-466ea97cf2ee": {
+      "examId": "tnpsc-11-2025",
+      "sourceExamId": "54747e48-e778-462b-ba53-466ea97cf2ee",
+      "title": "COMBINED CIVIL SERVICES EXAMINATION - II (GROUP II AND IIA SERVICES) - 11/2025",
+      "docs": [
+        {
+          "id": "il5s84vio3iy",
+          "category": "Certificate Verification List",
+          "title": "Phase : III-OCV - FORESTER , 13-10-2026 (Forester in Tamil Nadu Forest Subordinate Service under Reservation for Outstanding Sports Persons)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/11_2025_GRP_II_PUBL_FORESTER_OCV_3_SPORTS_131026.pdf",
+          "uploadedAt": "2026-10-13",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "15gy48e1mxf6",
+          "category": "EXAM RESULTS - FOR THE POST UNDER RESERVATION FOR OUTSTANDING SPORTSPERSONS",
+          "title": "SPORTS ACHIEVEMENT MARK AND RANK POSITION",
+          "url": "https://tnpscresults.tn.gov.in/ccsforestexam/ccsIndex.aspx?token=P9X2R7K5A8KDJ8JD665G1N1",
+          "uploadedAt": "2026-09-29",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "ilciqy11lslb",
+          "category": "Certificate Verification List",
+          "title": "Phase : II - OCV, 24-09-2026 (PUBLICATION LIST - FORESTER)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/11_2025_CCSE_II_GRP_II_PH_II_OCV_PUB_LIST.pdf",
+          "uploadedAt": "2026-09-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "9y6ny1xhkqr",
+          "category": "Counselling List",
+          "title": "Phase : II - GROUP - IIA, 17.09.2026 (PCV AND COUNSELLING)",
+          "url": "https://tnpsc.gov.in/document/counselling/GROUP-IIA-PUB_LIST_17092026.pdf",
+          "uploadedAt": "2026-09-17",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1ui5uxk1cgzp",
+          "category": "Counselling Memo",
+          "title": "Phase : II - GROUP - IIA, 17-09-2026 (Physical Certificate Verification and Counselling)",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=7b54e812-3b55-410e-9eda-c429fad1b753&&keys=0eadcdab-2674-4319-a59a-7cac2fad4728",
+          "uploadedAt": "2026-09-17",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "qhzacq1d169q",
+          "category": "Counselling List",
+          "title": "Phase : I - PCV, 09.09.2026 (PCV AND COUNSELLING)",
+          "url": "https://tnpsc.gov.in/document/counselling/11_2025_GROUP_II_PUB_LIST_09092026.pdf",
+          "uploadedAt": "2026-09-09",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "olhs0x1rfjqs",
+          "category": "Counselling Memo",
+          "title": "Phase : I - PCV, 10-09-2026 (PCV_COUNS)",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=c9e6df79-c3b1-4731-a6c3-ae40e8697fd2&&keys=fc2868d3-c67b-404d-bc99-7b26345d639c",
+          "uploadedAt": "2026-09-09",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "fn7dzol2dlna",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.11/2025 ADDENDUM (11E/2025)",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum_11E%20English_Dated%2031.08.2026.pdf",
+          "uploadedAt": "2026-08-31",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1uumdfq1ffom",
+          "category": "Press Release",
+          "title": "CCSE-II (Group-II & II A Services) Notification No. 11/2025 dated 15.07.2025 for the Posts of Forester and Field Assistant – Attending Physical Standards and Endurance Test on 24.08.2026 and 25.08.2026.- Hosted on the Commission’s website – Press release - Reg.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Tamil%20-%20PDF.pdf",
+          "uploadedAt": "2026-08-17",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "obzge1e35fc0",
+          "category": "Certificate Verification List",
+          "title": "Phase : I - Onscreen Certificate Verification, 17-08-2026 (Phase : I - FORESTER / FIELD ASSISTANT - PHYSICAL TEST - PUBLICATION LIST)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/11_2025_GR_II_IIA_ENDURANCE_TEST_PUBL_LIST.pdf",
+          "uploadedAt": "2026-08-17",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "145tuv0b9wqx",
+          "category": "Certificate Verification Memo",
+          "title": "Phase : I - Onscreen Certificate Verification, 17-08-2026 (Phase : I - FORESTER / FIELD ASSISTANT - DOWNLOAD PHYSICAL TEST MEMO)",
+          "url": "https://tnpsc.gov.in/english/checkmemo.aspx?key=54747e48-e778-462b-ba53-466ea97cf2ee&&type=1&&phase=87b243a1-5ad0-48fd-b242-b268d4a9df16&&valuekey=dcb82e2f-990b-419c-b596-8a36fa3c4a11",
+          "uploadedAt": "2026-08-17",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "9bhbqw18lijk",
+          "category": "Certificate Verification Memo",
+          "title": "Phase : I, 12-08-2026 (Download Document Re-Upload Memo for Outstanding Sportspersons)",
+          "url": "https://tnpsc.gov.in/english/checkmemo.aspx?key=54747e48-e778-462b-ba53-466ea97cf2ee&&type=1&&phase=1221613b-1070-4f84-9bc8-a92988ac02c3&&valuekey=2c0079f4-7fee-4dca-bfc6-1973d2e172a0",
+          "uploadedAt": "2026-08-12",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "byj3u918mu3a",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.11/2025 ADDENDUM (11D/2025)",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum%2011D_04.08.2026.pdf",
+          "uploadedAt": "2026-08-04",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1gy60cogo3h6",
+          "category": "Certificate Verification List",
+          "title": "Phase : I - Onscreen Certificate Verification, 31-07-2026 (Publication List for Re-Uploading of Documents)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/11_2025_GR_II_IIA_REUPLOAD_PUBL_LIST.pdf",
+          "uploadedAt": "2026-07-31",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1sy562z3c30q",
+          "category": "Certificate Verification Memo",
+          "title": "Phase : I - Onscreen Certificate Verification, 31-07-2026 (Download Document Re-upload Memo)",
+          "url": "https://tnpsc.gov.in/english/checkmemo.aspx?key=54747e48-e778-462b-ba53-466ea97cf2ee&&type=1&&phase=87b243a1-5ad0-48fd-b242-b268d4a9df16&&valuekey=174bb7ae-7272-477a-a97c-bbf1804d1dd6",
+          "uploadedAt": "2026-07-31",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1it6w3ump18a",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.11/2025 ADDENDUM (11C/2025)",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum%2011C_16.07.2026.pdf",
+          "uploadedAt": "2026-07-16",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1rgb9dmg9t0p",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of List of register number of candidates provisionally admitted to Onscreen CertificateVerification for the posts included in Combined Civil Services Examination –II (Group II and IIA Services) NotificationNo.11/2025, dated 15.07.2025 and its addenda – Regarding.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/1000360507.pdf",
+          "uploadedAt": "2026-07-13",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "16xkfah123t5",
+          "category": "Certificate Verification List",
+          "title": "Phase : I - Onscreen Certificate Verification, 13-07-2026",
+          "url": "https://tnpsc.gov.in/document/certificateverification/11_2025_GROUP_II_IIA_OCV_PUBLICATION_LIST.pdf",
+          "uploadedAt": "2026-07-13",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "5is1k11q6u3a",
+          "category": "Press Release",
+          "title": "Press release regarding upload of documents related to sports achievements for the posts included in Combined Civil Services Examination-II (Group-II and IIA Services) (notification No.11/2025, dated 15.07.2025).",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/PR_English.pdf",
+          "uploadedAt": "2026-07-10",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1y8qop533l6b",
+          "category": "Certificate Verification Memo",
+          "title": "Phase : I, 10-07-2026 (Download Document Upload Memo for Outstanding Sportspersons)",
+          "url": "https://tnpsc.gov.in/english/checkmemo.aspx?key=54747e48-e778-462b-ba53-466ea97cf2ee&&type=1&&phase=1221613b-1070-4f84-9bc8-a92988ac02c3&&valuekey=c83c8a79-1e38-40b6-9594-301b8e9d1991",
+          "uploadedAt": "2026-07-10",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "4ol2d2h4jcis",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of Marks and Rank Position in Interactive Mode for direct recruitment to the posts included in Combined Civil Services Examination-II (Group II and IIA Services) (Notification No.11/2025) on the Commission’s Website.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/69_English.pdf",
+          "uploadedAt": "2026-06-29",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1qqhdnb1mqyp",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of Marks and Rank Position in Interactive Mode for direct recruitment to the posts included in Combined Civil Services Examination-II (Group II and IIA Services) (Notification No.11/2025) on the Commission’s Website.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/final%20pdf%20qd.pdf",
+          "uploadedAt": "2026-06-29",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "18qnbun1rz2e",
+          "category": "WRITTEN EXAMINATION RESULTS",
+          "title": "MARKS AND RANK POSITION-GROUP-II",
+          "url": "https://tnpscresults.tn.gov.in/ccsexam/ccsIndex.aspx?token=P9X2R7K5A8KDJ8JD6658GR",
+          "uploadedAt": "2026-06-29",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "tfsxkolan672",
+          "category": "WRITTEN EXAMINATION RESULTS",
+          "title": "MARKS AND RANK POSITION-GROUP-IIA",
+          "url": "https://tnpscresults.tn.gov.in/ccsexam2a/ccs2aindex.aspx?token=P9X2R7K5A8KDJ8JD8967RG",
+          "uploadedAt": "2026-06-29",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "16zlb1qkpt2n",
+          "category": "Tentative Answer Key",
+          "title": "Tentative Answer Key MWE",
+          "url": null,
+          "uploadedAt": "2026-03-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "phrsv91lhb00",
+          "category": "Question Papers",
+          "title": "Descriptive Type (TAMIL ELIGIBILITY TEST)",
+          "url": "https://tnpsc.gov.in/English/descriptive-questions.html",
+          "uploadedAt": "2026-03-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "hv42budv9ais",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of List of candidates provisionally admitted to Main Examination for direct recruitment to the post included in Combined Civil Services Examination-II (Group II and Group IIA Services).",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1792025_ENG.pdf",
+          "uploadedAt": "2025-12-22",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "epalrx13p6to",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of List of candidates provisionally admitted to Main Examination for direct recruitment to the post included in Combined Civil Services Examination-II (Group II and Group IIA Services).",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1782025_ENG.pdf",
+          "uploadedAt": "2025-12-22",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1e2i35z1kvbr",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.11/2025 ADDENDUM (11B/2025)",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum%20(11B).pdf",
+          "uploadedAt": "2025-12-22",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1bw0s0v1scpt",
+          "category": "Preliminary Examination Results",
+          "title": "LIST OF CANDIDATES ADMITTED TO MAIN WRITTEN EXAMINATION FOR GROUP II",
+          "url": "https://tnpsc.gov.in/document/certificateverification/11_2025_GROUP_II_PUBLIST.pdf",
+          "uploadedAt": "2025-12-22",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1f1pz1i1hsd8",
+          "category": "Preliminary Examination Results",
+          "title": "LIST OF CANDIDATES ADMITTED TO MAIN WRITTEN EXAMINATION FOR GROUP IIA",
+          "url": "https://tnpsc.gov.in/document/certificateverification/11_2025_GROUP_IIA_PUBLIST.pdf",
+          "uploadedAt": "2025-12-22",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1yafi0l1lzti",
+          "category": "Press Release",
+          "title": "Re-opening of OTR for the posts in Combined Civil Services Examination (Group II/IIA Services) vide., Notification No. 11/2025, dated: 15.07.2025 and Addendum 11A/2025, dated.18.11.2025– Press release regarding.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1632025_ENG.pdf",
+          "uploadedAt": "2025-11-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "td9yr41vwkfl",
+          "category": "Press Release",
+          "title": "Re-opening of OTR for the posts in Combined Civil Services Examination (Group II/IIA Services) vide., Notification No. 11/2025, dated: 15.07.2025 and Addendum 11A/2025, dated.18.11.2025– Press release regarding.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1602025_ENG.pdf",
+          "uploadedAt": "2025-11-21",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "12ysc4p17rjw",
+          "category": "Press Release",
+          "title": "Press release regarding issuance of Addendum to Combined Civil Services Examination – II (Group II and IIA Services) Notification No. 11/2025.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1572025.pdf",
+          "uploadedAt": "2025-11-18",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "zjngl6i082vc",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.11/2025 ADDENDUM_11A",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum%2011A_English.pdf",
+          "uploadedAt": "2025-11-18",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "85b3621hsfgk",
+          "category": "Press Release",
+          "title": "ஒருங்கிணைந்த குடிமைப் பணிகள் தேர்வு- II (தொகுதி -II மற்றும் IIA) – (அறிவிக்கை எண்.11/2025, நாள் 15.07.2025) - 28.09.2025 அன்று நடைப்பெற்ற தேர்வுக்கான உத்தேச விடைகள் தேர்வாணைய இணையதளத்தில் வெளியிடப்பட்டுள்ளது தொடர்பான செய்தி வெளியீடு.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/Press%20Release_136_2025.pdf",
+          "uploadedAt": "2025-10-07",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "4sc11lokumtv",
+          "category": "Tentative Answer Key",
+          "title": "Tentative Answer Key",
+          "url": null,
+          "uploadedAt": "2025-10-07",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "wemt9d1t1f98",
+          "category": "Press Release",
+          "title": "ஒருங்கிணைந்த குடிமைப் பணிகள் தேர்வு- II (தொகுதி -II மற்றும் IIA) - அறிவிக்கை எண்.11/2025, நாள் 15.07.2025 – தேர்வு நாள் 28.09.2025 முற்பகல்– தேர்விற்கான முன்னேற்பாடுகள் தொடர்பான செய்தி வெளியீடு.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/131-2025%20Group-II%20Exam%20Press%20Release%20Final.pdf",
+          "uploadedAt": "2025-09-26",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1rag781fibv1",
+          "category": "Press Release",
+          "title": "28.09.2025 மு.ப நடைபெற உள்ள ஒருங்கிணைந்த குடிமைப் பணிகளில் (தொகுதி II மற்றும் IIA பதவிகள்) அடங்கியுள்ள பதவிகளுக்கான ஒளிக்குறி உணரி வகை தேர்வு - தேர்வுக்கூட நுழைவு சீட்டு பதிவிறக்கம் – தொடர்பான செய்தி வெளியீடு.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/Press%20Release%20English%20G2-%202025.pdf",
+          "uploadedAt": "2025-09-18",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "g5e4vd1vgg36",
+          "category": "Notification",
+          "title": "Notification No. 11/2025",
+          "url": "https://tnpsc.gov.in/document/english/GRP2_11_2025_ENGLISH.pdf",
+          "uploadedAt": "2025-07-15",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "18qheeb1kfnj",
+          "category": "Apply online",
+          "title": "Date of commencement of receiving application : 15.07.2025 Last date and time for submission of online application : 13.08.2025 - 11:59 P.M",
+          "url": "https://apply.tnpscexams.in/notification?app_id=UElZMDAwMDAwMQ%3D%3D",
+          "uploadedAt": "2025-07-15",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1lwufsei6xou",
+          "category": "Press Release",
+          "title": "ஒருங்கிணைந்த குடிமைப் பணிகள் தேர்வு – II (தொகுதி II மற்றும் IIA பணிகள்) 2025 க்கான அறிவிக்கை தொடர்பான செய்தி வெளியீடு.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/Press%20release%20Group%20II.pdf",
+          "uploadedAt": "2025-07-15",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        }
+      ],
+      "examDateRaw": "28/09/2025",
+      "applyRaw": null,
+      "fetchedAt": "2026-10-20T05:52:34.831Z",
+      "sourceUrl": "https://tnpsc.gov.in/web/examdashboard/index.aspx?notid=54747e48-e778-462b-ba53-466ea97cf2ee"
+    },
+    "89c2b790-9805-4ad7-b25c-a761db67531a": {
+      "examId": "tnpsc-12-2025",
+      "sourceExamId": "89c2b790-9805-4ad7-b25c-a761db67531a",
+      "title": "RASHTRIYA INDIAN MILITARY COLLEGE, DEHRADUN (JULY-2026 TERM) - 12/2025",
+      "docs": [
+        {
+          "id": "15kniln1otzw",
+          "category": "Notification",
+          "title": "Notification No. 12/2025",
+          "url": "https://tnpsc.gov.in/document/english/1942-RIMC-noti-English_.pdf",
+          "uploadedAt": "2025-08-25",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "gh1bh0g0t3ni",
+          "category": "Apply online",
+          "title": "Date of commencement of receiving application : 25.08.2025 Last date and time for submission of online application : 15.10.2025 - 11:59 P.M",
+          "url": "https://admission.schoolmitra.com/#/admission/newEnquiry/6396eff3fc26e41841a5afd6",
+          "uploadedAt": "2025-08-25",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        }
+      ],
+      "examDateRaw": "07/12/2025 (F.N & A.N)",
+      "applyRaw": null,
+      "fetchedAt": "2026-10-20T05:52:34.831Z",
+      "sourceUrl": "https://tnpsc.gov.in/web/examdashboard/index.aspx?notid=89c2b790-9805-4ad7-b25c-a761db67531a"
+    },
+    "6889f3ab-95b2-412b-855f-51df0cf90da8": {
+      "examId": "tnpsc-13-2025",
+      "sourceExamId": "6889f3ab-95b2-412b-855f-51df0cf90da8",
+      "title": "COMBINED TECHNICAL SERVICES EXAMINATION (ITI LEVEL - II) - 13/2025",
+      "docs": [
+        {
+          "id": "147rzlt2yqau",
+          "category": "Certificate Verification List",
+          "title": "Phase : I - Physical Test - PHYSICAL TEST, 21-08-2026 (Physical Test for the post of Field Assistant in the Tamil Nadu Power Distribution Corporation Limited)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/13_2025_CTS_ITI_LEVEL_II_PUB_PHY.pdf",
+          "uploadedAt": "2026-08-21",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "amkxjt1djg4v",
+          "category": "Press Release",
+          "title": "Press release regarding opportunity to re-upload missing/incomplete certificates for the posts included in Combined Technical Services Examination (ITI Level)-II Notification No.13/2025, Dated:03.09.2025.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Press%20release%2063.pdf",
+          "uploadedAt": "2026-06-18",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "gezru5845j0",
+          "category": "Certificate Verification List",
+          "title": "Phase : I - DOWNLOAD DOCUMENT/ RE - UPLOAD MEMO, 18-06-2026 (Publication List for Re-Uploading of Documents)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/FINAL%20PUBLICATION%20LIST%20REUPLOAD.pdf",
+          "uploadedAt": "2026-06-18",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "6rwrba1g1wkv",
+          "category": "Certificate Verification Memo",
+          "title": "Phase : I - DOWNLOAD DOCUMENT/ RE - UPLOAD MEMO, 18-06-2026 (Download Document Reupload Memo)",
+          "url": "https://tnpsc.gov.in/english/checkmemo.aspx?key=6889f3ab-95b2-412b-855f-51df0cf90da8&&type=1&&phase=4e68288c-7fe8-4fa5-b447-82e05b86437e&&valuekey=78fb6cf3-df6b-4e55-86d9-5ae46a26d454",
+          "uploadedAt": "2026-06-18",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1hphqt61fxm8",
+          "category": "Press Release",
+          "title": "Press Release relating topublication of list of register number of candidates provisionally admitted to OnscreenCertificate Verification for the post of Field Assistant (Post Code: 3749) inTamil Nadu Power Distribution Corporation Limited (Notification No.13/2025,dated 03.09.2025) included Combined Technical Services Examination (ITILevel)-II .",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/PRESS%20RELEASE%2048%20%20OCV-FILED%20ASSISANT.pdf",
+          "uploadedAt": "2026-05-14",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "y8n7x3cenpb1",
+          "category": "Certificate Verification List",
+          "title": "Phase : I - OCV, 14-05-2026 (OCV)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/13_2025_CTS_ITI_2_14052026.pdf",
+          "uploadedAt": "2026-05-14",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "8q6ls61xx4jv",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of Mark and Rank Position in Interactive Mode for direct recruitment to the post of Field Assistant (Post code:3749) included in Combined Technical Services Examination (ITI Level)-II (Notification No.13/2025) on the Commission’s Website.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/English%20press%20release.pdf",
+          "uploadedAt": "2026-04-09",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "ht21ay1a2qvi",
+          "category": "WRITTEN EXAMINATION RESULTS",
+          "title": "Marks and Rank Position",
+          "url": "https://tnpscresults.tn.gov.in/ctsfieldassit/ctsIndex.aspx?token=P9X2R7K5A8KDJ8JD",
+          "uploadedAt": "2026-04-09",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1m6o3w21uscb",
+          "category": "Final Answer Keys",
+          "title": "Final Answer Key",
+          "url": "https://tnpsc.gov.in/Document/Answerkeyfinalresult/13_2025_CTSE_ITI%20II_FINAL_KEY.pdf",
+          "uploadedAt": "2026-04-08",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "13h83yc1xbch",
+          "category": "Press Release",
+          "title": "The response portions (answer sheets) pertaining to the posts in Combined Technical Services Examination (ITI Level)-II conducted by the Commission ( CBT method) from 16.11.2025 FN & AN. (Notification No. 13/2025) hosted on the Commission’s website on 27.11.2025 – Reg.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1642025_ENG.pdf",
+          "uploadedAt": "2025-11-27",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "y6ycb1dolg9b",
+          "category": "Press Release",
+          "title": "Press release regarding hosting of Tentative Answer key for Paper-I and Paper-II for the examination held on 16.11.2025 FN and AN for the post included in Combined Technical Services Examination (ITI Level)- II.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1622025.pdf",
+          "uploadedAt": "2025-11-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "4sc11lokumtv",
+          "category": "Tentative Answer Key",
+          "title": "Tentative Answer Key",
+          "url": null,
+          "uploadedAt": "2025-11-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "10jsgi011cj6",
+          "category": "Question Papers",
+          "title": "Without Tentative Answer keys",
+          "url": "https://tnpsc.gov.in/english/question_paper_withoutkey.html",
+          "uploadedAt": "2025-11-17",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "120n5n91ur7x",
+          "category": "Notification",
+          "title": "Notification No. 13/2025",
+          "url": "https://tnpsc.gov.in/document/english/13_2025_CTS_II_DIPLOMA_ENGLISH_.pdf",
+          "uploadedAt": "2025-09-03",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "18qheeb1kfnj",
+          "category": "Apply online",
+          "title": "Date of commencement of receiving application : 03.09.2025 Last date and time for submission of online application : 02.10.2025 - 11:59 P.M",
+          "url": "https://apply.tnpscexams.in/notification?app_id=UElZMDAwMDAwMQ%3D%3D",
+          "uploadedAt": "2025-09-03",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "199qyl21biwi",
+          "category": "Press Release",
+          "title": "ஒருங்கிணைந்த தொழில்நுட்ப பணிகள் தேர்வு (தொழிற்பயிற்சி நிலை)-II, 2025- க்கான அறிவிக்கை தொடர்பான செய்தி வெளியீடு",
+          "url": "https://tnpsc.gov.in/document/pressenglish/Press%20Release%2002.09.2025.pdf",
+          "uploadedAt": "2025-09-03",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        }
+      ],
+      "examDateRaw": "16/11/2025",
+      "applyRaw": null,
+      "fetchedAt": "2026-10-20T05:52:34.831Z",
+      "sourceUrl": "https://tnpsc.gov.in/web/examdashboard/index.aspx?notid=6889f3ab-95b2-412b-855f-51df0cf90da8"
+    },
+    "fe70f511-e6d6-4f7b-a645-23b207937d26": {
+      "examId": "tnpsc-16-2025",
+      "sourceExamId": "fe70f511-e6d6-4f7b-a645-23b207937d26",
+      "title": "COMBINED CIVIL SERVICES EXAMINATION - GROUP VA SERVICES - 16/2025",
+      "docs": [
+        {
+          "id": "11yu0r41rr5u",
+          "category": "Press Release",
+          "title": "Press release relating to publication of list of register number of candidates provisionally admitted to Physical Certificate Verification and Counselling for the posts in Combined Civil Services Examination – Group VA Services – Notification No. 16/2025 – regarding.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/GROUP%20VA%20PRESS%20RELEASE%20FINAL%2013.07.2026.pdf",
+          "uploadedAt": "2026-07-13",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "11yu0r41rr5u",
+          "category": "Press Release",
+          "title": "Press release relating to publication of list of register number of candidates provisionally admitted to Physical Certificate Verification and Counselling for the posts in Combined Civil Services Examination – Group VA Services – Notification No. 16/2025 – regarding.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/GROUP%20VA%20PRESS%20RELEASE%20FINAL%2013.07.2026.pdf",
+          "uploadedAt": "2026-07-13",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "124zx59nla3q",
+          "category": "Counselling List",
+          "title": "Phase : I - Physical Certificate Verification and Counselling, 13.07.2026 (Physical Certificate Verification and Counselling)",
+          "url": "https://tnpsc.gov.in/document/counselling/16_2025_GRP_VA_PUB_LIST.pdf",
+          "uploadedAt": "2026-07-13",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "6pnu1rvwqapp",
+          "category": "Counselling Memo",
+          "title": "Phase : I - Physical Certificate Verification and Counselling, 13-07-2026 (Physical Certificate Verification and Counselling)",
+          "url": "https://tnpsc.gov.in/english/counsellinggrid.aspx?id=8f14e30a-b212-4757-a97b-16cff38fdffe&&keys=ab1e3c48-5376-4209-afae-3edb94eee162",
+          "uploadedAt": "2026-07-13",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1ckqe9k17hib",
+          "category": "Press Release",
+          "title": "Press release regarding opportunity to re-upload missing / incomplete certificates for the posts included in Combined Civil Services Examination – Group VA Services – 2025, (Notification No.16/2025, dated 07.10.2025).",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/GR-VA%20SERVICES%2019.05.2026%20E%20PRESS%20RELEASE.pdf",
+          "uploadedAt": "2026-05-19",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1syf3bf1rx50",
+          "category": "Certificate Verification List",
+          "title": "Phase : I - OCV, 19-05-2026 (Publication List for Re-Uploading of Documents)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/16_2025_GR_VA_PUBL_LIST.pdf",
+          "uploadedAt": "2026-05-19",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "mfteo51gqvz9",
+          "category": "Certificate Verification Memo",
+          "title": "Phase : I - OCV, 19-05-2026 (Download Document Re-upload Memo)",
+          "url": "https://tnpsc.gov.in/english/checkmemo.aspx?key=fe70f511-e6d6-4f7b-a645-23b207937d26&&type=1&&phase=649b0532-ac7d-43f2-a505-8c160f4a7b4a&&valuekey=b2874702-44ea-4a5e-a887-3c840c922df2",
+          "uploadedAt": "2026-05-19",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "x3r65d1i1szw",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of List of register number of candidates provisionally admitted to Onscreen Certificate Verification for the posts in Combined Civil Services Examination – Group VA Services - Notification No. 16/2025 - Regarding.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Press%20release%20grp%20VA%2016-2025%201.pdf",
+          "uploadedAt": "2026-04-29",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1ajyxp31h1b5",
+          "category": "Certificate Verification List",
+          "title": "Phase : I - OCV, 28-04-2026 (OCV)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/16_2025_GRP_VA_PUB_LIST.pdf",
+          "uploadedAt": "2026-04-28",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "p013bf1rh4s9",
+          "category": "WRITTEN EXAMINATION RESULTS",
+          "title": "MARKS AND RANK POSITION",
+          "url": "https://tnpscresults.tn.gov.in/Group_5a/cts-index.aspx?token=P9X2R7K5A8KDJ8JD",
+          "uploadedAt": "2026-03-30",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "phrsv91lhb00",
+          "category": "Question Papers",
+          "title": "Descriptive Type",
+          "url": "https://tnpsc.gov.in/English/descriptive-questions.html",
+          "uploadedAt": "2025-12-30",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1wopnqv1acrr",
+          "category": "Hall Ticket",
+          "title": "Hall Ticket for Descriptive Type Examination",
+          "url": "https://apply.tnpscexams.in/otr?app_id=UElZMDAwMDAwMQ==",
+          "uploadedAt": "2025-12-11",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "aj1d4mlzo56g",
+          "category": "Press Release",
+          "title": "Combined Civil Services Examination (Group VA Services) vide., Notification No. 16/2025, dated:07.10.2025, Descriptive Type Examination for the said posts is scheduled to be held on 21.12.2025 FN& AN. Download Hall Ticket – Press release regarding.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1752025_ENG.pdf",
+          "uploadedAt": "2025-12-11",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "19guw787g8tt",
+          "category": "Notification",
+          "title": "Notification No. 16/2025",
+          "url": "https://tnpsc.gov.in/document/english/16_2025_Group%20VA_English.pdf",
+          "uploadedAt": "2025-10-07",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "18qheeb1kfnj",
+          "category": "Apply online",
+          "title": "Date of commencement of receiving application : 07.10.2025 Last date and time for submission of online application : 05.11.2025 - 11:59 P.M",
+          "url": "https://apply.tnpscexams.in/notification?app_id=UElZMDAwMDAwMQ%3D%3D",
+          "uploadedAt": "2025-10-07",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "cjiv46dp8ylg",
+          "category": "Press Release",
+          "title": "ஒருங்கிணைந்த குடிமைப் பணிகள் தேர்வு – தொகுதி VA பணிகள், 2025- க்கான அறிவிக்கை தொடர்பான செய்தி வெளியீடு.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/Press%20release%20secy.pdf",
+          "uploadedAt": "2025-10-07",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        }
+      ],
+      "examDateRaw": "21/12/2025",
+      "applyRaw": null,
+      "fetchedAt": "2026-10-20T05:52:34.831Z",
+      "sourceUrl": "https://tnpsc.gov.in/web/examdashboard/index.aspx?notid=fe70f511-e6d6-4f7b-a645-23b207937d26"
+    },
+    "b152731b-9a03-4a94-8737-b49d4cc2336a": {
+      "examId": "tnpsc-18-2025",
+      "sourceExamId": "b152731b-9a03-4a94-8737-b49d4cc2336a",
+      "title": "ASSISTANT PUBLIC PROSECUTOR, GRADE-II - 18/2025",
+      "docs": [
+        {
+          "id": "2ptxesvx7wtq",
+          "category": "Question Papers",
+          "title": "Descriptive Type",
+          "url": "https://www.tnpsc.gov.in/English/descriptive-questions.html",
+          "uploadedAt": "2026-08-04",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "14lftze1eg0t",
+          "category": "Press Release",
+          "title": "Post of Assistant Public Prosecutor, Grade-II, vide., Notification No. 18/2025, dated: 02.12.2025 – Main Examination is scheduled to be held from 27.07.2026 to 31.07.2026 F.N. – Download Hall Ticket – Press release regarding.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Press%20Release%20-%20Main%20-%20English.pd",
+          "uploadedAt": "2026-07-17",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1wopnqv1acrr",
+          "category": "Hall Ticket",
+          "title": "Hall Ticket for Main Examination",
+          "url": "https://apply.tnpscexams.in/otr?app_id=UElZMDAwMDAwMQ==",
+          "uploadedAt": "2026-07-17",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1obdj3ydyfqr",
+          "category": "Press Release",
+          "title": "Press release regarding opportunity to re-upload missing/complete certificates/ pay main written exam fee for the post of Assistant Public Prosecutor, Grade-II in Prosecution Department (notification No.18/2025, dated 02.12.2025).",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/PDF-FC-RTF-Press%20release-English.pdf",
+          "uploadedAt": "2026-05-29",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1i5hdyccrxph",
+          "category": "Certificate Verification List",
+          "title": "Phase : I, 29-05-2026 (18_2025_APP_GR_II_REUPLOAD_LIST)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/18_2025_APP_GR_II_OCV.pdf",
+          "uploadedAt": "2026-05-29",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "138fi6fkvbgg",
+          "category": "Certificate Verification Memo",
+          "title": "Phase : I, 29-05-2026 (Download Document Reupload Memo)",
+          "url": "https://tnpsc.gov.in/english/checkmemo.aspx?key=b152731b-9a03-4a94-8737-b49d4cc2336a&&type=1&&phase=4c6ec315-b5f1-4378-a7f9-4617bf320769&&valuekey=6da4ed18-afcb-4051-998a-d19fb37669c5",
+          "uploadedAt": "2026-05-29",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1s0gkuc1jxat",
+          "category": "Press Release",
+          "title": "Press Release relating to Publication of List of candidates provisionally admitted to Main Examination for direct recruitment to the post of Assistant Public Prosecutor, Grade-II in Prosecution Department (Notification No.18/2025, dated 02.12.2025).",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/English.pdf",
+          "uploadedAt": "2026-04-28",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "estwb61lifey",
+          "category": "Certificate Verification List",
+          "title": "Phase : I, 28-04-2026 (LIST OF CANDIDATES ADMITTED TO MAIN EXAMINATION)",
+          "url": "https://tnpsc.gov.in/document/certificateverification/18_2025_PUBLICATION_LIST_APP.pdf",
+          "uploadedAt": "2026-04-28",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "9nv817j8q68p",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.18/2025 ADDENDUM (18A/2025)",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum_%2018A.pdf",
+          "uploadedAt": "2026-03-26",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "4sc11lokumtv",
+          "category": "Tentative Answer Key",
+          "title": "Tentative Answer Key",
+          "url": null,
+          "uploadedAt": "2026-02-24",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1h9ld73y9sn1",
+          "category": "Notification",
+          "title": "Notification No. 18/2025",
+          "url": "https://tnpsc.gov.in/document/english/app_18_2025_eng1.pdf",
+          "uploadedAt": "2025-12-02",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "yh1v5rb677cl",
+          "category": "Apply online",
+          "title": "Date of commencement of receiving application : 02.12.2025 Last date and time for submission of online application : 31.12.2025 - 11:59 P.M",
+          "url": "https://apply.tnpscexams.in/secure?app_id=UElZMDAwMDAwMQ==",
+          "uploadedAt": "2025-12-02",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1ipqppb13kqr",
+          "category": "Press Release",
+          "title": "Press Release for the notification for the post of Assistant Public Prosecutor, Grade-II.",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1682025.pdf",
+          "uploadedAt": "2025-12-02",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        }
+      ],
+      "examDateRaw": "15/02/2026",
+      "applyRaw": null,
+      "fetchedAt": "2026-10-20T05:52:34.831Z",
+      "sourceUrl": "https://tnpsc.gov.in/web/examdashboard/index.aspx?notid=b152731b-9a03-4a94-8737-b49d4cc2336a"
+    },
+    "a55ec4e3-287e-4070-a445-ee5064702b1a": {
+      "examId": "tnpsc-19-2025",
+      "sourceExamId": "a55ec4e3-287e-4070-a445-ee5064702b1a",
+      "title": "COMBINED TECHNICAL SERVICES EXAMINATION (INTERVIEW POSTS - II) - 19/2025",
+      "docs": [
+        {
+          "id": "s11l3x1b7mni",
+          "category": "Press Release",
+          "title": "The response portions (answer sheets) pertaining to the posts in Combined Technical Services Examination (Interview Posts)- II conducted by the Commission ( CBT method) on 07.03.2026 FN & AN and 08.03.2026 FN (Notification No. 19/2025) hosted on the Commission’s website on 30.03.2026 – Candidates can download through the One Time Registration Dashboard - Reg.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/PR_382026_ENG.pdf",
+          "uploadedAt": "2026-04-01",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "2kr2a01iv2fe",
+          "category": "Press Release",
+          "title": "Press release regarding hosting of Tentative Answer keys for posts in Combined Technical Services Examination (Interview Posts) – II which was held on 07.03.2026 FN & AN and 08.03.2026 F.N.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/34-2026.pdf",
+          "uploadedAt": "2026-03-27",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "4sc11lokumtv",
+          "category": "Tentative Answer Key",
+          "title": "Tentative Answer Key",
+          "url": null,
+          "uploadedAt": "2026-03-27",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "10jsgi011cj6",
+          "category": "Question Papers",
+          "title": "Without Tentative Answer keys",
+          "url": "https://tnpsc.gov.in/english/question_paper_withoutkey.html",
+          "uploadedAt": "2026-03-11",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "lsyyghra3j6b",
+          "category": "Press Release",
+          "title": "Combined Technical Services Examination (Interview posts)-II vide., Notification No.19/2025, dated: 22.12.2025. Examination scheduled to be held on 07.03.2026 FN & AN and 08.03.2026 FN. Download Hall Ticket – Press release regarding.",
+          "url": "https://tnpsc.gov.in/Document/PressEnglish/Press%20Release%20English%20G2-%202025.pdf",
+          "uploadedAt": "2026-02-25",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1xz4wt2mrm5e",
+          "category": "Addendum",
+          "title": "Addendum for Notification No.19/2025 ADDENDUM(19A/2025)",
+          "url": "https://tnpsc.gov.in/Document/english/Addendum%20_19A.pdf",
+          "uploadedAt": "2026-02-10",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1twrbn191dg7",
+          "category": "Notification",
+          "title": "Notification No. 19/2025",
+          "url": "https://tnpsc.gov.in/document/english/CTS-II%20English1_2025.pdf",
+          "uploadedAt": "2025-12-22",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "yh1v5rb677cl",
+          "category": "Apply online",
+          "title": "Date of commencement of receiving application : 22.12.2025 Last date and time for submission of online application : 20.01.2026 - 11:59 P.M",
+          "url": "https://apply.tnpscexams.in/secure?app_id=UElZMDAwMDAwMQ==",
+          "uploadedAt": "2025-12-22",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        },
+        {
+          "id": "1vx0qbfrlshi",
+          "category": "Press Release",
+          "title": "Press Release regarding the notification for the posts in Combined Technical Services Examination (Interview Posts)-II, 2025 (Notification No. 19/2025, dated 22.12.2025)",
+          "url": "https://tnpsc.gov.in/document/pressenglish/PR_1772025.pdf",
+          "uploadedAt": "2025-12-22",
+          "firstSeenAt": "2026-10-20T05:52:34.831Z"
+        }
+      ],
+      "examDateRaw": "07/03/2026 AND 08/03/2026",
+      "applyRaw": null,
+      "fetchedAt": "2026-10-20T05:52:34.831Z",
+      "sourceUrl": "https://tnpsc.gov.in/web/examdashboard/index.aspx?notid=a55ec4e3-287e-4070-a445-ee5064702b1a"
+    }
+  },
+  "parsedDocs": {
+    "ag7y82w89i4w": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "1no97dq15lwd": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "vacancy_revision"
+    },
+    "1x9cvcw1q6m1": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "b9zffcslxfwa": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "vacancy_revision"
+    },
+    "1pnndtvd3i6i": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "ejfzqf19wfg0": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "hl87b410y5tb": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "vacancy_revision"
+    },
+    "zq3uwsdxb06u": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "t2slg56znmwb": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "date_change",
+      "quote": "No. 05/2026, dated 23.06.2026 has been postponed from 06.09.2026 to 27.09.2026. The date and time of preliminary exami"
+    },
+    "wzkvxrratn85": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "7s76stya1gvf": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "vacancy_revision"
+    },
+    "12msk6yniu8y": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "1oh0co015uu3": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "vacancy_revision"
+    },
+    "v2v2bo1voqcb": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "1tqo1g41cn7q": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "66ppc084z31a": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "1papaeovsijy": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "4utzfcgr5cla": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "1mx9hy9l8ne9": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "ilo4on2cxdp5": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "1rufimceaee7": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "12ylreqbxscv": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "flv44x14s06x": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "1cfcnzs11md4": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "fdktiz1iqilg": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "1e06zd9o5fdd": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "kbmmma1ui8co": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "1jl5oqxi72h7": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "1oxmy8o11r74": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "1r9rxsa1oiv4": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "nb30eyhsyvpo": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "awcwzo9eqvtu": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "td8r5br49bv1": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "1ui0xle1rw59": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "4z9lcj4svoxt": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "1gaaj561ebr8": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "9p8q861ogbfq": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "1gpbva61mzoo": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "vacancy_revision"
+    },
+    "1snomle1fibi": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "h0dxpk1fbwda": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "13ul74w1pq5x": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "vaeozpzy4qej": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "1fv7ckrwxgb7": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "1y1nmxvoun6m": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "ivocloa8j2xy": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "sslmjp13okuw": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "wlupkf5hjeud": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "fn7dzol2dlna": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "vacancy_revision"
+    },
+    "1uumdfq1ffom": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "byj3u918mu3a": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "vacancy_revision"
+    },
+    "1it6w3ump18a": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "vacancy_revision"
+    },
+    "1rgb9dmg9t0p": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "5is1k11q6u3a": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "amkxjt1djg4v": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "1hphqt61fxm8": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "8q6ls61xx4jv": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "13h83yc1xbch": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "y6ycb1dolg9b": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "199qyl21biwi": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "11yu0r41rr5u": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "1ckqe9k17hib": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "x3r65d1i1szw": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "aj1d4mlzo56g": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "cjiv46dp8ylg": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "1obdj3ydyfqr": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "1s0gkuc1jxat": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "9nv817j8q68p": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "vacancy_revision"
+    },
+    "1ipqppb13kqr": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "s11l3x1b7mni": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "2kr2a01iv2fe": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "lsyyghra3j6b": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "1xz4wt2mrm5e": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "1vx0qbfrlshi": {
+      "at": "2026-10-20T05:48:18.307Z",
+      "kind": "none"
+    },
+    "1f1dphdudrbv": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "vacancy_revision"
+    },
+    "1re7jpi14w6g": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "vacancy_revision"
+    },
+    "1wx3s951pdvb": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "vacancy_revision"
+    },
+    "zghv9bd59ke5": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "none"
+    },
+    "6rsdbg1y2l6c": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "none"
+    },
+    "en983ngdmn99": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "none"
+    },
+    "13qbm7orktsa": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "vacancy_revision"
+    },
+    "1fnl120185rp": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "none"
+    },
+    "1h23l9a783bw": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "none"
+    },
+    "30jteo16jr8k": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "vacancy_revision"
+    },
+    "1mjqwwy1vatc": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "vacancy_revision"
+    },
+    "ppe1eurlqfpc": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "none"
+    },
+    "u9h6r912febb": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "none"
+    },
+    "1m40b9a102he": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "none"
+    },
+    "s17e76bosvdw": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "none"
+    },
+    "l2sgevbxzbx9": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "none"
+    },
+    "1j6k93l1cqvd": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "none"
+    },
+    "kfxsy414xhuw": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "vacancy_revision"
+    },
+    "1faq9hzrgppl": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "none"
+    },
+    "1cerd9wyie2z": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "none"
+    },
+    "1g5s0jbqkq6i": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "none"
+    },
+    "13ic3m212lax": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "vacancy_revision"
+    },
+    "l1px4h9vxbu7": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "none"
+    },
+    "1286ck71du4o": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "none"
+    },
+    "g9qdpal78qas": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "vacancy_revision"
+    },
+    "so25y5907tz3": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "none"
+    },
+    "17m3mma1xuko": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "none"
+    },
+    "ydl2sa8rgkhw": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "none"
+    },
+    "4ol2d2h4jcis": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "none"
+    },
+    "1qqhdnb1mqyp": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "none"
+    },
+    "hv42budv9ais": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "none"
+    },
+    "epalrx13p6to": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "none"
+    },
+    "1e2i35z1kvbr": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "vacancy_revision"
+    },
+    "1yafi0l1lzti": {
+      "at": "2026-10-20T05:50:26.053Z",
+      "kind": "none"
+    },
+    "gd6o0i10i4zj": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "none"
+    },
+    "1rdd7g4qe9o4": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "none"
+    },
+    "9yrxl1q63h7v": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "none"
+    },
+    "zik7d2wr55f0": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "none"
+    },
+    "14uooht1deir": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "none"
+    },
+    "16nvhcc9kjzd": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "none"
+    },
+    "1qbzetdpybqt": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "none"
+    },
+    "1fmooo51leie": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "none"
+    },
+    "1n2u8r31fg7b": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "none"
+    },
+    "1c5oo9210v0j": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "none"
+    },
+    "9iq3g100d1r6": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "none"
+    },
+    "56fya4xp6mfy": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "none"
+    },
+    "joy3r0ti6kvy": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "vacancy_revision"
+    },
+    "1g9liwqnn21e": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "none"
+    },
+    "tv030v1st8ns": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "none"
+    },
+    "166qju819x1d": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "none"
+    },
+    "1jj3duqselbl": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "none"
+    },
+    "148qufz19skd": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "none"
+    },
+    "3wohet5nm0pf": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "none"
+    },
+    "c45dxregoiqd": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "none"
+    },
+    "td9yr41vwkfl": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "none"
+    },
+    "12ysc4p17rjw": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "none"
+    },
+    "zjngl6i082vc": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "vacancy_revision"
+    },
+    "85b3621hsfgk": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "none"
+    },
+    "wemt9d1t1f98": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "none"
+    },
+    "1rag781fibv1": {
+      "at": "2026-10-20T05:51:22.133Z",
+      "kind": "none"
+    },
+    "1jt2644ufbnj": {
+      "at": "2026-10-20T05:52:34.831Z",
+      "kind": "none"
+    },
+    "aos37a7wb0o": {
+      "at": "2026-10-20T05:52:34.831Z",
+      "kind": "vacancy_revision"
+    },
+    "3rq71h1v1wq3": {
+      "at": "2026-10-20T05:52:34.831Z",
+      "kind": "none"
+    },
+    "1nuadejrx1nq": {
+      "at": "2026-10-20T05:52:34.831Z",
+      "kind": "none"
+    },
+    "1ak3m2d67ax4": {
+      "at": "2026-10-20T05:52:34.831Z",
+      "kind": "none"
+    },
+    "1elgzqsjo0cs": {
+      "at": "2026-10-20T05:52:34.831Z",
+      "kind": "none"
+    },
+    "1lwufsei6xou": {
+      "at": "2026-10-20T05:52:34.831Z",
+      "kind": "none"
+    }
+  }
+}

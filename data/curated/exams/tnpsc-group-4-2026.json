@@ -1,0 +1,455 @@
+{
+  "id": "tnpsc-group-4-2026",
+  "board": "tnpsc",
+  "boardName": "Tamil Nadu Public Service Commission",
+  "name": "Combined Civil Services Examination – IV (Group IV Services), Notification No. 11/2026",
+  "shortName": "TNPSC Group IV (CCSE-IV) 2026",
+  "tamilName": "தமிழ்நாடு அரசுப் பணியாளர் தேர்வாணையம் – குரூப் IV",
+  "notificationNo": "11/2026",
+  "slug": "tnpsc-group-4-2026",
+  "year": 2026,
+  "status": "open",
+  "level": "group-4",
+  "summary": "6,574 vacancies across 46 posts in about 25 services — Village Administrative Officer, Junior Assistant, Bill Collector, Typist and Steno-Typist among them. One objective examination, no interview.",
+  "whyItMatters": "Group IV is where most first-time aspirants enter government service, and it is also where the age limit changes from post to post: a 31-year-old general-category candidate is outside the limit for Junior Assistant but inside it for Executive Officer (Grade IV).",
+  "dates": {
+    "notification": "2026-10-06",
+    "applyStart": "2026-10-06",
+    "applyEnd": "2026-11-05",
+    "examDate": "2027-01-10",
+    "examDateRaw": "Date of Examination : 10/01/2027",
+    "resultDate": null,
+    "cutoffAgeDate": "2026-07-01"
+  },
+  "vacancies": {
+    "total": 6574,
+    "note": "Total printed in the vacancy table. The Commission states that notified vacancies are tentative and liable to modification before the start of counselling.",
+    "breakdown": []
+  },
+  "fee": {
+    "amount": 100,
+    "note": "₹100 examination fee. The one-time registration fee is ₹150. Confirm in the notification."
+  },
+  "hasAgeLimit": true,
+  "ageRules": [
+    {
+      "id": "most-posts",
+      "label": "Most Group IV posts (Junior Assistant, Bill Collector, Typist, Stenographer, Record Clerk)",
+      "appliesTo": {
+        "postCodes": [
+          "2400",
+          "2500",
+          "2600",
+          "4600",
+          "3842",
+          "3843",
+          "3840",
+          "3512",
+          "3851",
+          "3854",
+          "3521",
+          "3788",
+          "3816",
+          "3520",
+          "3321",
+          "3848",
+          "3214",
+          "3804",
+          "2200",
+          "4200",
+          "3834",
+          "3846",
+          "3844",
+          "3852",
+          "2300",
+          "4300",
+          "3837"
+        ],
+        "postNames": [],
+        "gender": "any"
+      },
+      "cutoff": "2026-07-01",
+      "minAge": 18,
+      "maxAge": {
+        "general": 30,
+        "bc": 32,
+        "bcm": 32,
+        "mbc_dc": 32,
+        "sc": 35,
+        "sca": 35,
+        "st": 35
+      },
+      "concessions": {
+        "pwd": {
+          "mode": "absolute",
+          "value": 40,
+          "byCategory": {
+            "general": 40,
+            "bc": 42,
+            "bcm": 42,
+            "mbc_dc": 42,
+            "sc": 45,
+            "sca": 45,
+            "st": 45
+          },
+          "note": "PwBD ceiling printed separately for Others (40) and reserved categories (42 / 45)."
+        },
+        "exServicemen": {
+          "mode": "absolute",
+          "value": 48,
+          "byCategory": {
+            "general": 48,
+            "bc": 53,
+            "bcm": 53,
+            "mbc_dc": 53,
+            "sc": 53,
+            "sca": 53,
+            "st": 53
+          }
+        },
+        "destituteWidow": {
+          "mode": "absolute",
+          "value": 35
+        }
+      },
+      "notes": "The reserved-category ceilings of 32 and 35 apply to candidates who hold exactly the minimum general educational qualification. Footnote # in the notification removes the maximum age entirely for reserved-category candidates who hold a higher qualification, which the eligibility check applies. The Village Administrative Officer, Executive Officer (Grade IV), Forest Guard and Forest Watcher have their own rules below.",
+      "citation": {
+        "quote": "The category wise maximum age limit and age concession details are given below:",
+        "page": 5,
+        "values": [
+          18,
+          30,
+          40,
+          48,
+          35
+        ]
+      },
+      "higherQualificationMax": {
+        "aboveLevel": "sslc",
+        "max": 60,
+        "categories": "reserved"
+      }
+    },
+    {
+      "id": "village-administrative-officer",
+      "label": "Village Administrative Officer (Post Code 2025)",
+      "appliesTo": {
+        "postCodes": [
+          "2025"
+        ],
+        "postNames": [
+          "Village Administrative Officer"
+        ],
+        "gender": "any"
+      },
+      "cutoff": "2026-07-01",
+      "minAge": 21,
+      "maxAge": {
+        "general": 30,
+        "bc": 40,
+        "bcm": 40,
+        "mbc_dc": 40,
+        "sc": 40,
+        "sca": 40,
+        "st": 40
+      },
+      "concessions": {
+        "pwd": {
+          "mode": "absolute",
+          "value": 40,
+          "byCategory": {
+            "general": 40,
+            "bc": 50,
+            "bcm": 50,
+            "mbc_dc": 50,
+            "sc": 50,
+            "sca": 50,
+            "st": 50
+          }
+        },
+        "exServicemen": {
+          "mode": "absolute",
+          "value": 48,
+          "byCategory": {
+            "general": 48,
+            "bc": 53,
+            "bcm": 53,
+            "mbc_dc": 53,
+            "sc": 53,
+            "sca": 53,
+            "st": 53
+          }
+        },
+        "destituteWidow": {
+          "mode": "absolute",
+          "value": 40
+        }
+      },
+      "notes": "VAO is the one Group IV post with a minimum age of 21 and a reserved-category ceiling of 40.",
+      "citation": {
+        "quote": "The category wise maximum age limit and age concession details are given below:",
+        "page": 5,
+        "values": [
+          21,
+          30,
+          40,
+          48
+        ]
+      }
+    },
+    {
+      "id": "executive-officer-grade-4",
+      "label": "Executive Officer, Grade IV (Post Code 1655)",
+      "appliesTo": {
+        "postCodes": [
+          "1655"
+        ],
+        "postNames": [
+          "Executive Officer, Grade IV"
+        ],
+        "gender": "any"
+      },
+      "cutoff": "2026-07-01",
+      "minAge": 25,
+      "maxAge": {
+        "general": 35,
+        "bc": 37,
+        "bcm": 37,
+        "mbc_dc": 37,
+        "sc": 40,
+        "sca": 40,
+        "st": 40
+      },
+      "concessions": {
+        "pwd": {
+          "mode": "absolute",
+          "value": 45,
+          "byCategory": {
+            "general": 45,
+            "bc": 47,
+            "bcm": 47,
+            "mbc_dc": 47,
+            "sc": 50,
+            "sca": 50,
+            "st": 50
+          }
+        },
+        "exServicemen": {
+          "mode": "absolute",
+          "value": 48,
+          "byCategory": {
+            "general": 48,
+            "bc": 53,
+            "bcm": 53,
+            "mbc_dc": 53,
+            "sc": 53,
+            "sca": 53,
+            "st": 53
+          }
+        },
+        "destituteWidow": {
+          "mode": "absolute",
+          "value": 40
+        }
+      },
+      "notes": "This post has both a higher minimum (25) and a higher maximum than the rest of Group IV.",
+      "citation": {
+        "quote": "The category wise maximum age limit and age concession details are given below:",
+        "page": 5,
+        "values": [
+          25,
+          35,
+          45,
+          40
+        ]
+      }
+    },
+    {
+      "id": "forest-guard-driving-licence",
+      "label": "Forest Guard with Driving Licence (Post Code 3318)",
+      "appliesTo": {
+        "postCodes": [
+          "3318"
+        ],
+        "postNames": [
+          "Forest Guard with Driving Licence"
+        ],
+        "gender": "any"
+      },
+      "cutoff": "2026-07-01",
+      "minAge": 21,
+      "maxAge": {
+        "general": 30,
+        "bc": 33,
+        "bcm": 33,
+        "mbc_dc": 33,
+        "sc": 35,
+        "sca": 35,
+        "st": 35
+      },
+      "concessions": {
+        "pwd": {
+          "mode": "blocked",
+          "value": 0,
+          "note": "The table prints NA: persons with benchmark disability are not eligible to apply for these posts."
+        },
+        "exServicemen": null,
+        "destituteWidow": {
+          "mode": "absolute",
+          "value": 35
+        }
+      },
+      "notes": "For defence-service candidates the age is computed after deducting the period of service, subject to not having completed 35 years. That calculation depends on the length of service and is therefore not automated; the checker will not exclude an ex-serviceman on this rule.",
+      "citation": {
+        "quote": "For the posts of Forest Guard with Driving Licence (Post Code: 3318) and Forest Watcher (Post Code: 3319) a person who has been discharged from any of the Defence services namely, the Army, the Navy, or the Air Force shall be eligible for appointment, if after deducting the period of his services in such service, he has not completed the age of 35 years.",
+        "page": 7,
+        "values": [
+          3318,
+          3319,
+          35
+        ]
+      }
+    },
+    {
+      "id": "forest-watcher",
+      "label": "Forest Watcher (Post Code 3319)",
+      "appliesTo": {
+        "postCodes": [
+          "3319"
+        ],
+        "postNames": [
+          "Forest Watcher"
+        ],
+        "gender": "any"
+      },
+      "cutoff": "2026-07-01",
+      "minAge": 18,
+      "maxAge": {
+        "general": 30,
+        "bc": 60,
+        "bcm": 60,
+        "mbc_dc": 60,
+        "sc": 60,
+        "sca": 60,
+        "st": 60
+      },
+      "concessions": {
+        "pwd": {
+          "mode": "absolute",
+          "value": 40
+        },
+        "exServicemen": {
+          "mode": "absolute",
+          "value": 35
+        },
+        "destituteWidow": {
+          "mode": "absolute",
+          "value": 60
+        }
+      },
+      "notes": "Forest Watcher differs from Forest Guard with Driving Licence: the minimum age is 18 rather than 21, persons with benchmark disability are not excluded, and the reserved-category ceiling has no numeric limit.",
+      "citation": {
+        "quote": "Forest Guard with Driving Licence",
+        "page": 6,
+        "values": [
+          18,
+          30,
+          40
+        ]
+      }
+    }
+  ],
+  "qualifications": [
+    {
+      "postCodes": [],
+      "postNames": [],
+      "minLevel": "sslc",
+      "fieldSpecific": false,
+      "summary": "Minimum General Educational Qualification: a pass in the SSLC public examination. Several posts require more — any degree, a B.Com., or HSC with a computer certificate — and those are listed against each post code.",
+      "acceptedAlternatives": [],
+      "citation": {
+        "quote": "Minimum General Educational Qualification viz., Must have passed S.S.L.C Public Examination.",
+        "page": 10,
+        "values": []
+      }
+    },
+    {
+      "postCodes": [
+        "3521",
+        "3788",
+        "3816",
+        "3520",
+        "3848",
+        "3672",
+        "3321"
+      ],
+      "postNames": [
+        "Junior Assistant (graduate posts)",
+        "Bill Collector (graduate posts)",
+        "Junior Administrative Assistant"
+      ],
+      "minLevel": "degree",
+      "fieldSpecific": true,
+      "summary": "Several Group IV posts additionally require a degree (any degree, B.Com., or a degree with a computer certificate) or HSC. The requirement is printed against each post code and the subject matters.",
+      "acceptedAlternatives": [],
+      "citation": {
+        "quote": "Must be a graduate",
+        "page": 9,
+        "values": []
+      }
+    }
+  ],
+  "specialRequirements": [
+    {
+      "id": "tamil-eligibility",
+      "label": "Tamil language requirement",
+      "severity": "blocking",
+      "autoCheck": "tamil-sslc",
+      "detail": "Candidates must have studied Tamil as a subject up to SSLC, or pass the Second Class Language Test (Full Test) in Tamil conducted by TNPSC. Part A of the written examination tests Tamil eligibility.",
+      "citation": {
+        "quote": "Tamil as one of the languages or",
+        "page": 8,
+        "values": []
+      }
+    },
+    {
+      "id": "typewriting",
+      "label": "Typewriting / computer certificate for certain posts",
+      "severity": "info",
+      "autoCheck": "none",
+      "detail": "Typist and Steno-Typist posts require typewriting in Tamil and English by higher grade; Junior Administrative Assistant (Computer Operator) requires a certificate course in office automation. The exact requirement is printed against each post code."
+    }
+  ],
+  "selectionProcess": [
+    "Written examination (OMR, single paper)",
+    "Certificate verification"
+  ],
+  "officialLinks": {
+    "notification": "https://tnpsc.gov.in/document/english/group_english.pdf",
+    "apply": "https://apply.tnpscexams.in/secure?app_id=UElZMDAwMDAwMQ==",
+    "board": "https://tnpsc.gov.in/",
+    "syllabus": null
+  },
+  "sources": [
+    {
+      "id": "notification",
+      "authority": "Tamil Nadu Public Service Commission",
+      "title": "Notification No. 11/2026 — CCSE-IV (Group IV Services)",
+      "url": "https://tnpsc.gov.in/document/english/group_english.pdf",
+      "kind": "pdf",
+      "language": "en",
+      "locator": "Para 4.1 (age), para 4.2 (qualification), para 3 (vacancies)"
+    },
+    {
+      "id": "dashboard",
+      "authority": "Tamil Nadu Public Service Commission",
+      "title": "Exam dashboard — application window and exam date",
+      "url": "https://tnpsc.gov.in/web/examdashboard/index.aspx?key=ksojs2efre3WFDsw5",
+      "kind": "html",
+      "language": "en",
+      "locator": "Exam card 'Combined Civil Services Examination - IV (Group IV Services) - 11/2026'"
+    }
+  ],
+  "maintenance": "verified",
+  "editorialNote": "Vacancy total is the figure printed in para 3; TNPSC revises it until results. The age table is reproduced per post cluster rather than collapsed to one number because the limits genuinely differ."
+}

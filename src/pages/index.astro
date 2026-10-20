@@ -1,0 +1,353 @@
+---
+import Base from '../layouts/Base.astro';
+import Checker from '../components/Checker.astro';
+import ChangeList from '../components/ChangeList.astro';
+import { getDataset } from '../lib/server/data';
+import { liveStatus, STATUS_LABEL, formatWindow, primaryAgeRule } from '../lib/presentation';
+import { formatDate, formatRelative } from '../lib/core/dates';
+
+const ds = getDataset();
+const open = ds.exams.filter((e) => liveStatus(e) === 'open');
+const upcoming = ds.exams.filter((e) => liveStatus(e) === 'upcoming');
+const recent = ds.changes.slice(0, 6);
+const verified = ds.exams.filter((e) => e.maintenance === 'verified');
+
+const faqs = [
+  {
+    q: 'What is the age limit for TNPSC Group IV (CCSE-IV) in 2026?',
+    a: (() => {
+      const exam = ds.exams.find((e) => e.id === 'tnpsc-group-4-2026');
+      const r = exam?.ageRules.find((x) => x.id === 'most-posts');
+      if (!exam || !r) return 'See the notification for the current limit.';
+      return `As on ${formatDate(r.cutoff)} the minimum age is ${r.minAge}. The maximum is ${r.maxAge?.general} for the general category, ${r.maxAge?.bc} for BC, BCM and MBC/DC, and ${r.maxAge?.sc} for SC, SC(A) and ST. Persons with benchmark disability may go up to ${r.concessions.pwd?.value} (general) and ex-servicemen to ${r.concessions.exServicemen?.value}. The Village Administrative Officer and Executive Officer (Grade IV) have separate limits, shown on the notification page. Source: Notification No. ${exam.notificationNo}.`;
+    })(),
+  },
+  {
+    q: 'Do reserved categories get age relaxation in TNPSC examinations?',
+    a: 'Yes, but not uniformly. In Group IV and Group I the reserved-category ceiling is five years above the general ceiling. In Group II the notification states "No maximum age limit" for reserved categories against most posts, which para 4.1.3 defines as not having completed 60 years. This site records the figure printed against each post rather than assuming a single relaxation.',
+  },
+  {
+    q: 'Is there an age limit for TNTET 2026?',
+    a: 'No. The 2026 Teacher Eligibility Test for working teachers prescribes no age limit. Eligibility depends on being a serving teacher appointed on or before 1 September 2025. A pass is an eligibility certificate; the notification states it creates no right to appointment.',
+  },
+  {
+    q: 'When is the next TNUSRB police recruitment?',
+    a: (() => {
+      const pc = ds.announced.find((a) => a.id === 'tnusrb-pc-women-2026');
+      return pc
+        ? `The TNUSRB Annual Planner for 2026–2027 lists Grade-II Police Constables (Women) for ${pc.tentative}, and the common recruitment for police constable, fireman and jail warder for February 2027. No notification has been published, so no age limit can be confirmed.`
+        : 'TNUSRB publishes an annual planner; see the sources page.';
+    })(),
+  },
+  {
+    q: 'How is this page kept current?',
+    a: `A scheduled job re-reads the TNPSC examination dashboard and downloads every cited notification again. It then checks that each quoted sentence still appears in the document. If a document has changed, the examination is flagged and a dated entry is written to the change log with the source link. The dataset was last rebuilt ${ds.generatedAt ? formatRelative(ds.generatedAt) : 'recently'}.`,
+  },
+];
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'ExamLens Tamil Nadu',
+    url: Astro.site?.toString() ?? 'https://examlens.pages.dev',
+    description: 'Source-verified eligibility rules, dates and change history for Tamil Nadu government examinations.',
+    inLanguage: 'en-IN',
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Dataset',
+    name: 'ExamLens Tamil Nadu examination eligibility dataset',
+    description:
+      'Machine-readable age limits, relaxations, qualifications, dates and a dated change log for Tamil Nadu state recruitment examinations, each fact linked to the official notification.',
+    license: 'https://creativecommons.org/licenses/by/4.0/',
+    creator: { '@type': 'Organization', name: 'ExamLens' },
+    temporalCoverage: '2025/2027',
+    spatialCoverage: { '@type': 'Place', name: 'Tamil Nadu, India' },
+    distribution: [
+      { '@type': 'DataDownload', encodingFormat: 'application/json', contentUrl: '/api/v1/exams.json' },
+      { '@type': 'DataDownload', encodingFormat: 'text/csv', contentUrl: '/data/exams.csv' },
+      { '@type': 'DataDownload', encodingFormat: 'application/rss+xml', contentUrl: '/changes.xml' },
+    ],
+  },
+];
+---
+<Base
+  title="Tamil Nadu state examination eligibility and notification dates — ExamLens"
+  description="Age limits, category relaxations and qualification rules for TNPSC, TRB and TNUSRB examinations, quoted from the official notifications, with a dated record of every change."
+  jsonLd={jsonLd}
+>
+  <div class="wrap intro">
+    <h1>Tamil Nadu state examinations: eligibility and notification dates</h1>
+    <p class="lede">
+      Conditions of age, community relaxation and qualification for Tamil Nadu recruitment
+      examinations, reproduced from the official notifications. Each rule is accompanied by the
+      sentence it comes from and the page of the document. Dates are checked against the boards'
+      own dashboards on a schedule, and every change is recorded with its source.
+    </p>
+    <p class="intro-meta">
+      <span>{verified.length} notifications with verified rules</span>
+      <span>{ds.exams.length} examinations followed for dates</span>
+      <span>{ds.counts.changes} changes recorded</span>
+      <span>Last verified {ds.generatedAt ? formatDate(ds.generatedAt.slice(0, 10)) : 'pending'}</span>
+    </p>
+    <div class="disclaimer">
+      <strong>This is not a Government of Tamil Nadu website.</strong> It is an independent record
+      kept for public use. Applications must be filed on the official portal, and the official
+      notification always takes precedence over anything published here.
+    </div>
+  </div>
+
+  <section class="section" id="check">
+    <div class="wrap">
+      <div class="two-col">
+        <div>
+          <h2 class="rule-title">Check your eligibility</h2>
+          <p>
+            Enter your date of birth, community and highest qualification. The calculation is
+            performed in your browser against the published dataset; nothing is uploaded to a
+            server.
+          </p>
+          <ol class="steps">
+            <li>Age is measured on each notification's own cut-off date, not on today's date.</li>
+            <li>The community ceiling printed for that examination is applied, then any PwBD,
+              ex-servicemen or destitute-widow concession you are entitled to.</li>
+            <li>Each result lists the condition it relied on and links to the page of the official
+              document.</li>
+          </ol>
+          <p class="small muted">
+            The check covers age and the stated minimum qualification. Physical standards, document
+            formats and subject-specific degree requirements are outside it and are noted on each
+            examination page.
+          </p>
+        </div>
+        <div>
+          <Checker />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="open">
+    <div class="wrap">
+      <h2 class="rule-title">Applications open now</h2>
+      {open.length + upcoming.length === 0 ? (
+        <p class="muted">No application window is open at present. The change log records the next one when it is published.</p>
+      ) : (
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Examination</th>
+                <th scope="col">Notification</th>
+                <th scope="col">Applications</th>
+                <th scope="col">Examination date</th>
+                <th scope="col">Age limit</th>
+                <th scope="col">Record</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[...open, ...upcoming].map((e) => {
+                const r = primaryAgeRule(e);
+                return (
+                  <tr>
+                    <td>
+                      <a href={`/exams/${e.slug}`}>{e.shortName}</a>
+                      <div class="tiny muted">{e.boardName}</div>
+                    </td>
+                    <td class="nowrap">{e.notificationNo}</td>
+                    <td class="nowrap small">
+                      {formatWindow(e.dates.applyStart, e.dates.applyEnd)}
+                      {e.applyEndInDays !== null && e.applyEndInDays >= 0 && e.applyEndInDays <= 21 && (
+                        <div class="tiny status-upcoming" data-countdown={`${e.dates.applyEnd}T23:59:59+05:30`}>
+                          {e.applyEndInDays} days left
+                        </div>
+                      )}
+                    </td>
+                    <td class="nowrap small">{e.dates.examDate ? formatDate(e.dates.examDate) : 'Not announced'}</td>
+                    <td class="small">{r ? `${r.minAge}–${r.maxAge?.general ?? 'no limit'} (general)` : '—'}</td>
+                    <td class="small">
+                      {e.maintenance === 'verified'
+                        ? <span class="tag tag-ok">Verified</span>
+                        : <span class="tag tag-warn">Dates only</span>}
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <section class="section" id="changes">
+    <div class="wrap">
+      <div class="section-head-row">
+        <h2 class="rule-title">Latest recorded changes</h2>
+        <a class="small" href="/changes">Complete change log</a>
+      </div>
+      <p class="section-note">
+        Each entry states what changed, the date it became public and the document it came from.
+        Previous values are kept rather than overwritten.
+      </p>
+      <ChangeList changes={recent} limit={6} emptyText="The first scheduled refresh establishes a baseline; differences are recorded from the next run." />
+    </div>
+  </section>
+
+  <section class="section" id="exams">
+    <div class="wrap">
+      <div class="section-head-row">
+        <h2 class="rule-title">Examinations followed</h2>
+        <a class="small" href="/exams">All examinations</a>
+      </div>
+      <p class="section-note">
+        "Verified" means the age and qualification rules have been transcribed and checked against
+        the notification. "Dates only" means the examination is mirrored from the board dashboard
+        but its rules have not been individually verified, so no eligibility answer is given.
+      </p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Examination</th>
+              <th scope="col">Board</th>
+              <th scope="col">Notification</th>
+              <th scope="col">Status</th>
+              <th scope="col">Age limit (general)</th>
+              <th scope="col">Record</th>
+            </tr>
+          </thead>
+          <tbody>
+            {ds.exams.map((e) => {
+              const r = primaryAgeRule(e);
+              return (
+                <tr>
+                  <td><a href={`/exams/${e.slug}`}>{e.shortName}</a></td>
+                  <td class="small nowrap">{e.board.toUpperCase()}</td>
+                  <td class="nowrap small">{e.notificationNo}</td>
+                  <td class="small nowrap">{STATUS_LABEL[liveStatus(e)]}</td>
+                  <td class="small nowrap">
+                    {r ? `${r.minAge}–${r.maxAge?.general ?? 'no limit'}` : e.hasAgeLimit === false ? 'No age limit' : 'Not verified'}
+                  </td>
+                  <td class="small">
+                    {e.maintenance === 'verified'
+                      ? <span class="tag tag-ok">Verified</span>
+                      : <span class="tag tag-warn">Dates only</span>}
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="announced">
+    <div class="wrap">
+      <h2 class="rule-title">Announced, not yet notified</h2>
+      <p class="section-note">
+        Taken from the boards' annual planners and press releases. A tentative month is a planning
+        signal, not a date, and no eligibility condition can be stated until the notification is
+        published.
+      </p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th scope="col">Board</th><th scope="col">Recruitment</th><th scope="col">Tentative</th><th scope="col">Source</th></tr>
+          </thead>
+          <tbody>
+            {ds.announced.map((a) => (
+              <tr>
+                <td class="nowrap">{a.board}</td>
+                <td>{a.post}</td>
+                <td class="nowrap">{a.tentative}</td>
+                <td><a class="small" href={a.sourceUrl} target="_blank" rel="noopener">Annual planner (PDF)</a></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="method">
+    <div class="wrap">
+      <h2 class="rule-title">How the record is maintained</h2>
+      <div class="grid grid-3">
+        <div>
+          <h3>Quotation, not paraphrase</h3>
+          <p class="small">
+            Every age limit and qualification is stored with a sentence copied from the
+            notification and the page it appears on. Table values are checked against the numbers on
+            that page. If the sentence cannot be found, the examination is flagged and no
+            eligibility answer is given until it is reviewed.
+          </p>
+        </div>
+        <div>
+          <h3>Difference, not replacement</h3>
+          <p class="small">
+            Each run stores the previous list of documents and date lines. A new addendum, a moved
+            examination date or a revised vacancy count becomes a dated entry. Where the document
+            states the change, the sentence itself is recorded as evidence.
+          </p>
+        </div>
+        <div>
+          <h3>Published for checking</h3>
+          <p class="small">
+            The dataset, the change log and the source status are published as JSON, CSV and plain
+            text, so the same rules can be inspected or re-used without reading the pages. Every
+            source that fails a check is listed publicly.
+          </p>
+        </div>
+      </div>
+      <p class="small" style="margin-top:16px">
+        <a href="/method">Method and corrections</a> · <a href="/sources">Source status</a> ·
+        <a href="/api">Open data</a>
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap narrow">
+      <h2 class="rule-title">Frequently asked</h2>
+      {faqs.map((f) => (
+        <details class="disclosure" style="margin-bottom:8px">
+          <summary>{f.q}</summary>
+          <p class="small" style="margin:0;color:var(--ink-2)">{f.a}</p>
+        </details>
+      ))}
+      <p class="tiny muted" style="margin-top:14px">
+        Answers are generated from the same dataset as the eligibility check at build time
+        {ds.generatedAt ? `, last rebuilt ${formatRelative(ds.generatedAt)}` : ''}.
+      </p>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .intro { padding-block: 26px 20px; }
+  .intro h1 { max-width: 34ch; }
+  .intro-meta {
+    display: flex; flex-wrap: wrap; gap: 6px 20px;
+    font-size: 0.82rem; color: var(--muted);
+    border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+    padding: 8px 0; margin: 18px 0;
+  }
+  .two-col { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 460px); gap: 34px; align-items: start; }
+  @media (max-width: 900px) { .two-col { grid-template-columns: 1fr; } }
+  .steps { margin: 0 0 14px; padding-left: 20px; font-size: 0.92rem; color: var(--ink-2); }
+  .steps li { margin-bottom: 6px; }
+  .section-head-row { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+  .section-head-row .rule-title { flex: 1 1 auto; }
+</style>

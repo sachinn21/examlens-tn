@@ -1,0 +1,80 @@
+{
+  "generatedAt": "2026-10-20T05:52:34.831Z",
+  "sources": [
+    {
+      "id": "tnpsc-dashboard-2026",
+      "name": "TNPSC exam dashboard 2026",
+      "url": "https://tnpsc.gov.in/web/examdashboard/index.aspx?key=ksojs2efre3WFDsw5",
+      "checkedAt": "2026-10-20T05:52:34.831Z",
+      "httpStatus": 200,
+      "ok": true,
+      "contentHash": "1ta40eo1qwl0",
+      "changed": false,
+      "error": null,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "tnpsc-dashboard-2025",
+      "name": "TNPSC exam dashboard 2025",
+      "url": "https://tnpsc.gov.in/web/examdashboard/index.aspx?key=ksojs2efre3WFDsw5",
+      "checkedAt": "2026-10-20T05:52:34.831Z",
+      "httpStatus": 200,
+      "ok": true,
+      "contentHash": "r6363519qljj",
+      "changed": false,
+      "error": null,
+      "consecutiveFailures": 0
+    }
+  ],
+  "exams": [
+    {
+      "examId": "tnpsc-ctse-diploma-2026",
+      "verifiedAt": "2026-10-20T05:52:34.831Z",
+      "ageHours": 0,
+      "staleness": "fresh",
+      "sourceOk": true
+    },
+    {
+      "examId": "tnpsc-ctse-interview-2026",
+      "verifiedAt": "2026-10-20T05:52:34.831Z",
+      "ageHours": 0,
+      "staleness": "fresh",
+      "sourceOk": true
+    },
+    {
+      "examId": "tnpsc-ctse-noninterview-2026",
+      "verifiedAt": "2026-10-20T05:52:34.831Z",
+      "ageHours": 0,
+      "staleness": "fresh",
+      "sourceOk": true
+    },
+    {
+      "examId": "tnpsc-group-1-2026",
+      "verifiedAt": "2026-10-20T05:52:34.831Z",
+      "ageHours": 0,
+      "staleness": "fresh",
+      "sourceOk": true
+    },
+    {
+      "examId": "tnpsc-group-2-2026",
+      "verifiedAt": "2026-10-20T05:52:34.831Z",
+      "ageHours": 0,
+      "staleness": "fresh",
+      "sourceOk": true
+    },
+    {
+      "examId": "tnpsc-group-4-2026",
+      "verifiedAt": "2026-10-20T05:52:34.831Z",
+      "ageHours": 0,
+      "staleness": "fresh",
+      "sourceOk": true
+    },
+    {
+      "examId": "trb-tet-2026",
+      "verifiedAt": "2026-10-20T05:52:34.831Z",
+      "ageHours": 0,
+      "staleness": "fresh",
+      "sourceOk": true
+    }
+  ]
+}

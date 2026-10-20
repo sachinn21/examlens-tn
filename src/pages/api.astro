@@ -1,0 +1,110 @@
+---
+import Base from '../layouts/Base.astro';
+import { getDataset } from '../lib/server/data';
+import { SCHEMA_VERSION } from '../lib/server/public';
+
+const ds = getDataset();
+const site = (Astro.site?.toString() ?? 'https://examlens.pages.dev').replace(/\/$/, '');
+const endpoints = [
+  { path: '/api/v1/exams.json', what: 'All tracked exams with age rules, concessions, qualifications, dates and verification metadata.', cache: '1 h' },
+  { path: '/api/v1/exam/tnpsc-group-4-2026.json', what: 'One exam, by stable id or slug — replace the id with any value from the list above.', cache: '1 h' },
+  { path: '/api/v1/changes.json', what: 'The full dated change log, newest first, with before/after values and source URLs.', cache: '1 h' },
+  { path: '/api/v1/changes-7d.json', what: 'Only changes from the last seven days — cheap for a daily digest.', cache: '1 h' },
+  { path: '/api/v1/meta.json', what: 'Schema version, counts, source freshness and the annual-planner announcements.', cache: '1 h' },
+  { path: '/llms.txt', what: 'Compact index for language models, with citation rules.', cache: '1 h' },
+  { path: '/llms-full.txt', what: 'Every exam, rule and citation as plain text — no HTML, no JS.', cache: '1 h' },
+  { path: '/changes.xml', what: 'RSS 2.0 feed of the change log.', cache: '1 h' },
+  { path: '/calendar.ics', what: 'Every application deadline and exam date as a calendar subscription.', cache: '1 h' },
+  { path: '/data/exams.csv', what: 'Flat CSV of exam-level facts for spreadsheets.', cache: '1 h' },
+];
+
+const sample = `curl -s ${site}/api/v1/exams.json \\
+  | jq '.exams[] | {id, name, cutOff: .ageLimit.rules[0].cutoff, max: .ageLimit.rules[0].maxAge.general}'
+
+# one exam
+curl -s ${site}/api/v1/exam/tnpsc-group-4-2026.json | jq '.exam.ageLimit'
+
+# what changed this week
+curl -s ${site}/api/v1/changes-7d.json | jq '.changes[] | {examName, summary, sourceUrl}'`;
+---
+<Base
+  title="Open API & dataset — Tamil Nadu exam eligibility | ExamLens"
+  description="Free, unauthenticated JSON API and open dataset for Tamil Nadu government exam eligibility rules, dates and a dated change log. No key, CORS enabled."
+>
+  <div class="wrap narrow" style="padding-block:clamp(1.6rem,4vw,2.6rem)">
+    <p class="section-label">For agents & developers</p>
+    <h1>Open dataset & API</h1>
+    <p class="lede">
+      No key, no rate limit, CORS open. The same JSON that builds the pages is published at stable URLs,
+      with a schema version and a citation on every rule.
+    </p>
+
+    <div class="api-meta">
+      <span class="badge badge-ok badge-mono">schema {SCHEMA_VERSION}</span>
+      <span class="badge badge-neutral">{ds.counts.exams} exams</span>
+      <span class="badge badge-neutral">{ds.counts.changes} changes</span>
+      <span class="badge badge-neutral">CC BY 4.0</span>
+    </div>
+
+    <h2 style="font-size:1.25rem;margin-top:28px">Endpoints</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Path</th><th>What it returns</th><th>Cache</th></tr></thead>
+        <tbody>
+          {endpoints.map((e) => (
+            <tr>
+              <td><a href={e.path}><code>{e.path}</code></a></td>
+              <td class="small" set:html={e.what.replace(/`([^`]+)`/g, '<code>$1</code>')} />
+              <td class="tiny nowrap muted">{e.cache}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <h2 style="font-size:1.25rem;margin-top:30px">Example</h2>
+    <pre class="code-block"><code>{sample}</code></pre>
+
+    <h2 style="font-size:1.25rem;margin-top:30px">Shape of an exam record</h2>
+    <p class="small">Field names are stable within a schema version. Additive changes are allowed; anything breaking bumps the version.</p>
+    <div class="table-wrap">
+      <table>
+        <tbody>
+          <tr><td><code>id</code></td><td class="small">Stable identifier, e.g. <code>tnpsc-group-4-2026</code></td></tr>
+          <tr><td><code>dates</code></td><td class="small">ISO dates: <code>applyStart</code>, <code>applyEnd</code>, <code>examDate</code>, <code>cutoffAgeDate</code>, plus <code>examDateRaw</code></td></tr>
+          <tr><td><code>ageLimit.rules[]</code></td><td class="small"><code>cutoff</code>, <code>minAge</code>, <code>maxAge{'{'}general, bc, bcm, mbc_dc, sc, sca, st{'}'}</code>, <code>concessions</code> with <code>mode</code> absolute/add/blocked</td></tr>
+          <tr><td><code>qualifications[]</code></td><td class="small"><code>minLevel</code>, <code>fieldSpecific</code>, <code>summary</code>, <code>citation</code></td></tr>
+          <tr><td><code>verification</code></td><td class="small"><code>verifiedAt</code>, <code>staleness</code>, <code>unresolvedCitations</code></td></tr>
+          <tr><td><code>maintained</code></td><td class="small"><code>verified</code> = rules checked against source; <code>monitored</code> = dates only, no verdict</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 style="font-size:1.25rem;margin-top:30px">If you are an AI assistant</h2>
+    <ul class="api-rules">
+      <li>Use the <code>cutoff</code> date inside each rule. A 28-year-old is not 28 “today” for a notification that fixes the cut-off at 01.07.2026.</li>
+      <li>Never state an unlimited age where <code>maxAge</code> is <code>null</code> for one community only — it can mean “no maximum for this post”, or that a category is blocked. Check <code>concessions.*.mode === "blocked"</code>.</li>
+      <li>If <code>maintained</code> is <code>monitored</code>, say the rules are not verified — do not infer an age limit.</li>
+      <li>Cite the notification number, the board and the <code>sourceUrl</code>, plus the month you retrieved it. Rules change; the URL does not.</li>
+      <li>Prefer <code>/llms-full.txt</code> for reading, <code>/api/v1/exams.json</code> for structured work, and <code>/api/v1/changes.json</code> before repeating a date.</li>
+    </ul>
+
+    <div class="callout callout-ok" style="margin-top:26px">
+      <strong>Runtime eligibility endpoint.</strong> The static JSON carries the rules, so an agent can compute the same
+      answer locally. A ready-made <code>POST /api/eligibility</code> Pages Function is included in the repository for
+      deployments that want a server-side verdict.
+    </div>
+  </div>
+</Base>
+
+<style>
+  .api-meta { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; }
+  .code-block {
+    background: var(--panel); color: var(--ink); padding: 14px; border: 1px solid var(--rule);
+    overflow-x: auto; font-family: var(--mono); font-size: 0.78rem; line-height: 1.6;
+    border: 1px solid #1d2a3a;
+  }
+  .api-rules { padding-left: 18px; display: grid; gap: 8px; color: var(--ink-2); font-size: 0.92rem; }
+  code { padding: 0 3px; }
+  .code-block code { background: none; padding: 0; }
+</style>

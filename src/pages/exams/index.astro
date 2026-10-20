@@ -1,0 +1,116 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getDataset } from '../../lib/server/data';
+import { liveStatus, STATUS_LABEL, statusBadgeClass, formatWindow, ageMatrix, primaryAgeRule } from '../../lib/presentation';
+import { formatDate, formatDeadline, formatRelative } from '../../lib/core/dates';
+
+const ds = getDataset();
+const groups = [
+  { key: 'open', label: 'Open for applications', items: ds.exams.filter((e) => liveStatus(e) === 'open') },
+  { key: 'upcoming', label: 'Opening soon', items: ds.exams.filter((e) => liveStatus(e) === 'upcoming') },
+  { key: 'closed', label: 'Applications closed', items: ds.exams.filter((e) => liveStatus(e) === 'closed') },
+  { key: 'result', label: 'Result stage', items: ds.exams.filter((e) => liveStatus(e) === 'result') },
+  { key: 'archived', label: 'Archived', items: ds.exams.filter((e) => liveStatus(e) === 'archived') },
+];
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Tamil Nadu government exams tracked by ExamLens',
+  description: 'Every TNPSC, TRB and TNUSRB recruitment with verified eligibility rules and live dates.',
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: ds.exams.length,
+    itemListElement: ds.exams.map((e, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: e.name,
+      url: `${Astro.site}exams/${e.slug}`,
+    })),
+  },
+};
+---
+<Base
+  title="Tamil Nadu exams — TNPSC, TRB and TNUSRB eligibility & dates | ExamLens"
+  description="Every Tamil Nadu state recruitment ExamLens tracks, with verified age limits, application windows, exam dates and the official notification link."
+  jsonLd={jsonLd}
+>
+  <div class="wrap" style="padding-block:clamp(1.6rem,4vw,2.6rem)">
+    <p class="section-label">The dataset</p>
+    <h1 style="max-width:22ch">Every exam we track</h1>
+    <p class="lede">
+      {ds.counts.verifiedExams} notifications have individually verified age and qualification rules.
+      The rest are mirrored from the board dashboard with live dates only — labelled as such,
+      never guessed.
+    </p>
+
+    <div class="exam-filters">
+      <a class="btn btn-sm" href="#open">Open ({groups[0].items.length})</a>
+      <a class="btn btn-sm" href="#upcoming">Upcoming ({groups[1].items.length})</a>
+      <a class="btn btn-sm" href="#closed">Closed ({groups[2].items.length})</a>
+      {groups[3].items.length > 0 && <a class="btn btn-sm" href="#result">Results ({groups[3].items.length})</a>}
+      {groups[4].items.length > 0 && <a class="btn btn-sm" href="#archived">Archived ({groups[4].items.length})</a>}
+    </div>
+
+    {groups.map((g) => g.items.length > 0 && (
+      <section id={g.key} style="margin-top:38px">
+        <div class="section-head">
+          <h2 style="font-size:1.35rem">{g.label}</h2>
+          <span class="badge {g.key === 'open' ? 'badge-ok' : 'badge-neutral'}">{g.items.length}</span>
+        </div>
+        <div class="table-wrap">
+          <table class="exam-table">
+            <thead>
+              <tr>
+                <th>Exam</th>
+                <th>Notification</th>
+                <th>Applications</th>
+                <th>Exam</th>
+                <th>Age limit</th>
+                <th>Record</th>
+              </tr>
+            </thead>
+            <tbody>
+              {g.items.map((e) => {
+                const st = liveStatus(e);
+                return (
+                  <tr>
+                    <td>
+                      <a href={`/exams/${e.slug}`} style="font-weight:650;color:var(--ink);text-decoration:none">{e.shortName}</a>
+                      <div class="tiny muted">{e.boardName}</div>
+                    </td>
+                    <td class="num nowrap">{e.notificationNo}</td>
+                    <td class="nowrap small">{formatWindow(e.dates.applyStart, e.dates.applyEnd)}</td>
+                    <td class="nowrap small">{e.dates.examDate ? formatDate(e.dates.examDate) : '—'}</td>
+                    <td class="small nowrap">
+                      {primaryAgeRule(e)
+                        ? `${primaryAgeRule(e)!.minAge}–${primaryAgeRule(e)!.maxAge?.general ?? 'no limit'}`
+                        : e.hasAgeLimit === false ? 'No age limit' : '—'}
+                    </td>
+                    <td>
+                      {e.maintenance === 'verified'
+                        ? <span class="tag tag-ok">Verified</span>
+                        : <span class="tag tag-warn">Dates only</span>}
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    ))}
+
+    <p class="tiny muted" style="margin-top:28px">
+      Last rebuilt {ds.generatedAt ? formatRelative(ds.generatedAt) : '—'}.
+      Machine-readable copy: <a href="/api/v1/exams.json">/api/v1/exams.json</a> ·
+      <a href="/data/exams.csv">CSV</a> ·
+      <a href="/llms.txt">llms.txt</a>.
+    </p>
+  </div>
+</Base>
+
+<style>
+  .exam-filters { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 18px; }
+  .exam-table td { vertical-align: middle; }
+</style>
