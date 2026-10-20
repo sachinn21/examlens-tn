@@ -1,124 +1,124 @@
 {
-  "generatedAt": "2026-10-20T05:52:34.831Z",
+  "generatedAt": "2026-10-20T07:06:57.074Z",
   "reports": [
     {
       "examId": "tnpsc-ctse-diploma-2026",
-      "checkedAt": "2026-10-20T05:52:34.831Z",
+      "checkedAt": "2026-10-20T07:06:57.074Z",
       "sources": [
         {
           "sourceId": "notification",
           "url": "https://tnpsc.gov.in/document/english/CTS%20-%20Diploma-(English).pdf",
           "kind": "pdf",
-          "status": 304,
-          "ok": true,
+          "status": null,
+          "ok": false,
           "sha256": "3829a81f94f46189fc8d17daede2f4eceffeab60908977d601fb0054e3c28016",
           "bytes": null,
           "pageCount": null,
-          "notModified": true,
-          "error": null,
-          "checkedAt": "2026-10-20T05:52:34.831Z",
-          "citationsChecked": 6,
-          "citationsPassed": 6
-        }
-      ],
-      "issues": [],
-      "ok": true,
-      "changedSources": []
-    },
-    {
-      "examId": "tnpsc-ctse-interview-2026",
-      "checkedAt": "2026-10-20T05:52:34.831Z",
-      "sources": [
-        {
-          "sourceId": "notification",
-          "url": "https://tnpsc.gov.in/document/english/CTSE%20(Interview%20Posts)%20%20English.pdf",
-          "kind": "pdf",
-          "status": 304,
-          "ok": true,
-          "sha256": "d014bd2b20613c2a3f05acbcdbd83314c73be59582390c8d18912a77cda3e182",
-          "bytes": null,
-          "pageCount": null,
-          "notModified": true,
-          "error": null,
-          "checkedAt": "2026-10-20T05:52:34.831Z",
-          "citationsChecked": 4,
-          "citationsPassed": 4
-        }
-      ],
-      "issues": [],
-      "ok": true,
-      "changedSources": []
-    },
-    {
-      "examId": "tnpsc-ctse-noninterview-2026",
-      "checkedAt": "2026-10-20T05:52:34.831Z",
-      "sources": [
-        {
-          "sourceId": "notification",
-          "url": "https://tnpsc.gov.in/document/english/CTS(Non%20Interview)%20English%20Final_.pdf",
-          "kind": "pdf",
-          "status": 304,
-          "ok": true,
-          "sha256": "e4320d6bc8abc664cf368f9b80f9e1bd7046dd71a2f61f35db5ce950556ce2e8",
-          "bytes": null,
-          "pageCount": null,
-          "notModified": true,
-          "error": null,
-          "checkedAt": "2026-10-20T05:52:34.831Z",
-          "citationsChecked": 4,
-          "citationsPassed": 4
-        },
-        {
-          "sourceId": "dashboard",
-          "url": "https://tnpsc.gov.in/web/examdashboard/index.aspx?key=ksojs2efre3WFDsw5",
-          "kind": "html",
-          "status": 200,
-          "ok": true,
-          "sha256": "b0e1846ddbc7c3000005ecc0b809845c9da4f68d55b58c63516f0cff81014a65",
-          "bytes": 28026,
-          "pageCount": 1,
           "notModified": false,
-          "error": null,
-          "checkedAt": "2026-10-20T05:52:34.831Z",
+          "error": "fetch failed",
+          "checkedAt": "2026-10-20T07:06:57.074Z",
           "citationsChecked": 0,
           "citationsPassed": 0
         }
       ],
       "issues": [],
-      "ok": true,
+      "ok": false,
+      "changedSources": []
+    },
+    {
+      "examId": "tnpsc-ctse-interview-2026",
+      "checkedAt": "2026-10-20T07:06:57.074Z",
+      "sources": [
+        {
+          "sourceId": "notification",
+          "url": "https://tnpsc.gov.in/document/english/CTSE%20(Interview%20Posts)%20%20English.pdf",
+          "kind": "pdf",
+          "status": null,
+          "ok": false,
+          "sha256": "d014bd2b20613c2a3f05acbcdbd83314c73be59582390c8d18912a77cda3e182",
+          "bytes": null,
+          "pageCount": null,
+          "notModified": false,
+          "error": "fetch failed",
+          "checkedAt": "2026-10-20T07:06:57.074Z",
+          "citationsChecked": 0,
+          "citationsPassed": 0
+        }
+      ],
+      "issues": [],
+      "ok": false,
+      "changedSources": []
+    },
+    {
+      "examId": "tnpsc-ctse-noninterview-2026",
+      "checkedAt": "2026-10-20T07:06:57.074Z",
+      "sources": [
+        {
+          "sourceId": "notification",
+          "url": "https://tnpsc.gov.in/document/english/CTS(Non%20Interview)%20English%20Final_.pdf",
+          "kind": "pdf",
+          "status": null,
+          "ok": false,
+          "sha256": "e4320d6bc8abc664cf368f9b80f9e1bd7046dd71a2f61f35db5ce950556ce2e8",
+          "bytes": null,
+          "pageCount": null,
+          "notModified": false,
+          "error": "fetch failed",
+          "checkedAt": "2026-10-20T07:06:57.074Z",
+          "citationsChecked": 0,
+          "citationsPassed": 0
+        },
+        {
+          "sourceId": "dashboard",
+          "url": "https://tnpsc.gov.in/web/examdashboard/index.aspx?key=ksojs2efre3WFDsw5",
+          "kind": "html",
+          "status": null,
+          "ok": false,
+          "sha256": "b0e1846ddbc7c3000005ecc0b809845c9da4f68d55b58c63516f0cff81014a65",
+          "bytes": null,
+          "pageCount": null,
+          "notModified": false,
+          "error": "fetch failed",
+          "checkedAt": "2026-10-20T07:06:57.074Z",
+          "citationsChecked": 0,
+          "citationsPassed": 0
+        }
+      ],
+      "issues": [],
+      "ok": false,
       "changedSources": []
     },
     {
       "examId": "tnpsc-group-1-2026",
-      "checkedAt": "2026-10-20T05:52:34.831Z",
+      "checkedAt": "2026-10-20T07:06:57.074Z",
       "sources": [
         {
           "sourceId": "notification",
           "url": "https://tnpsc.gov.in/document/english/Group%20I%20Notification%202026_E.pdf",
           "kind": "pdf",
-          "status": 304,
-          "ok": true,
+          "status": null,
+          "ok": false,
           "sha256": "e25987297f351a7ca5601e7a1cb4003a8f1fbd767f3eef1848157c4dbc253736",
           "bytes": null,
           "pageCount": null,
-          "notModified": true,
-          "error": null,
-          "checkedAt": "2026-10-20T05:52:34.831Z",
-          "citationsChecked": 3,
-          "citationsPassed": 3
+          "notModified": false,
+          "error": "fetch failed",
+          "checkedAt": "2026-10-20T07:06:57.074Z",
+          "citationsChecked": 0,
+          "citationsPassed": 0
         },
         {
           "sourceId": "addendum-5a",
           "url": "https://tnpsc.gov.in/Document/english/ADDENDUM%205A_16.07.2026.pdf",
           "kind": "pdf",
-          "status": 304,
-          "ok": true,
+          "status": null,
+          "ok": false,
           "sha256": "b12cb7ad61c8b06e7edee3648710fbbbbd6c4bc12bf4e8fed43774b52afea7da",
           "bytes": null,
           "pageCount": null,
-          "notModified": true,
-          "error": null,
-          "checkedAt": "2026-10-20T05:52:34.831Z",
+          "notModified": false,
+          "error": "fetch failed",
+          "checkedAt": "2026-10-20T07:06:57.074Z",
           "citationsChecked": 0,
           "citationsPassed": 0
         },
@@ -126,122 +126,122 @@
           "sourceId": "addendum-5b",
           "url": "https://tnpsc.gov.in/Document/english/Addendum%205B%20English.pdf",
           "kind": "pdf",
-          "status": 304,
-          "ok": true,
+          "status": null,
+          "ok": false,
           "sha256": "c35e76d151c6cfa578e95ef63e4e97d00b8482e624946f9ba0e911fff94061cc",
           "bytes": null,
           "pageCount": null,
-          "notModified": true,
-          "error": null,
-          "checkedAt": "2026-10-20T05:52:34.831Z",
+          "notModified": false,
+          "error": "fetch failed",
+          "checkedAt": "2026-10-20T07:06:57.074Z",
           "citationsChecked": 0,
           "citationsPassed": 0
         }
       ],
       "issues": [],
-      "ok": true,
+      "ok": false,
       "changedSources": []
     },
     {
       "examId": "tnpsc-group-2-2026",
-      "checkedAt": "2026-10-20T05:52:34.831Z",
+      "checkedAt": "2026-10-20T07:06:57.074Z",
       "sources": [
         {
           "sourceId": "notification",
           "url": "https://tnpsc.gov.in/document/english/07_2026%20Dated_11.08.2026%20English%20version.pdf",
           "kind": "pdf",
-          "status": 304,
-          "ok": true,
+          "status": null,
+          "ok": false,
           "sha256": "e9fa93a33f0be9b5c3eba25bdfcb9f7f2389b50ff7ef57fa85c9c71c10b63a44",
           "bytes": null,
           "pageCount": null,
-          "notModified": true,
-          "error": null,
-          "checkedAt": "2026-10-20T05:52:34.831Z",
-          "citationsChecked": 7,
-          "citationsPassed": 7
+          "notModified": false,
+          "error": "fetch failed",
+          "checkedAt": "2026-10-20T07:06:57.074Z",
+          "citationsChecked": 0,
+          "citationsPassed": 0
         },
         {
           "sourceId": "dashboard",
           "url": "https://tnpsc.gov.in/web/examdashboard/index.aspx?key=ksojs2efre3WFDsw5",
           "kind": "html",
-          "status": 200,
-          "ok": true,
+          "status": null,
+          "ok": false,
           "sha256": "d24c71c876d070623da9f23931db483358ed163e1350c248d26a89d46ce06c92",
-          "bytes": 28026,
-          "pageCount": 1,
+          "bytes": null,
+          "pageCount": null,
           "notModified": false,
-          "error": null,
-          "checkedAt": "2026-10-20T05:52:34.831Z",
+          "error": "fetch failed",
+          "checkedAt": "2026-10-20T07:06:57.074Z",
           "citationsChecked": 0,
           "citationsPassed": 0
         }
       ],
       "issues": [],
-      "ok": true,
+      "ok": false,
       "changedSources": []
     },
     {
       "examId": "tnpsc-group-4-2026",
-      "checkedAt": "2026-10-20T05:52:34.831Z",
+      "checkedAt": "2026-10-20T07:06:57.074Z",
       "sources": [
         {
           "sourceId": "notification",
           "url": "https://tnpsc.gov.in/document/english/group_english.pdf",
           "kind": "pdf",
-          "status": 304,
-          "ok": true,
+          "status": null,
+          "ok": false,
           "sha256": "2bd45ed8fc27ade1930ce844ecbd7b250957e8889e73b8c4b62261a0bbe1aaa6",
           "bytes": null,
           "pageCount": null,
-          "notModified": true,
-          "error": null,
-          "checkedAt": "2026-10-20T05:52:34.831Z",
-          "citationsChecked": 8,
-          "citationsPassed": 8
+          "notModified": false,
+          "error": "fetch failed",
+          "checkedAt": "2026-10-20T07:06:57.074Z",
+          "citationsChecked": 0,
+          "citationsPassed": 0
         },
         {
           "sourceId": "dashboard",
           "url": "https://tnpsc.gov.in/web/examdashboard/index.aspx?key=ksojs2efre3WFDsw5",
           "kind": "html",
-          "status": 200,
-          "ok": true,
+          "status": null,
+          "ok": false,
           "sha256": "380a64e14f60bef033c67df295f915a397cea802eff195d32269613b33e6a03d",
-          "bytes": 28026,
-          "pageCount": 1,
+          "bytes": null,
+          "pageCount": null,
           "notModified": false,
-          "error": null,
-          "checkedAt": "2026-10-20T05:52:34.831Z",
+          "error": "fetch failed",
+          "checkedAt": "2026-10-20T07:06:57.074Z",
           "citationsChecked": 0,
           "citationsPassed": 0
         }
       ],
       "issues": [],
-      "ok": true,
+      "ok": false,
       "changedSources": []
     },
     {
       "examId": "trb-tet-2026",
-      "checkedAt": "2026-10-20T05:52:34.831Z",
+      "checkedAt": "2026-10-20T07:06:57.074Z",
       "sources": [
         {
           "sourceId": "notification",
           "url": "https://trb.tn.gov.in/admin/pdf/3081466994TET.pdf",
           "kind": "pdf",
-          "status": 304,
-          "ok": true,
+          "status": null,
+          "ok": false,
           "sha256": "8da415bcb47d602b6ab4a7416618d933489c42b71d4c7f10f077b28913b8f9e5",
           "bytes": null,
           "pageCount": null,
-          "notModified": true,
-          "error": null,
-          "checkedAt": "2026-10-20T05:52:34.831Z",
-          "citationsChecked": 3,
-          "citationsPassed": 3
+          "notModified": false,
+          "error": "fetch failed",
+          "checkedAt": "2026-10-20T07:06:57.074Z",
+          "citationsChecked": 0,
+          "citationsPassed": 0
         }
       ],
       "issues": [],
-      "ok": true,
+      "ok": false,
       "changedSources": []
     }
   ]
