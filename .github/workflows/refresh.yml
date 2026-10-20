@@ -51,6 +51,15 @@ jobs:
           SITE_URL: ${{ vars.SITE_URL }}
         run: pnpm build
 
+      - name: Deploy to Netlify
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: |
+          npx --yes netlify-cli@latest deploy --prod --dir=dist \
+            --site "$NETLIFY_SITE_ID" --auth "$NETLIFY_AUTH_TOKEN" \
+            --message "Scheduled refresh ${GITHUB_RUN_ID}"
+
       - name: Commit changed data
         if: always()
         run: |
