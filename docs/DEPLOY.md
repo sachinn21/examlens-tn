@@ -1,5 +1,8 @@
 # Deploying ExamLens
 
+> This project is already deployed. See [HOSTING.md](HOSTING.md) for the live URL, the accounts in
+> use, and the launchd job that refreshes the data. This page is the general deployment guide.
+
 Three things need to happen, in this order:
 
 1. the site is served statically

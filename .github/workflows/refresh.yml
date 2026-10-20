@@ -3,8 +3,9 @@ name: refresh-data
 # The freshness guarantee. Runs six times a day, re-reads the boards, re-verifies
 # every citation and commits only when something actually changed.
 on:
-  schedule:
-    - cron: '17 */6 * * *'
+  # Scheduled runs are disabled: GitHub's hosted runners cannot reach the
+  # Tamil Nadu board endpoints (every fetch fails from their US egress).
+  # The refresh runs from a machine that can reach them; see docs/DEPLOY.md.
   workflow_dispatch:
 
 concurrency:

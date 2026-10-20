@@ -3,6 +3,9 @@
 A source-first answer to *"which Tamil Nadu government exams can I actually sit for?"* — plus a
 dated change log of every date the government has moved.
 
+**Live:** https://examlens-tn.netlify.app · **Refresh:** twice daily from a machine that can reach
+the boards (see [docs/HOSTING.md](docs/HOSTING.md) for why not GitHub Actions).
+
 **Live dataset:** 7 notifications with individually verified age/qualification rules, 20 exam
 cycles mirrored from the TNPSC dashboard, and every change since tracking began. No LLM calls at
 runtime, no paid APIs, no database. It builds to static HTML and JSON, so it can be hosted free.
