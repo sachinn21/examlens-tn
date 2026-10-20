@@ -81,7 +81,7 @@ export class TnpscClient {
   public lastResponse: FetchResult | null = null;
 
   private async loadDashboard(): Promise<{ html: string; res: FetchResult }> {
-    const res = await fetchResource(PUBLIC_DASHBOARD_URL, { timeoutMs: 45_000, retries: 2 });
+    const res = await fetchResource(PUBLIC_DASHBOARD_URL, { timeoutMs: 30_000, retries: 1 });
     this.lastResponse = res;
     this.viewState = {
       url: res.url,
@@ -98,8 +98,8 @@ export class TnpscClient {
     if (!this.viewState) return examRefs(first.html);
 
     const res = await fetchResource(this.viewState.url, {
-      timeoutMs: 45_000,
-      retries: 2,
+      timeoutMs: 30_000,
+      retries: 1,
       method: 'POST',
       body: new URLSearchParams({
         ...this.viewState.fields,
@@ -119,7 +119,7 @@ export class TnpscClient {
 
   async detail(notid: string): Promise<TnpscExamDetail> {
     const pageUrl = `${DASHBOARD_URL}?notid=${notid}`;
-    const res = await fetchResource(pageUrl, { timeoutMs: 45_000, retries: 2 });
+    const res = await fetchResource(pageUrl, { timeoutMs: 25_000, retries: 1 });
     const root = parse(res.text);
     const title = root.querySelector('.card-title')?.text.replace(/\s+/g, ' ').trim() ?? '';
 

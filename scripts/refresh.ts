@@ -115,7 +115,13 @@ async function main() {
 
   if (!OFFLINE) {
     const client = new TnpscClient();
-    const years = new Set<number>([2026, 2025, ...curated.filter((e) => e.board === 'tnpsc').map((e) => e.year)]);
+    // Government dashboards can be slow from CI runners outside India; the
+    // years to poll are configurable so a run can stay within its budget.
+    const configured = (process.env.EXAM_LENS_YEARS ?? '2026,2025')
+      .split(',')
+      .map((y) => Number(y.trim()))
+      .filter((y) => Number.isFinite(y));
+    const years = new Set<number>([...configured, ...curated.filter((e) => e.board === 'tnpsc').map((e) => e.year)]);
     const yearList = [...years].sort((a, b) => b - a);
 
     for (const year of yearList) {
@@ -153,7 +159,7 @@ async function main() {
         consecutiveFailures: 0,
       });
 
-      const details = await mapLimit(refs, 3, async (ref) => {
+      const details = await mapLimit(refs, 5, async (ref) => {
         try {
           return await client.detail(ref.notid);
         } catch (err) {
